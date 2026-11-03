@@ -1,0 +1,907 @@
+{
+  "source": "https://zh.wikisource.org/wiki/西遊記",
+  "index_revision_id": 7905272,
+  "downloaded_at": "2026-11-03T03:24:44.082426+00:00",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "第一回 靈根育孕源流出 心性修持大道生",
+      "file": "001-第001回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC001%E5%9B%9E",
+      "revision_id": 2562136,
+      "source_characters": 6908,
+      "sha256": "4ea0bc9fbdc2420ce4b93a75c4130ce01ce1d3cd1c9e2d8c042417984a002428"
+    },
+    {
+      "chapter": 2,
+      "title": "第二回 悟徹菩提真妙理 斷魔歸本合元神",
+      "file": "002-第002回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC002%E5%9B%9E",
+      "revision_id": 2449088,
+      "source_characters": 7027,
+      "sha256": "06ce235183d7338385900d13cc3dd77c42e55261244f62316cbb5743767bf59c"
+    },
+    {
+      "chapter": 3,
+      "title": "第三回 四海千山皆拱伏 九幽十類盡除名",
+      "file": "003-第003回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC003%E5%9B%9E",
+      "revision_id": 2610943,
+      "source_characters": 7049,
+      "sha256": "ca34dd552a337651e1c3ff374e9b0e4e796bae73be25b99fb428ec19fa71c3bd"
+    },
+    {
+      "chapter": 4,
+      "title": "第四回 官封弼馬心何足 名注齊天意未寧",
+      "file": "004-第004回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC004%E5%9B%9E",
+      "revision_id": 2449093,
+      "source_characters": 6703,
+      "sha256": "ffdb04f5070d01f3946cb7cc10bb33cf7bc1ed47c6d1dc68a1a8dfceb0212d0b"
+    },
+    {
+      "chapter": 5,
+      "title": "第五回 亂蟠桃大聖偷丹 反天宮諸神捉怪",
+      "file": "005-第005回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC005%E5%9B%9E",
+      "revision_id": 1455554,
+      "source_characters": 6414,
+      "sha256": "960bad513fb80235b21366eea2b0785dcb0da4bb901b558634c436769d5cc3ba"
+    },
+    {
+      "chapter": 6,
+      "title": "第六回 觀音赴會問原因 小聖施威降大聖",
+      "file": "006-第006回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC006%E5%9B%9E",
+      "revision_id": 2634386,
+      "source_characters": 6676,
+      "sha256": "d34543df5e6e0d1be09310e0fdd0202e08508fcdfc9c3156475fad29a7c4f669"
+    },
+    {
+      "chapter": 7,
+      "title": "第七回 八卦爐中逃大聖 五行山下定心猿",
+      "file": "007-第007回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC007%E5%9B%9E",
+      "revision_id": 2646669,
+      "source_characters": 5310,
+      "sha256": "9193e79da81f4672f3a543c7edeaa0f9d1ebd0727eaccd01e31ee489e5e06fd3"
+    },
+    {
+      "chapter": 8,
+      "title": "第八回 我佛造經傳極樂 觀音奉旨上長安",
+      "file": "008-第008回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC008%E5%9B%9E",
+      "revision_id": 1807472,
+      "source_characters": 6291,
+      "sha256": "7a8b6a211c5afe1757de1d92aac2e3e06f6aa0b1c76aa5f7506706cf127ba5c2"
+    },
+    {
+      "chapter": 9,
+      "title": "第九回 陳光蕊赴任逢災 江流僧復讎報本",
+      "file": "009-第009回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC009%E5%9B%9E",
+      "revision_id": 1962034,
+      "source_characters": 6982,
+      "sha256": "4e14d4f46d85c3040f8734c5d69f0f1777f286dbe2072f68ccd456bfd2d47804"
+    },
+    {
+      "chapter": 10,
+      "title": "第十回 老龍王拙計犯天條 魏丞相遺書託冥吏一作「袁守誠妙算無私曲 老龍王拙計犯天條」",
+      "file": "010-第010回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC010%E5%9B%9E",
+      "revision_id": 2194739,
+      "source_characters": 8154,
+      "sha256": "2c11f097fc8bde2a47d46cdcee410aa108598f3b17d5f990af7d1df5372e9d42"
+    },
+    {
+      "chapter": 11,
+      "title": "第十一回 遊地府太宗還魂 進瓜果劉全續配",
+      "file": "011-第011回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC011%E5%9B%9E",
+      "revision_id": 1500624,
+      "source_characters": 7057,
+      "sha256": "349f838807faab4afb8331ba00920a23faf7b19653f9ba7569f3a4c52710857a"
+    },
+    {
+      "chapter": 12,
+      "title": "第十二回 唐王秉誠修大會一作「玄奘秉誠建大會」 觀音顯聖一作「象」化金蟬",
+      "file": "012-第012回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC012%E5%9B%9E",
+      "revision_id": 1500623,
+      "source_characters": 9563,
+      "sha256": "872a2c631218d8b8c7102aa087b2fae92b15dfae8b71df021b8ec5691bea715c"
+    },
+    {
+      "chapter": 13,
+      "title": "第十三回 陷虎穴金星解厄 雙叉嶺伯欽留僧",
+      "file": "013-第013回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC013%E5%9B%9E",
+      "revision_id": 1500625,
+      "source_characters": 6276,
+      "sha256": "e55ae67beade0d274b99af97a997da4ae1eac41082bce6ef8a58e446732623c9"
+    },
+    {
+      "chapter": 14,
+      "title": "第十四回 心猿歸正 六賊無蹤",
+      "file": "014-第014回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC014%E5%9B%9E",
+      "revision_id": 1455563,
+      "source_characters": 8459,
+      "sha256": "15c3a5b2f2ea08cf0e2c12ef1fcb49de96b764be34eddc2b6fa35f4cc3ded2e8"
+    },
+    {
+      "chapter": 15,
+      "title": "第十五回 蛇盤山諸神暗佑 鷹愁澗意馬收韁",
+      "file": "015-第015回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC015%E5%9B%9E",
+      "revision_id": 1455564,
+      "source_characters": 7172,
+      "sha256": "f0a3e7546813e1b023784c6f29220246eb6e1f1a2b10f1dd868cb412ed34f711"
+    },
+    {
+      "chapter": 16,
+      "title": "第十六回 觀音院僧謀寶貝 黑風山怪竊袈裟",
+      "file": "016-第016回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC016%E5%9B%9E",
+      "revision_id": 1455565,
+      "source_characters": 7628,
+      "sha256": "30bd1ebae4f758882181e8808765a9242301955c80abd6e725256f9f15e283a9"
+    },
+    {
+      "chapter": 17,
+      "title": "第十七回 孫行者大鬧黑風山 觀世音收伏熊羆怪",
+      "file": "017-第017回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC017%E5%9B%9E",
+      "revision_id": 2597258,
+      "source_characters": 8240,
+      "sha256": "2a8cf462c7e71d3cd8264bfb27a65cc05d207be0e47bf5b82bdfe361b8d8b422"
+    },
+    {
+      "chapter": 18,
+      "title": "第十八回 觀音院唐僧脫難 高老莊行者降魔",
+      "file": "018-第018回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC018%E5%9B%9E",
+      "revision_id": 1455567,
+      "source_characters": 5742,
+      "sha256": "fab461db4687a58ceb53d364bed705aa16ba03921d23d51cce3dc01d11184306"
+    },
+    {
+      "chapter": 19,
+      "title": "第十九回 雲棧洞悟空收八戒 浮屠山玄奘受心經",
+      "file": "019-第019回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC019%E5%9B%9E",
+      "revision_id": 1455568,
+      "source_characters": 6696,
+      "sha256": "269ddbc8323a3a641c65f23b117bc9c3578a655922f747d6450ca858a04a268f"
+    },
+    {
+      "chapter": 20,
+      "title": "第二十回 黃風嶺唐僧有難 半山中八戒爭先",
+      "file": "020-第020回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC020%E5%9B%9E",
+      "revision_id": 1455569,
+      "source_characters": 6895,
+      "sha256": "fe6b158e5b8cea342ce95227772e92e87ed67887b8fd9fbfe0a55a5d342f4c9e"
+    },
+    {
+      "chapter": 21,
+      "title": "第二十一回 護法設莊留大聖 須彌靈吉定風魔",
+      "file": "021-第021回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC021%E5%9B%9E",
+      "revision_id": 2609807,
+      "source_characters": 6979,
+      "sha256": "140d139132e0b25191a0db9165ba2d058525f9a2916ce8890366f2a4e046de38"
+    },
+    {
+      "chapter": 22,
+      "title": "第二十二回 八戒大戰流沙河 木叉奉法收悟淨",
+      "file": "022-第022回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC022%E5%9B%9E",
+      "revision_id": 7910914,
+      "source_characters": 6755,
+      "sha256": "9058d7bf579938ecb68b6050b20b0fe787bd6ff1653594ce41cc4ebdeec0879c"
+    },
+    {
+      "chapter": 23,
+      "title": "第二十三回 三藏不忘本 四聖試禪心",
+      "file": "023-第023回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC023%E5%9B%9E",
+      "revision_id": 1512800,
+      "source_characters": 7196,
+      "sha256": "98e6025eaa24d2d8275fa81e683fcc35ccc7c6c2fd01e1c242cd043427ca2471"
+    },
+    {
+      "chapter": 24,
+      "title": "第二十四回 萬壽山大仙留故友 五莊觀行者竊人參",
+      "file": "024-第024回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC024%E5%9B%9E",
+      "revision_id": 1455573,
+      "source_characters": 7319,
+      "sha256": "c18b0203a88ed0a0c87e65ac33cf0fa9113c8ae02bf1815213d5bfe5a867b1ae"
+    },
+    {
+      "chapter": 25,
+      "title": "第二十五回 鎮元仙趕捉取經僧 孫行者大鬧五莊觀",
+      "file": "025-第025回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC025%E5%9B%9E",
+      "revision_id": 1455574,
+      "source_characters": 7517,
+      "sha256": "4e751b5e98f2bd49cfca109fafbf3088e8144915ae85f9ca237b471f5aa68010"
+    },
+    {
+      "chapter": 26,
+      "title": "第二十六回 孫悟空三島求方 觀世音甘泉活樹",
+      "file": "026-第026回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC026%E5%9B%9E",
+      "revision_id": 1808230,
+      "source_characters": 6732,
+      "sha256": "db7219e1677c01757553b446fb4b7244356f0748ba5ab865edaa5fe1e608285f"
+    },
+    {
+      "chapter": 27,
+      "title": "第二十七回 屍魔三戲唐三藏 聖僧恨逐美猴王",
+      "file": "027-第027回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC027%E5%9B%9E",
+      "revision_id": 1455576,
+      "source_characters": 7031,
+      "sha256": "8c4820bc1f0b64c1879f63c9401c428c88d13f57891bc06ddc8a409bef159e71"
+    },
+    {
+      "chapter": 28,
+      "title": "第二十八回 花果山群妖聚義 黑松林三藏逢魔",
+      "file": "028-第028回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC028%E5%9B%9E",
+      "revision_id": 1455577,
+      "source_characters": 6320,
+      "sha256": "e13fdb0cf64c23ee0dd8ef5704873216d3102bca1e45ba0f0a5401fae03a64da"
+    },
+    {
+      "chapter": 29,
+      "title": "第二十九回 脫難江流來國土 承恩八戒轉山林",
+      "file": "029-第029回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC029%E5%9B%9E",
+      "revision_id": 1455578,
+      "source_characters": 6322,
+      "sha256": "4d1d848674763c65db0f25e8dffce21fcafbe4016b64f43d7642b7c032066ec9"
+    },
+    {
+      "chapter": 30,
+      "title": "第三十回 邪魔侵正法 意馬憶心猿",
+      "file": "030-第030回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC030%E5%9B%9E",
+      "revision_id": 1455579,
+      "source_characters": 8058,
+      "sha256": "3d37b64eb10174d27deb695e287ece337a06589d34469e9c509304be58e80d3e"
+    },
+    {
+      "chapter": 31,
+      "title": "第三十一回 豬八戒義激猴王 孫行者智降妖怪",
+      "file": "031-第031回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC031%E5%9B%9E",
+      "revision_id": 1455580,
+      "source_characters": 8702,
+      "sha256": "7dbbe1927d2d59ea389af75863366ec163ce187b9411787bc7efb852627951a2"
+    },
+    {
+      "chapter": 32,
+      "title": "第三十二回 平頂山功曹傳信 蓮花洞木母逢災",
+      "file": "032-第032回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC032%E5%9B%9E",
+      "revision_id": 1808364,
+      "source_characters": 7963,
+      "sha256": "25dc2189b32487cb779904b6bdb20af68fbae0f62f9e8f162513d31889bade56"
+    },
+    {
+      "chapter": 33,
+      "title": "第三十三回 外道迷真性 元神助本心",
+      "file": "033-第033回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC033%E5%9B%9E",
+      "revision_id": 1500615,
+      "source_characters": 7917,
+      "sha256": "e4165cbb1f3b69d16477370f030794aeaa09b26868c4b78189f104ff957a3146"
+    },
+    {
+      "chapter": 34,
+      "title": "第三十四回 魔王巧算困心猿 大聖騰挪一作「那」騙寶貝",
+      "file": "034-第034回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC034%E5%9B%9E",
+      "revision_id": 1500614,
+      "source_characters": 8055,
+      "sha256": "76c8d54524db55117f94af5185bf1d316789e040ad6c9afcae7d0f51e41c0206"
+    },
+    {
+      "chapter": 35,
+      "title": "第三十五回 外道施威欺正性 心猿獲寶伏邪魔",
+      "file": "035-第035回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC035%E5%9B%9E",
+      "revision_id": 1500616,
+      "source_characters": 6763,
+      "sha256": "b70c66e77008a2d11056aa55018adfc407e386254871f7e735eb9954c2f8d4af"
+    },
+    {
+      "chapter": 36,
+      "title": "第三十六回 心猿正處諸緣伏 劈破旁門見月明",
+      "file": "036-第036回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC036%E5%9B%9E",
+      "revision_id": 1455585,
+      "source_characters": 7090,
+      "sha256": "19a6db9df713307c1e61225caefafaad69b63874ef1d0904a86b367ac7b22d76"
+    },
+    {
+      "chapter": 37,
+      "title": "第三十七回 鬼王夜謁唐三藏 悟空神化引嬰兒",
+      "file": "037-第037回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC037%E5%9B%9E",
+      "revision_id": 1808441,
+      "source_characters": 7935,
+      "sha256": "b33db8664d46468ff7391fc01d4338583d250ff0835b8617bd7a293977dcfd1f"
+    },
+    {
+      "chapter": 38,
+      "title": "第三十八回 嬰兒問母知邪正 金木參玄見假真",
+      "file": "038-第038回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC038%E5%9B%9E",
+      "revision_id": 1455587,
+      "source_characters": 7423,
+      "sha256": "c3ff477a044101d4fa005832a294ce0288b6821872d5eb592beb259fa66791d0"
+    },
+    {
+      "chapter": 39,
+      "title": "第三十九回 一粒金丹天上得 三年故主世間生",
+      "file": "039-第039回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC039%E5%9B%9E",
+      "revision_id": 1500596,
+      "source_characters": 7749,
+      "sha256": "47967f18d2789710b0fcfdb8ad1b509bb8e0f39fd72ecb451961e62365b0d0e2"
+    },
+    {
+      "chapter": 40,
+      "title": "第四十回 嬰兒戲化禪心亂 猿馬刀圭一作「歸」木母空",
+      "file": "040-第040回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC040%E5%9B%9E",
+      "revision_id": 1808481,
+      "source_characters": 7542,
+      "sha256": "ac9d5f6505cee4fff14dbfbd4ce4e9fa102d782d397bb9970cb27414c54e5ef7"
+    },
+    {
+      "chapter": 41,
+      "title": "第四十一回 心猿遭火敗 木母被魔擒",
+      "file": "041-第041回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC041%E5%9B%9E",
+      "revision_id": 1500598,
+      "source_characters": 7776,
+      "sha256": "0720fba6a5a3bf51afd9eb922bd9c15caf69dd921eb67b27d224d8622f5a08f8"
+    },
+    {
+      "chapter": 42,
+      "title": "第四十二回 大聖慇勤拜南海 觀音慈善縛紅孩",
+      "file": "042-第042回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC042%E5%9B%9E",
+      "revision_id": 1808580,
+      "source_characters": 8122,
+      "sha256": "e61313bfa27c23408e5bd036c03791748b38c163f01d28bf914ca7ce6ca36c54"
+    },
+    {
+      "chapter": 43,
+      "title": "第四十三回 黑河妖孽擒僧去 西洋龍子捉鼉回",
+      "file": "043-第043回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC043%E5%9B%9E",
+      "revision_id": 1455592,
+      "source_characters": 7864,
+      "sha256": "c7bd90a5fe1c57accab476c257a518e6a189504c192d9ad99fe143f836f05245"
+    },
+    {
+      "chapter": 44,
+      "title": "第四十四回 法身元運逢車力 心正妖邪度脊關",
+      "file": "044-第044回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC044%E5%9B%9E",
+      "revision_id": 1455593,
+      "source_characters": 7900,
+      "sha256": "01546b15a68ab994138ff0d00add55d7897add6611cd1b48313015fa034fd9c7"
+    },
+    {
+      "chapter": 45,
+      "title": "第四十五回 三清觀大聖留名 車遲國猴王顯法",
+      "file": "045-第045回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC045%E5%9B%9E",
+      "revision_id": 1455594,
+      "source_characters": 7086,
+      "sha256": "28405db0bdcfb7f1d9114d5e22d14afd400028d839f01d6327844ae043110104"
+    },
+    {
+      "chapter": 46,
+      "title": "第四十六回 外道弄強欺正法 心猿顯聖滅諸邪",
+      "file": "046-第046回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC046%E5%9B%9E",
+      "revision_id": 1557967,
+      "source_characters": 7811,
+      "sha256": "8fab348639c3636b3a991d9eb8933483a7882df385331ce01a92ec25da4634d6"
+    },
+    {
+      "chapter": 47,
+      "title": "第四十七回 聖僧夜阻通天水 金木垂慈救小童",
+      "file": "047-第047回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC047%E5%9B%9E",
+      "revision_id": 2598626,
+      "source_characters": 7765,
+      "sha256": "64b7bcac17bbf2b8c980f3e6b7c2a7e6ea714efa09ccfa0813f0dc215fd19c1e"
+    },
+    {
+      "chapter": 48,
+      "title": "第四十八回 魔弄寒風飄大雪 僧思拜佛履層冰",
+      "file": "048-第048回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC048%E5%9B%9E",
+      "revision_id": 1808610,
+      "source_characters": 6439,
+      "sha256": "5b102626452dc69d2975752d2bb54e71fa2a11b171056a4535a65e6fa5eec323"
+    },
+    {
+      "chapter": 49,
+      "title": "第四十九回 三藏有災沉水宅 觀音救難現魚籃",
+      "file": "049-第049回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC049%E5%9B%9E",
+      "revision_id": 1808612,
+      "source_characters": 7525,
+      "sha256": "b5bf0c23812c001b794ede701ebfb95d6d70f228d3591cba8f9dcecc35e5cfe7"
+    },
+    {
+      "chapter": 50,
+      "title": "第五十回 情亂性從因愛慾 神昏心動遇魔頭",
+      "file": "050-第050回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC050%E5%9B%9E",
+      "revision_id": 1498134,
+      "source_characters": 6599,
+      "sha256": "c65be57e914a93c1a6f048e9a0a368000f13130a34464b28f93e3c04203b50b0"
+    },
+    {
+      "chapter": 51,
+      "title": "第五十一回 心猿空用千般計 水火無功難煉魔",
+      "file": "051-第051回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC051%E5%9B%9E",
+      "revision_id": 1498138,
+      "source_characters": 7123,
+      "sha256": "71bc51d5bd77723a46453e646df9b36002a318ef09b0057998d2570e80bc3f51"
+    },
+    {
+      "chapter": 52,
+      "title": "第五十二回 悟空大鬧金兜本作“⿰山兜”，Unicode缺字洞 如來暗示主人公",
+      "file": "052-第052回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC052%E5%9B%9E",
+      "revision_id": 1498137,
+      "source_characters": 7653,
+      "sha256": "f03e8f80b4400c299b6381d50de5cae3dc0b9342c41d7318be6a5c2a195eca52"
+    },
+    {
+      "chapter": 53,
+      "title": "第五十三回 禪主吞餐懷鬼孕 黃婆運水解邪胎",
+      "file": "053-第053回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC053%E5%9B%9E",
+      "revision_id": 1498139,
+      "source_characters": 7757,
+      "sha256": "b86cf45217c651806b16285a719edfb8ebe21c309d8ed17bd5856b881bdf0a84"
+    },
+    {
+      "chapter": 54,
+      "title": "第五十四回 法性西來逢女國 心猿定計脫煙花",
+      "file": "054-第054回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC054%E5%9B%9E",
+      "revision_id": 1455603,
+      "source_characters": 7002,
+      "sha256": "4e7376b10db639b5fd1fa6ab696a818b058a0eb1094ac9364cbfa0de04ebbf95"
+    },
+    {
+      "chapter": 55,
+      "title": "第五十五回 色邪淫戲唐三藏 性正修持不壞身",
+      "file": "055-第055回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC055%E5%9B%9E",
+      "revision_id": 2316520,
+      "source_characters": 7483,
+      "sha256": "552367464b33f2ac91e87cb64b6db211685859b6f1aa0fb57652d4aaf0dd4588"
+    },
+    {
+      "chapter": 56,
+      "title": "第五十六回 神狂誅草寇 道昧放心猿",
+      "file": "056-第056回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC056%E5%9B%9E",
+      "revision_id": 1455605,
+      "source_characters": 7552,
+      "sha256": "8369ff2d0f9cbf1c4381ff6bf7d36dea358f2b191b8c11ebae1c0a634372f6b2"
+    },
+    {
+      "chapter": 57,
+      "title": "第五十七回 真行者落伽山訴苦 假猴王水簾洞謄文",
+      "file": "057-第057回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC057%E5%9B%9E",
+      "revision_id": 2031415,
+      "source_characters": 6634,
+      "sha256": "bbec1907dd43513f327df026f7739172ea9fa3bd0e076ef4f0bdfbca2248958d"
+    },
+    {
+      "chapter": 58,
+      "title": "第五十八回 二心攪亂大乾坤 一體難修真寂滅",
+      "file": "058-第058回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC058%E5%9B%9E",
+      "revision_id": 1455607,
+      "source_characters": 6478,
+      "sha256": "2b098efddadc653ee8d0ac883b9530845d766c231736ba606d47b243692474c9"
+    },
+    {
+      "chapter": 59,
+      "title": "第五十九回 唐三藏路阻火焰山 孫行者一調芭蕉扇",
+      "file": "059-第059回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC059%E5%9B%9E",
+      "revision_id": 1455608,
+      "source_characters": 7395,
+      "sha256": "7d8d8f39964406e626c86e74eff42bbeb2abb660abac7a292163ac343c99d60c"
+    },
+    {
+      "chapter": 60,
+      "title": "第六十回 牛魔王罷戰赴華筵 孫行者二調芭蕉扇",
+      "file": "060-第060回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC060%E5%9B%9E",
+      "revision_id": 1500612,
+      "source_characters": 6968,
+      "sha256": "fdd832b243ee143725f5854973079f4a85a8b66de48a5f5539c24e302c19f0e9"
+    },
+    {
+      "chapter": 61,
+      "title": "第六十一回 豬八戒助力破一作「敗」魔王 孫行者三調芭蕉扇",
+      "file": "061-第061回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC061%E5%9B%9E",
+      "revision_id": 1500610,
+      "source_characters": 7612,
+      "sha256": "9bc3671bef1d879a971fd4779ec8a5c871e379b813f8f830341db9b1a9c0673f"
+    },
+    {
+      "chapter": 62,
+      "title": "第六十二回 滌垢洗心惟掃塔 縛魔歸正乃修身",
+      "file": "062-第062回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC062%E5%9B%9E",
+      "revision_id": 1500611,
+      "source_characters": 6725,
+      "sha256": "69a41f247c101b7f1badcff019b79aae56270270b78c2a476e84cf3afa241c23"
+    },
+    {
+      "chapter": 63,
+      "title": "第六十三回 二僧蕩怪鬧龍宮 群聖除邪獲寶貝",
+      "file": "063-第063回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC063%E5%9B%9E",
+      "revision_id": 1808654,
+      "source_characters": 6913,
+      "sha256": "7efc8a50d0be8f448a1c5eb14bc169deee65194a365a2faccdb2858fa00fa477"
+    },
+    {
+      "chapter": 64,
+      "title": "第六十四回 荊棘嶺悟能努力 木仙庵三藏談詩",
+      "file": "064-第064回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC064%E5%9B%9E",
+      "revision_id": 1455613,
+      "source_characters": 6892,
+      "sha256": "77694305502d186a3b5418c16adfe98669c2db6e138cbadefca5b9b07a241d9f"
+    },
+    {
+      "chapter": 65,
+      "title": "第六十五回 妖邪假設小雷音 四眾皆遭大厄難",
+      "file": "065-第065回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC065%E5%9B%9E",
+      "revision_id": 1455614,
+      "source_characters": 6533,
+      "sha256": "bb6708f7ca90937a42be9d22ce8e6d0bee27d3388406220c7e4ec7981f35701b"
+    },
+    {
+      "chapter": 66,
+      "title": "第六十六回 諸神遭毒手 彌勒縛妖魔",
+      "file": "066-第066回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC066%E5%9B%9E",
+      "revision_id": 1455615,
+      "source_characters": 6482,
+      "sha256": "fab905fc02d3aa89faf3274246da6d4e2dfad2fd298cbd47ea095453c5f10d10"
+    },
+    {
+      "chapter": 67,
+      "title": "第六十七回 拯救駝羅禪性穩 脫離穢污道心清",
+      "file": "067-第067回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC067%E5%9B%9E",
+      "revision_id": 1455616,
+      "source_characters": 7024,
+      "sha256": "7546691493c2c96f83da8d256fcc39876b87cb1f63a1fd0a826239bebc7d40ac"
+    },
+    {
+      "chapter": 68,
+      "title": "第六十八回 朱紫國唐僧論前世 孫行者施為三折肱",
+      "file": "068-第068回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC068%E5%9B%9E",
+      "revision_id": 1455617,
+      "source_characters": 6923,
+      "sha256": "05b5b4529e268c06e9a6fd3a7ecfdedc94703146aedc352951eea522cabb7f3c"
+    },
+    {
+      "chapter": 69,
+      "title": "第六十九回 心主夜間修藥物 君王筵上論妖邪",
+      "file": "069-第069回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC069%E5%9B%9E",
+      "revision_id": 1455618,
+      "source_characters": 7309,
+      "sha256": "3642e98f2deba812821afa648ab9f59e943275fc7927df0fcbff77d1a5f7fcbc"
+    },
+    {
+      "chapter": 70,
+      "title": "第七十回 妖魔寶放煙沙火 悟空計盜紫金鈴",
+      "file": "070-第070回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC070%E5%9B%9E",
+      "revision_id": 1455619,
+      "source_characters": 7720,
+      "sha256": "90f2f2927f0b6ca75199e047b43f517abacc74f3a9f9ff8d73b64867799234b7"
+    },
+    {
+      "chapter": 71,
+      "title": "第七十一回 行者假名降怪犼 觀音現象伏妖王",
+      "file": "071-第071回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC071%E5%9B%9E",
+      "revision_id": 1455620,
+      "source_characters": 7534,
+      "sha256": "1f6583cf268a08fae28ecd8edc4981d983c54389c842f9fad8c105c1648cc8ca"
+    },
+    {
+      "chapter": 72,
+      "title": "第七十二回 盤絲洞七情迷本 濯垢泉八戒忘形",
+      "file": "072-第072回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC072%E5%9B%9E",
+      "revision_id": 2557105,
+      "source_characters": 7696,
+      "sha256": "2d4afe1b269520cdec529db3e6ed53443c64a94a3891de47d7bbd0259d4915a4"
+    },
+    {
+      "chapter": 73,
+      "title": "第七十三回 情因舊恨生災毒 心主遭魔一作「迷」幸破光",
+      "file": "073-第073回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC073%E5%9B%9E",
+      "revision_id": 1500620,
+      "source_characters": 7960,
+      "sha256": "e99d16eda4dfe2b0e89565f40b394b6f30375ae1a616a0f8345e9d06fa37cd0d"
+    },
+    {
+      "chapter": 74,
+      "title": "第七十四回 長庚傳報魔頭狠 行者施為變化能",
+      "file": "074-第074回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC074%E5%9B%9E",
+      "revision_id": 1500622,
+      "source_characters": 7861,
+      "sha256": "924fd982e4bb9839c6be9c295b80bc00281868503fb9159c85bf9d2fb68af1b0"
+    },
+    {
+      "chapter": 75,
+      "title": "第七十五回 心猿鑽透陰陽竅 魔主一作「王」還歸大道真",
+      "file": "075-第075回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC075%E5%9B%9E",
+      "revision_id": 2093000,
+      "source_characters": 7676,
+      "sha256": "6f3d412c1773b3896a4b3a2f2cb267922e51f271a9d650b9d47595db4712d833"
+    },
+    {
+      "chapter": 76,
+      "title": "第七十六回 心神居舍魔歸性 木母同降怪體真",
+      "file": "076-第076回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC076%E5%9B%9E",
+      "revision_id": 1557754,
+      "source_characters": 7941,
+      "sha256": "ecd83d67311f9fddfa9c3b69edecbe7aadc780b615e4481b6aa0debf4e45ab85"
+    },
+    {
+      "chapter": 77,
+      "title": "第七十七回 群魔欺本性 一體拜真如",
+      "file": "077-第077回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC077%E5%9B%9E",
+      "revision_id": 1455626,
+      "source_characters": 8014,
+      "sha256": "dea5a87f77974194667c7155e91c25fc8978384f930fc817b26a14608599305f"
+    },
+    {
+      "chapter": 78,
+      "title": "第七十八回 比丘憐子遣陰神 金殿識魔談道德",
+      "file": "078-第078回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC078%E5%9B%9E",
+      "revision_id": 1455627,
+      "source_characters": 6485,
+      "sha256": "bef7a50dc2dd42d1f1b84655bc9c96b53d9e40f5f81793271525a3670dbf19bd"
+    },
+    {
+      "chapter": 79,
+      "title": "第七十九回 尋洞擒妖逢老壽 當朝正主救嬰兒",
+      "file": "079-第079回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC079%E5%9B%9E",
+      "revision_id": 1455628,
+      "source_characters": 6207,
+      "sha256": "6c2201942b32e75bc00943aa57005781f3885fb8566542cf9a3ea8241bc57f9b"
+    },
+    {
+      "chapter": 80,
+      "title": "第八十回 姹女育陽求配偶 心猿護主識妖邪",
+      "file": "080-第080回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC080%E5%9B%9E",
+      "revision_id": 1808715,
+      "source_characters": 6904,
+      "sha256": "03850b379ee27cfda722cae150915bc616de3abfff267755026f7bcf72b8de57"
+    },
+    {
+      "chapter": 81,
+      "title": "第八十一回 鎮海寺心猿知怪 黑松林三眾尋師",
+      "file": "081-第081回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC081%E5%9B%9E",
+      "revision_id": 1455630,
+      "source_characters": 7180,
+      "sha256": "ceb0dc34f573733b468f4e5338e961b4a1424eafc9f416cb33b70155979fe09d"
+    },
+    {
+      "chapter": 82,
+      "title": "第八十二回 姹女求陽 元神護道",
+      "file": "082-第082回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC082%E5%9B%9E",
+      "revision_id": 1455631,
+      "source_characters": 7594,
+      "sha256": "b0c6bba2fb0c74feefe88afbb9cc15d92c0e9db886837f593848c9b8fa5bf07b"
+    },
+    {
+      "chapter": 83,
+      "title": "第八十三回 心猿識得丹頭 姹女還歸本性",
+      "file": "083-第083回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC083%E5%9B%9E",
+      "revision_id": 1455632,
+      "source_characters": 6857,
+      "sha256": "bfebfee89d5921b3be5c8b189355e677121c81403bf11c35a12dcb2166c7168d"
+    },
+    {
+      "chapter": 84,
+      "title": "第八十四回 難滅伽持圓大覺 法王成正體天然",
+      "file": "084-第084回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC084%E5%9B%9E",
+      "revision_id": 2597328,
+      "source_characters": 7293,
+      "sha256": "1efc6b29baa720d71f6c4996ee4d3b6f77d3313a9195d2a2ceecc05a3a6a8a06"
+    },
+    {
+      "chapter": 85,
+      "title": "第八十五回 心猿妒木母 魔主計吞禪",
+      "file": "085-第085回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC085%E5%9B%9E",
+      "revision_id": 1455634,
+      "source_characters": 7553,
+      "sha256": "c75be940598f3264fbd3f651a3a1bf80e4b551b38e28ff88dd1bc910e99e078a"
+    },
+    {
+      "chapter": 86,
+      "title": "第八十六回 木母助威征怪物 金公施法滅妖邪",
+      "file": "086-第086回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC086%E5%9B%9E",
+      "revision_id": 1500525,
+      "source_characters": 7618,
+      "sha256": "3d2472ea8205c4ca6da01728772a7ccc18d9c7b55349116a619a4cc61aad9276"
+    },
+    {
+      "chapter": 87,
+      "title": "第八十七回 鳳仙郡冒天致旱一作「止雨」 孫大聖勸善施霖",
+      "file": "087-第087回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC087%E5%9B%9E",
+      "revision_id": 1500526,
+      "source_characters": 6577,
+      "sha256": "bf2e14f358fb93a53620cfe0287ecf2ed74bd386a56aff7d12738a5de8cba9f8"
+    },
+    {
+      "chapter": 88,
+      "title": "第八十八回 禪到玉華施法會 心猿木土一作「母」授門人",
+      "file": "088-第088回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC088%E5%9B%9E",
+      "revision_id": 1500527,
+      "source_characters": 6489,
+      "sha256": "29ba8cb290e4e35855671c8e2c63a5890e7318451c83fc7596d68d3095cf56b3"
+    },
+    {
+      "chapter": 89,
+      "title": "第八十九回 黃獅精虛設釘鈀宴 金木土計鬧豹頭山",
+      "file": "089-第089回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC089%E5%9B%9E",
+      "revision_id": 1500528,
+      "source_characters": 6215,
+      "sha256": "527aa534e0c280c9e97915494ea24a7c14ef7f3eeb294652ceeeda18ba68f045"
+    },
+    {
+      "chapter": 90,
+      "title": "第九十回 師獅授受同歸一 盜道纏禪靜九靈",
+      "file": "090-第090回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC090%E5%9B%9E",
+      "revision_id": 1455639,
+      "source_characters": 6650,
+      "sha256": "c59960d7f94261d160830fa9dfc28f59d95f70fc15d9e00b0a2c86714376f1c2"
+    },
+    {
+      "chapter": 91,
+      "title": "第九十一回 金平府元夜觀燈 玄英洞唐僧供狀",
+      "file": "091-第091回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC091%E5%9B%9E",
+      "revision_id": 1455640,
+      "source_characters": 6825,
+      "sha256": "47da38083ecb0bda6c4823fd1c7e9f4f0a4500c1480694f38ad1c6cbd3496ca4"
+    },
+    {
+      "chapter": 92,
+      "title": "第九十二回 三僧大戰青龍山 四星挾捉犀牛怪",
+      "file": "092-第092回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC092%E5%9B%9E",
+      "revision_id": 1455641,
+      "source_characters": 7151,
+      "sha256": "9f1ae47149955c953a47f36c63aa65eb39c4ecafc41dfb7176468e35e5fc0561"
+    },
+    {
+      "chapter": 93,
+      "title": "第九十三回 給孤園問古談因 天竺國朝王遇偶",
+      "file": "093-第093回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC093%E5%9B%9E",
+      "revision_id": 1455642,
+      "source_characters": 6489,
+      "sha256": "f9edb1bc67e5489415c71f90edd9ba6cb6c15cc0a22c16b345868ee4bf9b97a2"
+    },
+    {
+      "chapter": 94,
+      "title": "第九十四回 四僧宴樂御花園 一怪空懷情慾喜",
+      "file": "094-第094回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC094%E5%9B%9E",
+      "revision_id": 1500607,
+      "source_characters": 5566,
+      "sha256": "db4f4cd28012740cf8b2c0d6d50073e601628319bf23fa671f884238cd2a8d57"
+    },
+    {
+      "chapter": 95,
+      "title": "第九十五回 假合真形一作「形骸」擒玉兔 真陰歸正會靈元",
+      "file": "095-第095回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC095%E5%9B%9E",
+      "revision_id": 1500606,
+      "source_characters": 6360,
+      "sha256": "cf2946a542df30df3d3225e0770820ef5d57d139a3b459d0d945c0928e0a4c41"
+    },
+    {
+      "chapter": 96,
+      "title": "第九十六回 寇員外喜待高僧 唐長老不貪富貴",
+      "file": "096-第096回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC096%E5%9B%9E",
+      "revision_id": 1500608,
+      "source_characters": 5987,
+      "sha256": "44a9aeb20ed85bf2a8fdd277b4ca7630ff92d739d2712cdfbc7e96722e0178d4"
+    },
+    {
+      "chapter": 97,
+      "title": "第九十七回 金酬外護遭魔毒 聖顯幽魂救本原",
+      "file": "097-第097回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC097%E5%9B%9E",
+      "revision_id": 1455646,
+      "source_characters": 8586,
+      "sha256": "b2d740d43891ffc4d55658a58b273bd4f592cbd8181a581f35ffaeb3d86e1dbb"
+    },
+    {
+      "chapter": 98,
+      "title": "第九十八回 猿熟馬馴方脫殼 功成行滿見真如",
+      "file": "098-第098回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC098%E5%9B%9E",
+      "revision_id": 1500530,
+      "source_characters": 7932,
+      "sha256": "793e7effd89859a7147fb6081c51efa72df80f4f8efe3122edc52674bb2d9741"
+    },
+    {
+      "chapter": 99,
+      "title": "第九十九回 九九數完魔剗一作「滅」盡 三三行滿道歸根",
+      "file": "099-第099回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC099%E5%9B%9E",
+      "revision_id": 1558059,
+      "source_characters": 4802,
+      "sha256": "5bc54b9791bf83d457d6cce1c3dda2e6573f5b6e40d43d6fbd9fff0bb5299124"
+    },
+    {
+      "chapter": 100,
+      "title": "第一百回 徑回東土 五聖成真",
+      "file": "100-第100回.md",
+      "source": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC100%E5%9B%9E",
+      "revision_id": 1500545,
+      "source_characters": 6104,
+      "sha256": "2f211199071b890dfb64d18135c743a50c6b52dbc54a41af5768c2bfde309618"
+    }
+  ]
+}
