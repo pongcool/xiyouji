@@ -1,0 +1,712 @@
+{
+  "rebuilt": "2026-11-05 by Claude from chapters/ at commit 6c7c70a (chapters unchanged since initial import); original manifest was never committed and the combined source file ไซอิ๋ว.txt was deleted (X007), so source_sha256 and source line numbers are not recoverable",
+  "edition": "Project Gutenberg eBook 23962 (metadata in supplied file)",
+  "transformations": [
+    "UTF-8 BOM removed if present; CRLF to LF",
+    "heading prefixed with #; leading heading whitespace removed",
+    "047: join separated title fragment 木垂慈救小童; no character correction",
+    "Gutenberg preamble and postamble excluded from chapters"
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "path": "chapters/001.md",
+      "title": "第一回     靈根育孕源流出　心性修持大道生",
+      "units": 32,
+      "sha256": "80ac88ec19749f5229a85407983e6fbb66ce6de61e914f31552b6b3b10d7241f"
+    },
+    {
+      "chapter": 2,
+      "path": "chapters/002.md",
+      "title": "第二回     悟徹菩提真妙理　斷魔歸本合元神",
+      "units": 31,
+      "sha256": "17ff544bf4f766d8adf8366fe281d827a3a9ab7b2ebd8fed9db2c8bdc8dfdaf4"
+    },
+    {
+      "chapter": 3,
+      "path": "chapters/003.md",
+      "title": "第三回     四海千山皆拱伏　九幽十類盡除名",
+      "units": 26,
+      "sha256": "8491c5f2e0f1ab70644a72ddc093c86b29de8d66e569632b018b0141caf5254b"
+    },
+    {
+      "chapter": 4,
+      "path": "chapters/004.md",
+      "title": "第四回     官封弼馬心何足　名注齊天意未寧",
+      "units": 25,
+      "sha256": "96c65006f4c759685b91a9fa6ed00ea92b5271ffe0a7f1ee7b9d83f6be47ba12"
+    },
+    {
+      "chapter": 5,
+      "path": "chapters/005.md",
+      "title": "第五回     亂蟠桃大聖偷丹　反天宮諸神捉怪",
+      "units": 29,
+      "sha256": "ce6ebcc3bc2734b81a2a12e1179b57add8c67f2c1e436424e3ebf7f24de837ed"
+    },
+    {
+      "chapter": 6,
+      "path": "chapters/006.md",
+      "title": "第六回     觀音赴會問原因　小聖施威降大聖",
+      "units": 23,
+      "sha256": "cb2ad1c7c922c40182695140e66755fe862aa9e9b154fbeca85ab3c778d137e9"
+    },
+    {
+      "chapter": 7,
+      "path": "chapters/007.md",
+      "title": "第七回     八卦爐中逃大聖　五行山下定心猿",
+      "units": 23,
+      "sha256": "a3c82f590c52553a13cc1ad21ab6b6f0bb9c306e5a5cc5e2cc82adcfcd104437"
+    },
+    {
+      "chapter": 8,
+      "path": "chapters/008.md",
+      "title": "第八回     我佛造經傳極樂　觀音奉旨上長安",
+      "units": 26,
+      "sha256": "d0a68c193f63308355182040a0dcc48d15a5a50ec0b9d2a029f4b7e2d15cb4f2"
+    },
+    {
+      "chapter": 9,
+      "path": "chapters/009.md",
+      "title": "第九回     陳光蕊赴任逢災　江流僧復讎報本",
+      "units": 31,
+      "sha256": "de6054e1c7088d7343515721f222fe33ac0b1d31e2570311a261710bd586b896"
+    },
+    {
+      "chapter": 10,
+      "path": "chapters/010.md",
+      "title": "第一○回     老龍王拙計犯天條　魏丞相遺書託冥吏",
+      "units": 32,
+      "sha256": "26a3b0b79a56ce45290cc32d518f038a8efe63ec82c5fe6a4ac156f839afc02c"
+    },
+    {
+      "chapter": 11,
+      "path": "chapters/011.md",
+      "title": "第一一回     遊地府太宗還魂　進瓜果劉全續配",
+      "units": 31,
+      "sha256": "3ea84111078abd98f95d576cce2e96a33c810edc386712ce51d483816358da78"
+    },
+    {
+      "chapter": 12,
+      "path": "chapters/012.md",
+      "title": "第一二回     唐王秉誠修大會　觀音顯聖化金蟬",
+      "units": 36,
+      "sha256": "76e8dea312ea5cf638bad38573d4151051568d8c997aa85823c0e95e0880bd6a"
+    },
+    {
+      "chapter": 13,
+      "path": "chapters/013.md",
+      "title": "第一三回     陷虎穴金星解厄　　雙叉嶺伯欽留僧",
+      "units": 29,
+      "sha256": "4719f1c944d18c8fe48aa9df7c785fdf1bd72c5d5c1ee66e678bf1963e9fddbb"
+    },
+    {
+      "chapter": 14,
+      "path": "chapters/014.md",
+      "title": "第十四回     心猿歸正　六賊無蹤",
+      "units": 26,
+      "sha256": "0674e0e89efcf02ab60e915ccdba39827b6364bb455537f3f7845eba8e02b65c"
+    },
+    {
+      "chapter": 15,
+      "path": "chapters/015.md",
+      "title": "第一五回     蛇盤山諸神暗佑　鷹愁澗意馬收韁",
+      "units": 25,
+      "sha256": "43c091167db8a043cec06f87182499820aab1f69264187605dec961da82a7429"
+    },
+    {
+      "chapter": 16,
+      "path": "chapters/016.md",
+      "title": "第十六回     觀音院僧謀寶貝　黑風山怪竊袈裟",
+      "units": 26,
+      "sha256": "eae3775e27e4890cf65416ea414d5e1a9f1fd85049b49edd113490a7f0e5d371"
+    },
+    {
+      "chapter": 17,
+      "path": "chapters/017.md",
+      "title": "第一七回     孫行者大鬧黑風山　觀世音收伏熊羆怪",
+      "units": 31,
+      "sha256": "71dea8bb9ef77875e7d58f3f35420319889e9f61befa7a6f3bb954d4e6245c3f"
+    },
+    {
+      "chapter": 18,
+      "path": "chapters/018.md",
+      "title": "第十八回     觀音院唐僧脫難　高老莊大聖除魔",
+      "units": 19,
+      "sha256": "9809a9d265f6e06a7f7e2899b4783f7fe3c8e8fd635cc28cd40314a79abe4eae"
+    },
+    {
+      "chapter": 19,
+      "path": "chapters/019.md",
+      "title": "第十九回     雲棧洞悟空收八戒　浮屠山玄奘受心經",
+      "units": 22,
+      "sha256": "6e7d07a2e4ee6ac27663405526bf91cbe36f50287c899d657317ac362071cf6c"
+    },
+    {
+      "chapter": 20,
+      "path": "chapters/020.md",
+      "title": "第二○回     黃風嶺唐僧有難　半山中八戒爭先",
+      "units": 29,
+      "sha256": "192829855ecfdfe786169d3f6e4f34dc0f65c35c5d80aace3e7eddecb472bc70"
+    },
+    {
+      "chapter": 21,
+      "path": "chapters/021.md",
+      "title": "第二一回     護法設莊留大聖　須彌靈吉定風魔",
+      "units": 28,
+      "sha256": "b27f43b71d23ffe2a619d38a619d6f4eae8e59f8ddd469af8f311fb7436bf56e"
+    },
+    {
+      "chapter": 22,
+      "path": "chapters/022.md",
+      "title": "第二二回     八戒大戰流沙河　木叉奉法收悟淨",
+      "units": 25,
+      "sha256": "f44d170719b3ec374a12284368883c240b737fd289168b3a882130509a0cb342"
+    },
+    {
+      "chapter": 23,
+      "path": "chapters/023.md",
+      "title": "第二三回     三藏不忘本　四聖試禪心",
+      "units": 31,
+      "sha256": "3bde9212a88294c99040266591fd51679f5efe0334b56702b1598fd34cf15320"
+    },
+    {
+      "chapter": 24,
+      "path": "chapters/024.md",
+      "title": "第二四回     萬壽山大仙留故友　五莊觀行者竊人參",
+      "units": 29,
+      "sha256": "2f2443e8de8ea748e9e8ec42d9b8aed6918a774e645477200528a302d470bdf6"
+    },
+    {
+      "chapter": 25,
+      "path": "chapters/025.md",
+      "title": "第二五回     鎮元仙趕捉取經僧　孫行者大鬧五莊觀",
+      "units": 29,
+      "sha256": "3504cc186bd5c9d4e644e33d873c3377ada135f47e18b8cc740c16e7d6b84f8d"
+    },
+    {
+      "chapter": 26,
+      "path": "chapters/026.md",
+      "title": "第二六回     孫悟空三島求方　觀世音甘泉活樹",
+      "units": 30,
+      "sha256": "b460674c42b06bf17185f7984447b6edf24ad377fb785fb3a4bd001dd281f795"
+    },
+    {
+      "chapter": 27,
+      "path": "chapters/027.md",
+      "title": "第二七回     屍魔三戲唐三藏　聖僧恨逐美猴王",
+      "units": 30,
+      "sha256": "a1279e3aa1981eb2932323e9a2d8444d379185ae2e5d19a5a52463466eccd1c1"
+    },
+    {
+      "chapter": 28,
+      "path": "chapters/028.md",
+      "title": "第二八回     花果山群妖聚義　黑松林三藏逢魔",
+      "units": 27,
+      "sha256": "465bac4c14e29fc9543cfa608174b8e9b4c7ff946d4d70b175e922b4bbf9d733"
+    },
+    {
+      "chapter": 29,
+      "path": "chapters/029.md",
+      "title": "第二九回     脫難江流來國土　承恩八戒轉山林",
+      "units": 26,
+      "sha256": "de2e3d2ecc0725c46d37009ee4c66fc58c7ec641241a60791d93ff47f9fc6241"
+    },
+    {
+      "chapter": 30,
+      "path": "chapters/030.md",
+      "title": "第三○回     邪魔侵正法　意馬憶心猿",
+      "units": 35,
+      "sha256": "1a7839539d97e819036e3b109b5ed4121ab754da659e7f05c5168b6cc4b8675c"
+    },
+    {
+      "chapter": 31,
+      "path": "chapters/031.md",
+      "title": "第三一回     豬八戒義激猴王　孫行者智降妖怪",
+      "units": 31,
+      "sha256": "56dee26bd7b026f96cec0478662ace89e1b9d8a75d58f90be11776b251f5ef30"
+    },
+    {
+      "chapter": 32,
+      "path": "chapters/032.md",
+      "title": "第三二回     平頂山功曹傳信　蓮花洞木母逢災",
+      "units": 28,
+      "sha256": "d2f6780b64d1d60c8abdaba8caddf188bc26670bb5330aa943eaf00beca211cc"
+    },
+    {
+      "chapter": 33,
+      "path": "chapters/033.md",
+      "title": "第三三回     外道迷真性　元神助本心",
+      "units": 29,
+      "sha256": "7f5eaf7c2fe05e67ecdf338f1c3547b95fba119641881dcb6897d05b2aa29eee"
+    },
+    {
+      "chapter": 34,
+      "path": "chapters/034.md",
+      "title": "第三四回     魔王巧算困心猿　大聖騰那騙寶貝",
+      "units": 31,
+      "sha256": "36492bb68e66b289d9e5f23a56be552d88add0496613a9104ecc8f2b237e237a"
+    },
+    {
+      "chapter": 35,
+      "path": "chapters/035.md",
+      "title": "第三五回     外道施威欺正性　心猿獲寶伏邪魔",
+      "units": 30,
+      "sha256": "9c888da97a76669da1e81e9f02cf30db9ec73cafe24666157169a46eee8ce8d4"
+    },
+    {
+      "chapter": 36,
+      "path": "chapters/036.md",
+      "title": "第三六回     心猿正處諸緣伏　劈破傍門見月明",
+      "units": 31,
+      "sha256": "7bec88ad0710b6b3be9cb1c8b81a5f49c5b81bfd0e448fa5eaacfa6fb9334628"
+    },
+    {
+      "chapter": 37,
+      "path": "chapters/037.md",
+      "title": "第三七回     鬼王夜謁唐三藏　悟空神化引嬰兒",
+      "units": 26,
+      "sha256": "a62e793d35d50eff85816d11f8a3562e11bb2a77aad71f8f0a451c3e60de7a67"
+    },
+    {
+      "chapter": 38,
+      "path": "chapters/038.md",
+      "title": "第三八回     嬰兒問母知邪正　金木參玄見假真",
+      "units": 23,
+      "sha256": "e23adc0c6cd15e0dfa2631e80b8377bf057ca488e0217ab62d7b71bcf0eef82c"
+    },
+    {
+      "chapter": 39,
+      "path": "chapters/039.md",
+      "title": "第三九回     一粒丹砂天上得　三年故主世間生",
+      "units": 26,
+      "sha256": "281653079dc4d15c5d7587e2f135093bad9f4b2a1a55a6e252c97744b608f823"
+    },
+    {
+      "chapter": 40,
+      "path": "chapters/040.md",
+      "title": "第四○回     嬰兒戲化禪心亂　猿馬刀歸木母空",
+      "units": 31,
+      "sha256": "2fef18c012b483d1044086cf230176e8c72a39c028bc5a1e642c64b0aaa19c85"
+    },
+    {
+      "chapter": 41,
+      "path": "chapters/041.md",
+      "title": "第四一回     心猿遭火敗　木母被魔擒",
+      "units": 39,
+      "sha256": "8b342ed0dba41bbf1bab49c35bb984b8ef39a07a33b41e98714ee8c2c15514b6"
+    },
+    {
+      "chapter": 42,
+      "path": "chapters/042.md",
+      "title": "第四二回     大聖慇懃拜南海　觀音慈善縛紅孩",
+      "units": 31,
+      "sha256": "eb3265c98f30d4f8296afd8a8b2822251a499590cd55fc0bb46cb90f5af4b148"
+    },
+    {
+      "chapter": 43,
+      "path": "chapters/043.md",
+      "title": "第四三回     黑河妖孽擒僧去　西洋龍子捉鼉回",
+      "units": 36,
+      "sha256": "7f13a041425da451d8d62f6067ae81484846640748229d7de029bea213a66dc3"
+    },
+    {
+      "chapter": 44,
+      "path": "chapters/044.md",
+      "title": "第四四回     法身元運逢車力　心正妖邪度脊關",
+      "units": 30,
+      "sha256": "e573a314192a255f21e9e488d96116af3ca6885b169d5210558bef74ccef064b"
+    },
+    {
+      "chapter": 45,
+      "path": "chapters/045.md",
+      "title": "第四五回     三清觀大聖留名　車遲國猴王顯法",
+      "units": 32,
+      "sha256": "aed023f7555b04813e7cc3db64a88cdf504f88443e202c5a8e399708e5294c5b"
+    },
+    {
+      "chapter": 46,
+      "path": "chapters/046.md",
+      "title": "第四六回     外道弄強欺正法　心猿顯聖滅諸邪",
+      "units": 42,
+      "sha256": "2026143e96cd47d8cecbc124b24deb136a6dd8d61993b6665d472878a48bc0a2"
+    },
+    {
+      "chapter": 47,
+      "path": "chapters/047.md",
+      "title": "第四七回     聖僧夜阻通天水　木垂慈救小童",
+      "units": 30,
+      "sha256": "95205f78af2b7cc13f7df065f37bb52801ed7d3df7ad56f60afb658f38abd866"
+    },
+    {
+      "chapter": 48,
+      "path": "chapters/048.md",
+      "title": "第四八回     魔弄寒風飄大雪　僧思拜佛履層冰",
+      "units": 30,
+      "sha256": "2737c5cb47259ad9ec0233870a0253337717ccabdc12f15aa30c82fd080de84d"
+    },
+    {
+      "chapter": 49,
+      "path": "chapters/049.md",
+      "title": "第四九回     三藏有災沉水宅　觀音救難現魚籃",
+      "units": 35,
+      "sha256": "0706cf2a6037584ed31a7dfc152978a83455af3f06e0107ea50325056c223e96"
+    },
+    {
+      "chapter": 50,
+      "path": "chapters/050.md",
+      "title": "第五○回     情亂性從因愛慾　神昏心動遇魔頭",
+      "units": 28,
+      "sha256": "a96b248074f247ca1fbb88543d9a9b45d273bac4cba644d3c545296b3f9442e2"
+    },
+    {
+      "chapter": 51,
+      "path": "chapters/051.md",
+      "title": "第五一回     心猿空用千般計　水火無功難煉魔",
+      "units": 31,
+      "sha256": "8c18fe2c985fa777a348989da0cef690ae0f4b2d17072d1e8bb2fb20032b33ab"
+    },
+    {
+      "chapter": 52,
+      "path": "chapters/052.md",
+      "title": "第五二回     悟空大鬧金洞　如來暗示主人公",
+      "units": 32,
+      "sha256": "5803c3fd24ba57e6b9890ee74e6aedb39152523fa7fad79e41d6e22bd6992d9b"
+    },
+    {
+      "chapter": 53,
+      "path": "chapters/053.md",
+      "title": "第五三回     禪主吞餐懷鬼孕　黃婆運水解邪胎",
+      "units": 34,
+      "sha256": "2f75b9b459eeba935d73fb8c39740768b688fd7965c521955090315a50b99efb"
+    },
+    {
+      "chapter": 54,
+      "path": "chapters/054.md",
+      "title": "第五四回     法性西來逢女國　心猿定計脫煙花",
+      "units": 29,
+      "sha256": "5779eb651543e127d67906ccd1eb8f6cbf0dba955db85bddc5af5b054b31e509"
+    },
+    {
+      "chapter": 55,
+      "path": "chapters/055.md",
+      "title": "第五五回     色邪淫戲唐三藏　性正修持不壞身",
+      "units": 33,
+      "sha256": "f87001e27505c932dec0d60e174ab8027097b4d2d936a3e90948916c95bf49c6"
+    },
+    {
+      "chapter": 56,
+      "path": "chapters/056.md",
+      "title": "第五六回     神狂誅草寇　道迷放心猿",
+      "units": 32,
+      "sha256": "a44460ae8222a4392982fbc5dcc0fddfd5949bea89df08dd797ed7c373282222"
+    },
+    {
+      "chapter": 57,
+      "path": "chapters/057.md",
+      "title": "第五七回     真行者落伽山訴苦　假猴王水簾洞謄文",
+      "units": 27,
+      "sha256": "995abe655f1a2c66000c0ad7967672c9424afa3784b6a5509a21756ce07038ff"
+    },
+    {
+      "chapter": 58,
+      "path": "chapters/058.md",
+      "title": "第五八回     二心攪亂大乾坤　一體難修真寂滅",
+      "units": 25,
+      "sha256": "fff4f6a0a09592078915e28e71d35589ffc069619091591f388cbab24f50ac71"
+    },
+    {
+      "chapter": 59,
+      "path": "chapters/059.md",
+      "title": "第五九回     唐三藏路阻火焰山　孫行者一調芭蕉扇",
+      "units": 27,
+      "sha256": "fcd5959e0462bf8c50abfbc864dad3aadab58f7d2529b7fa5b5ff5e042543e5c"
+    },
+    {
+      "chapter": 60,
+      "path": "chapters/060.md",
+      "title": "第六○回     牛魔王罷戰赴華筵　孫行者二調芭蕉扇",
+      "units": 26,
+      "sha256": "6fc8d87e96528c4c71b8fad5379fe8e0b141a58063b64005d234319f4599ea81"
+    },
+    {
+      "chapter": 61,
+      "path": "chapters/061.md",
+      "title": "第六一回     豬八戒助力敗魔王　孫行者三調芭蕉扇",
+      "units": 30,
+      "sha256": "5935d0bacfe9beb394b110b537eb948235bdd8a5631ef936ccce3e17e8aa1f0e"
+    },
+    {
+      "chapter": 62,
+      "path": "chapters/062.md",
+      "title": "第六二回     滌垢洗心惟掃塔　縛魔歸主乃修身",
+      "units": 26,
+      "sha256": "f2890aa0179264e3fa34f9eb31a61ff809cdbaf3bbffc038b65f8324437de86e"
+    },
+    {
+      "chapter": 63,
+      "path": "chapters/063.md",
+      "title": "第六三回     二僧蕩怪鬧龍宮　群聖除邪獲寶貝",
+      "units": 27,
+      "sha256": "f8c60db7ed9dbd7d2dfefd6a28ab0e50752f229420e652d1cace449dda43871f"
+    },
+    {
+      "chapter": 64,
+      "path": "chapters/064.md",
+      "title": "第六四回     荊棘嶺悟能努力　木仙庵三藏談詩",
+      "units": 40,
+      "sha256": "2e4ffa31d7fea158f8892fc046a0708e8ce2876078215ec35ff682f8acc4c52a"
+    },
+    {
+      "chapter": 65,
+      "path": "chapters/065.md",
+      "title": "第六五回     妖邪假設小雷音　四眾皆遭大厄難",
+      "units": 27,
+      "sha256": "c7c0a00abb365b5868075535faef51f98e494407434dea0c47f193e2645dd50c"
+    },
+    {
+      "chapter": 66,
+      "path": "chapters/066.md",
+      "title": "第六六回     諸神遭毒手　彌勒縛妖魔",
+      "units": 27,
+      "sha256": "722093de48a9e63e33ec491489f42944c97657dcf47370c0904cea667be87889"
+    },
+    {
+      "chapter": 67,
+      "path": "chapters/067.md",
+      "title": "第六七回     拯救駝羅禪性穩　脫離穢污道心清",
+      "units": 28,
+      "sha256": "0148a1608b5e2f03775feb5b767d13a4281c5d777649493fd7622a46a7e8b5ef"
+    },
+    {
+      "chapter": 68,
+      "path": "chapters/068.md",
+      "title": "第六八回     朱紫國唐僧論前世　孫行者施為三折肱",
+      "units": 28,
+      "sha256": "a5712dce710b496a73dce5acee570491a5ebbad35f98b95f162b07add29561a5"
+    },
+    {
+      "chapter": 69,
+      "path": "chapters/069.md",
+      "title": "第六九回     心主夜間修藥物　君王筵上論妖邪",
+      "units": 30,
+      "sha256": "a3d34fee3905d663053582951186690c36619d273a35419bb1526391184d50b9"
+    },
+    {
+      "chapter": 70,
+      "path": "chapters/070.md",
+      "title": "第七○回     妖魔寶放煙沙火　悟空計盜紫金鈴",
+      "units": 31,
+      "sha256": "c8bacc292ad25dd5c6d6251c300a8d62c05c35615f9b062c37c2616d2569b625"
+    },
+    {
+      "chapter": 71,
+      "path": "chapters/071.md",
+      "title": "第七一回     行者假名降怪　觀音現像伏妖王",
+      "units": 31,
+      "sha256": "8b7a1f6afd99913b0172bd2a3e86f70215c720f9e14f250af21ac8ca69b69b05"
+    },
+    {
+      "chapter": 72,
+      "path": "chapters/072.md",
+      "title": "第七二回     盤絲洞七情迷本　濯垢泉八戒忘形",
+      "units": 33,
+      "sha256": "e4cd766c79d6866e3a872055490d86115caec926ac3d8d5a64d553384602dc6e"
+    },
+    {
+      "chapter": 73,
+      "path": "chapters/073.md",
+      "title": "第七三回     情因舊恨生災毒　心主遭魔幸破光",
+      "units": 34,
+      "sha256": "340d14bc70ec98f1a395c480e7d58bdafd8b750b4e4e65198e90438d8827395d"
+    },
+    {
+      "chapter": 74,
+      "path": "chapters/074.md",
+      "title": "第七四回     長庚傳報魔頭狠　行者施為變化能",
+      "units": 24,
+      "sha256": "a5e196646f55cdb050fdd115823c269217c2b22b9d0d9021b33acddfe36fd482"
+    },
+    {
+      "chapter": 75,
+      "path": "chapters/075.md",
+      "title": "第七五回     心猿鑽透陰陽體　魔王還歸大道真",
+      "units": 32,
+      "sha256": "f004a3f56e6a19d8f8ddd1752f34b5f903f95451cc0b2b6569a0222692d28c47"
+    },
+    {
+      "chapter": 76,
+      "path": "chapters/076.md",
+      "title": "第七六回     心神居舍魔歸性　木母同降怪體真",
+      "units": 27,
+      "sha256": "54818d93067fe6bda8c6a8bda7ff97a537909b1ee6ebe163cc95aa5d9a8b56f4"
+    },
+    {
+      "chapter": 77,
+      "path": "chapters/077.md",
+      "title": "第七七回     群魔欺本性　一體拜真如",
+      "units": 29,
+      "sha256": "56da677683d3fea9a52898a0abb84c57dacc13237084c068ff6546868808563f"
+    },
+    {
+      "chapter": 78,
+      "path": "chapters/078.md",
+      "title": "第七八回     比丘憐子遣陰神　金殿識魔談道德",
+      "units": 28,
+      "sha256": "b2cda62e11e88414b8b8ceb6dc4b4e26ea6f951fa289ccdec21c5788cc391d98"
+    },
+    {
+      "chapter": 79,
+      "path": "chapters/079.md",
+      "title": "第七九回     尋洞擒妖逢老壽　當朝正主救嬰兒",
+      "units": 25,
+      "sha256": "736f8ca7aad5676c75b50709e2aabd692aee291e7bd61beacca435334bffc873"
+    },
+    {
+      "chapter": 80,
+      "path": "chapters/080.md",
+      "title": "第八○回     女育陽求配偶　心猿護主識妖邪",
+      "units": 27,
+      "sha256": "9f8c4322fbec06c37343ddf56af0aa9e35206ec36852814fb4071c0452b76c22"
+    },
+    {
+      "chapter": 81,
+      "path": "chapters/081.md",
+      "title": "第八一回     鎮海寺心猿知怪　黑松林三眾尋師",
+      "units": 23,
+      "sha256": "0ac892743d9405cb941765829e006a61bcc2b6587d1a905af1938e24e2d45bab"
+    },
+    {
+      "chapter": 82,
+      "path": "chapters/082.md",
+      "title": "第八二回     姹女求陽　元神護道",
+      "units": 23,
+      "sha256": "00acaa736a9c8f919a79016ba8930eb473ac451d821a1ae823ce14353a20283d"
+    },
+    {
+      "chapter": 83,
+      "path": "chapters/083.md",
+      "title": "第八三回     心猿識得丹頭　姹女還歸本性",
+      "units": 23,
+      "sha256": "feafd651fabaf66a2640b5d32930c14bb0641f6d7d432dc7c0b9c42e2c9df0dd"
+    },
+    {
+      "chapter": 84,
+      "path": "chapters/084.md",
+      "title": "第八四回     難滅伽持圓大覺　法王成正體天然",
+      "units": 28,
+      "sha256": "ff187be74975b51a3f42fa6586224e584c60842ed701bb900a9e7c67d8000770"
+    },
+    {
+      "chapter": 85,
+      "path": "chapters/085.md",
+      "title": "第八五回     心猿妒木母　魔主計吞禪",
+      "units": 30,
+      "sha256": "61985fad6afbfad5241f9a9629776c62480bdf9ebc9ebfafea471bf586eb6cdd"
+    },
+    {
+      "chapter": 86,
+      "path": "chapters/086.md",
+      "title": "第八六回     木母助威征怪物　金公施法滅妖邪",
+      "units": 27,
+      "sha256": "43519e0c74beac163a3822ba7a2c0800f4fda03ed10e9f5ce42619572658e4b1"
+    },
+    {
+      "chapter": 87,
+      "path": "chapters/087.md",
+      "title": "第八十七回 鳳仙郡冒天止雨　孫大圣勸善施霖",
+      "units": 31,
+      "sha256": "64468ef4ceca22f99eac74e502907304665334f62c97e4b4b992afde5e84e87b"
+    },
+    {
+      "chapter": 88,
+      "path": "chapters/088.md",
+      "title": "第八八回     禪到玉華施法會　心猿木母授門人",
+      "units": 27,
+      "sha256": "e6de090bc2903b0f6de62a70566b30e9be281377625946424115f4290f92eddc"
+    },
+    {
+      "chapter": 89,
+      "path": "chapters/089.md",
+      "title": "第八九回     黃獅精虛設釘鈀宴　金木土計鬧豹頭山",
+      "units": 26,
+      "sha256": "ed3099d0d29a48fda0a9deb34c052402b151bf0ee4937657c5b560802a293ba7"
+    },
+    {
+      "chapter": 90,
+      "path": "chapters/090.md",
+      "title": "第九○回     師獅授受同歸一　盜道纏禪靜九靈",
+      "units": 26,
+      "sha256": "92457a14117bd2b753e1c44393e7f56b7ebcdcabac7ff2a3ea766b1feeaf26e1"
+    },
+    {
+      "chapter": 91,
+      "path": "chapters/091.md",
+      "title": "第九一回     金平府元夜觀燈　玄英洞唐僧供狀",
+      "units": 26,
+      "sha256": "7863fce939e0bfaaa107ac629544d195dbf8db35381c715f06113538e29475aa"
+    },
+    {
+      "chapter": 92,
+      "path": "chapters/092.md",
+      "title": "第九二回     三僧大戰青龍山　四星挾捉犀牛怪",
+      "units": 29,
+      "sha256": "8fe863e171b84bb24008dfbc8934cfd971245f48e2450590c7068c7f4cf48b11"
+    },
+    {
+      "chapter": 93,
+      "path": "chapters/093.md",
+      "title": "第九三回     給孤園問古談因　天竺國朝王遇偶",
+      "units": 24,
+      "sha256": "80fd6e68f741e47c527bb821eec44d385ccc323e3d798d35c4b01556c6680baf"
+    },
+    {
+      "chapter": 94,
+      "path": "chapters/094.md",
+      "title": "第九四回     四僧宴樂御花園　一怪空懷情慾喜",
+      "units": 27,
+      "sha256": "f740cbf2834db32ec9257910a9fdee80d3851b58ba27c9ffc291689a0356174d"
+    },
+    {
+      "chapter": 95,
+      "path": "chapters/095.md",
+      "title": "第九五回     假合真形擒玉兔　真陰歸正會靈元",
+      "units": 30,
+      "sha256": "dc92fcdb213a1c8ce73f44d6b019283de341b1637fe02ae1f4def62d6fd3f847"
+    },
+    {
+      "chapter": 96,
+      "path": "chapters/096.md",
+      "title": "第九六回     寇員外喜待高僧　唐長老不貪富貴",
+      "units": 29,
+      "sha256": "97a14e80b76c29e8d5dc2dc0fa529126aec27381eca19b441d5c4eca60b56e99"
+    },
+    {
+      "chapter": 97,
+      "path": "chapters/097.md",
+      "title": "第九七回     金酬外護遭魔蟄　聖顯幽魂救本原",
+      "units": 26,
+      "sha256": "b376dbe4cb3e531176d40d50f74bb78904b5da88da7f689cd9f334d4ce863d03"
+    },
+    {
+      "chapter": 98,
+      "path": "chapters/098.md",
+      "title": "第九八回     猿熟馬馴方脫殼　功成行滿見真如",
+      "units": 29,
+      "sha256": "b9efa0afc8bda1274df4349910b63cd26bee3757e13d660ee785935dd47af08f"
+    },
+    {
+      "chapter": 99,
+      "path": "chapters/099.md",
+      "title": "第九九回     九九數完魔滅盡　三三行滿道歸根",
+      "units": 17,
+      "sha256": "caa7ac2ec1f1e773e97c1ea21365b3ef8a64219c3d2650ae4191aee33be8c661"
+    },
+    {
+      "chapter": 100,
+      "path": "chapters/100.md",
+      "title": "第一○○回     徑回東土　五聖成真",
+      "units": 24,
+      "sha256": "d79627de06ae3ff09111c2816c2c1de83b6cfbd2cc24f246719f42d026581db0"
+    }
+  ]
+}

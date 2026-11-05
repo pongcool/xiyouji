@@ -3,15 +3,12 @@
 แปล 西遊記 (Xīyóujì) จากต้นฉบับรายบท `chapters/001.md`–`100.md` ที่แบ่งจากไฟล์ผู้ใช้ เป็นไทยครบเรื่อง ไม่ย่อหรือเรียบเรียงใหม่ ใช้ชื่อเรื่อง “ซีโหยวจี้” และชื่อคนจีนกลาง เช่น ซุนอู้คง จูปาเจี้ย ตาม X006 ไฟล์รวมเดิมถูกลบตามคำสั่งผู้ใช้แล้ว ใช้ไฟล์รายบทเป็นต้นฉบับหลัก
 
 ## เริ่มงาน
-1. อ่าน [ข้อกำหนด AI](AGENTS.md), [คู่มือแปล](TRANSLATION_GUIDE.md), [ตารางถอดเสียง](docs/TRANSLITERATION.md), [คำเรียก](docs/ADDRESS_TERMS.md), [แนวสำนวน](docs/STYLE_SAMPLE.md), [โลกของเรื่อง](WORLD.md) และข้อยุติ/ประเด็นเปิดใน [DECISIONS.md](DECISIONS.md)
-2. เลือกบทจาก [PROGRESS.md](PROGRESS.md) อ่านต้นฉบับเต็มบท แล้วค้นเฉพาะคำที่พบจาก GLOSSARY.md, CHARACTERS.md และ docs/SOURCE_ISSUES.md
-3. แปลลง `translations/th/NNN.md` ตามลำดับ ใช้ `reviews/TEMPLATE.md` บันทึกการตรวจจริง
-4. รัน `python -X utf8 tools/check_translation.py NNN` แล้วเทียบความหมายทุกหน่วยด้วยตา จากนั้นส่งตรวจอิสระตามขั้นงาน
+ขั้นงาน ไฟล์ที่ต้องอ่าน และการส่งต่อดู [AGENTS.md](AGENTS.md) หลักภาษาดู [TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md) สถานะรายบทดู [PROGRESS.md](PROGRESS.md)
 
 ## ต้นฉบับและหน่วยเทียบ
 ไฟล์ต้นทางระบุ Project Gutenberg eBook 23962, Title: 西遊記, Author: Cheng'en Wu, Release date: December 22, 2007 ข้อมูลนี้อ้างจาก metadata ภายในไฟล์ ไม่ได้ตรวจเทียบฉบับพิมพ์หรือเว็บทั้งเรื่อง
 
-แยกแล้ว 100 บทใน `chapters/001.md`–`100.md` เก็บเนื้อเรื่องและการตัดบรรทัดเดิม ใช้กลุ่มบรรทัดคั่นด้วยบรรทัดว่างเป็นหน่วยเทียบ ไม่ถือทุกบรรทัดพับคำเป็นย่อหน้า ดูข้อจำกัดและหัวบท 047 ใน [SOURCE_ISSUES.md](docs/SOURCE_ISSUES.md) ตรวจ hash หัวบท และจำนวนหน่วยกับ manifest ด้วย `python -X utf8 tools/prepare_xiyouji.py --check` และ [manifest](docs/SOURCE_MANIFEST.json)
+แยกแล้ว 100 บทใน `chapters/001.md`–`100.md` เก็บเนื้อเรื่องและการตัดบรรทัดเดิม ใช้กลุ่มบรรทัดคั่นด้วยบรรทัดว่างเป็นหน่วยเทียบ ไม่ถือทุกบรรทัดพับคำเป็นย่อหน้า ดูข้อจำกัดและหัวบท 047 ใน [SOURCE_ISSUES.md](docs/SOURCE_ISSUES.md) ตรวจ hash หัวบท และจำนวนหน่วยกับ manifest (สร้างใหม่ 2026-11-05 จาก chapters/ เพราะไฟล์เดิมไม่เคย commit; X013) ด้วย `python -X utf8 tools/prepare_xiyouji.py --check` และ [manifest](docs/SOURCE_MANIFEST.json)
 
 ## โครงสร้าง
 - `chapters/` — ต้นฉบับรายบท; ห้ามแก้เงียบ ๆ
