@@ -1,0 +1,46 @@
+{
+  "pdf": "sources\\新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "pdf_size_bytes": 1639462509,
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no OCR, generative restoration, contrast adjustment or sharpening",
+  "images": [
+    {
+      "file": "page-095.png",
+      "pdf_page": 95,
+      "clip_pdf_points": null,
+      "scale": 1.4,
+      "sha256": "c84cd672c792fcefe57396e5a27cea738f139eb9ed2673359d59a427774a80a4"
+    },
+    {
+      "file": "page-095-mantra.png",
+      "pdf_page": 95,
+      "clip_pdf_points": [
+        460.0,
+        90.0,
+        570.0,
+        330.0
+      ],
+      "scale": 4.2,
+      "sha256": "bf0721be5bcb4b2cc0551f1040f2e7fa0e3919b59b00252d1ee984a0239d77b8"
+    },
+    {
+      "file": "page-106.png",
+      "pdf_page": 106,
+      "clip_pdf_points": null,
+      "scale": 1.4,
+      "sha256": "d27ec191bdd9a0d28a729b36836c5ce38ce91b6c342e9a19c936ac42412a9d41"
+    },
+    {
+      "file": "page-106-mantra.png",
+      "pdf_page": 106,
+      "clip_pdf_points": [
+        485.0,
+        100.0,
+        580.0,
+        650.0
+      ],
+      "scale": 4.2,
+      "sha256": "5b9a5104305afd430144eaff20fa060aa51d1e81930ef9da237320aa2e23f358"
+    }
+  ]
+}
