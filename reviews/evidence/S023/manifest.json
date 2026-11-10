@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "pdf_size_bytes": 1639462509,
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no OCR, generative restoration, contrast adjustment or sharpening",
+  "images": [
+    {
+      "file": "pdf177-left-end.png",
+      "pdf_page": 177,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        185.5,
+        685.7
+      ],
+      "scale": 2,
+      "sha256": "e4d237e6651e7612e1744b9c30a7d221989e67879ea4163c2e8e787da79a2965",
+      "shows": "014:ย17 「…假似你說這般到官，倒也得些狀告是。三藏道：只因…」"
+    }
+  ]
+}
