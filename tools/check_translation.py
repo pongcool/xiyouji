@@ -142,7 +142,8 @@ def check(num, forbidden):
         if re.search(r"\d", stripped):
             warnings.append(f"บรรทัด {lineno}: มีเลขอารบิกในเนื้อเรื่อง (ร้อยแก้วควรเขียนเป็นคำ)")
         for form, correct in forbidden.items():
-            if form in line:
+            # ไม่นับเมื่ออยู่หลังสระหน้า เช่น 'ต้าหยวน' ใน 'จางเต้าหยวน' (張道源)
+            if re.search(r"(?<![เแโใไ])" + re.escape(form), line):
                 errors.append(f"บรรทัด {lineno}: ใช้ '{form}' ซึ่งศัพท์กลางห้ามใช้ (ใช้ '{correct}')")
 
     # เชิงอรรถ
