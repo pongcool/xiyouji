@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "pdf_size_bytes": 1639462509,
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no OCR, generative restoration, contrast adjustment or sharpening",
+  "images": [
+    {
+      "file": "pdf242-sutra.png",
+      "pdf_page": 242,
+      "clip_pdf_points": [
+        105.0,
+        330.0,
+        200.0,
+        690.0
+      ],
+      "scale": 2.5,
+      "sha256": "c0dcc69d3ea45a95e640d82f2663c90330d40a26564564fcd7b9f3871379cd75",
+      "reading": "left page, two columns: ...乃至無意識界無無明亦無無明盡乃 / 至無老死亦無老死盡無苦集滅道無智亦無得以無所得"
+    }
+  ]
+}
