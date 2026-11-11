@@ -1,0 +1,68 @@
+{
+  "pdf": "sources\\新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "pdf_size_bytes": 1639462509,
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no OCR, generative restoration, contrast adjustment or sharpening",
+  "images": [
+    {
+      "file": "pdf170-014-mantra.png",
+      "pdf_page": 170,
+      "clip_pdf_points": [
+        185,
+        100,
+        212,
+        330
+      ],
+      "scale": 5,
+      "sha256": "c99fbc00bf920e14044af7d0da874494204b7a25de63a20b5d8dc3c1d904f895"
+    },
+    {
+      "file": "pdf762-059-shoes.png",
+      "pdf_page": 762,
+      "clip_pdf_points": [
+        0,
+        110,
+        381,
+        700
+      ],
+      "scale": 2.2,
+      "sha256": "d1d4e3395b8a9410e28a862efea1b49e07b620644f7a59cf8af9691dcab7234a"
+    },
+    {
+      "file": "pdf785-060-fan-spell.png",
+      "pdf_page": 785,
+      "clip_pdf_points": [
+        0,
+        150,
+        381,
+        700
+      ],
+      "scale": 2.2,
+      "sha256": "fae602aeb0aabd3a17a515c3bd9835cac0384e5cf2b7670e7aa9aa2370aa4fcf"
+    },
+    {
+      "file": "pdf1137-087-thunder.png",
+      "pdf_page": 1137,
+      "clip_pdf_points": [
+        0,
+        110,
+        80,
+        705
+      ],
+      "scale": 4,
+      "sha256": "9b8354307de739b9f783621c91041ce420f25b19cdb50528ca3b83a24e410c06"
+    },
+    {
+      "file": "pdf1157-089-mouth.png",
+      "pdf_page": 1157,
+      "clip_pdf_points": [
+        655,
+        120,
+        690,
+        260
+      ],
+      "scale": 6,
+      "sha256": "eedf7c914a9163428c5bb662d5a6b3de90979d88c2a0162a3dd219d02f253596"
+    }
+  ]
+}
