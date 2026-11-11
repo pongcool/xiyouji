@@ -1,0 +1,47 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "pdf_size_bytes": 1639462509,
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no OCR, generative restoration, contrast adjustment or sharpening",
+  "images": [
+    {
+      "file": "pdf350-benba.png",
+      "pdf_page": 350,
+      "clip_pdf_points": [
+        393.7,
+        86.1,
+        488.2,
+        681.5
+      ],
+      "scale": 2.6,
+      "sha256": "14ec314f2fafcb687e973a55b472eaa92aa3f80a63452608df3655d5e3973f46",
+      "reading": "028:ย3 「還有馬流二元帥奔巴二將軍」 and 「那馬流奔巴聞報」 (file 崩、芭 / 奔、芭)"
+    },
+    {
+      "file": "pdf359-qushi.png",
+      "pdf_page": 359,
+      "clip_pdf_points": [
+        173.2,
+        285.5,
+        314.9,
+        678.1
+      ],
+      "scale": 2.6,
+      "sha256": "232fa5ebda87139efba27cba008c96a3e67a221120fc4af34c82364435aa996f",
+      "reading": "028:ย23 「裹肚襯腰磲石帶」 seven chars (file 「裹肚襯腰石帶」 six; wikisource 磲)"
+    },
+    {
+      "file": "pdf348-youyu.png",
+      "pdf_page": 348,
+      "clip_pdf_points": [
+        0.0,
+        106.8,
+        380.9,
+        676.7
+      ],
+      "scale": 1.6,
+      "sha256": "783db277c13e59b8a0cca8022ff342f08beed3d44da5e1ec9207314cb9486d66",
+      "reading": "028:ย1 「海底遊魚樂」 (file 遊游; wikisource 遊魚)"
+    }
+  ]
+}
