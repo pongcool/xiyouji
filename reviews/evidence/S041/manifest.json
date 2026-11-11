@@ -1,0 +1,60 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "purpose": "Claude translation of chapter 031, 2026-11-11; selected doubtful phrases only (X025)",
+  "transform": "render/crop only; no OCR or image enhancement",
+  "images": [
+    {
+      "file": "pdf388-ruoxiao.png",
+      "pdf_page": 388,
+      "clip_pdf_points": [
+        0,
+        60,
+        330,
+        700
+      ],
+      "scale": 1.6,
+      "sha256": "5543216805999917fbb2ead806e7b13b013a8913ededffe2a1571de0f0499841",
+      "reading": "031:ย3 「若囂我老孫身回水簾洞」 (file 者囂); 「告誦我」 (file 告訢)"
+    },
+    {
+      "file": "pdf392-xinren.png",
+      "pdf_page": 392,
+      "clip_pdf_points": [
+        0,
+        60,
+        400,
+        700
+      ],
+      "scale": 1.6,
+      "sha256": "c4c0de72cb92058d312a775992a21b2152091d44b492a69a2d7b27992b252ab1",
+      "reading": "031:ย10 「都美嘴施展」 (file 都弄嘴施展); ย11 「沙兄弟心忍心忍沙僧見身道」 same as file"
+    },
+    {
+      "file": "pdf393-routuo.png",
+      "pdf_page": 393,
+      "clip_pdf_points": [
+        400,
+        60,
+        796,
+        700
+      ],
+      "scale": 1.6,
+      "sha256": "8df363f40cc625ed02fd9840fa8941c39f6dee94c66e0d97014b713210048406",
+      "reading": "031:ย11 「摜做个肉胣子」 (glyph 月+它; file 肉𦚐子); rest of ย11 same as file"
+    },
+    {
+      "file": "pdf393-liujing.png",
+      "pdf_page": 393,
+      "clip_pdf_points": [
+        230,
+        60,
+        400,
+        700
+      ],
+      "scale": 1.6,
+      "sha256": "1eb2a5e783307f061536328075fb380c636f814028dff4f42d03f6c7da05c22c",
+      "reading": "031:ย12 「與他柳々驚是」 same as file 柳柳驚"
+    }
+  ]
+}
