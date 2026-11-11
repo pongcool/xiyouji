@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "pdf_size_bytes": 1639462509,
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no OCR, generative restoration, contrast adjustment or sharpening",
+  "images": [
+    {
+      "file": "pdf263-wind.png",
+      "pdf_page": 263,
+      "clip_pdf_points": [
+        690.0,
+        110.0,
+        765.0,
+        680.0
+      ],
+      "scale": 2.5,
+      "sha256": "1f2e22a6d0529b29fd1b36d8aac9a99aa5269249cd98f618d623ef26eafef6c9",
+      "reading": "right page, first two columns: 害他那風比不得甚麼春秋風松竹風與那東西南北風。八戒笑道想必是甲惱風羊耳風大麻風偏正頭風。長者道不是不是他叫做三昧神風 — no …… between 東西南北風 and 八戒"
+    }
+  ]
+}
