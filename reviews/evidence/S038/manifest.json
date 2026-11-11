@@ -42,6 +42,19 @@
       "scale": 1.6,
       "sha256": "783db277c13e59b8a0cca8022ff342f08beed3d44da5e1ec9207314cb9486d66",
       "reading": "028:ย1 「海底遊魚樂」 (file 遊游; wikisource 遊魚)"
+    },
+    {
+      "file": "pdf349-poem-review.png",
+      "pdf_page": 349,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        766.3200073242188,
+        715.6799926757812
+      ],
+      "scale": 1.3,
+      "sha256": "409733c5f8dab55714a8d615d3ced60a40e28336776f7307d5efaf0f75cf0da2",
+      "reading": "Codex independent review 2026-11-11: 028:ย1 行兇掘你先靈墓，無干破爾祖墳基; wording agrees with chapters/028.md. Preserved for interpretation review, not a newly discovered source variant."
     }
   ]
 }
