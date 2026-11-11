@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "purpose": "Claude translation of chapter 033, 2026-11-11; selected doubtful phrases only (X025)",
+  "transform": "render/crop only; no OCR or image enhancement",
+  "images": [
+    {
+      "file": "pdf418-xifang.png",
+      "pdf_page": 418,
+      "clip_pdf_points": [
+        560,
+        60,
+        796,
+        700
+      ],
+      "scale": 1.6,
+      "sha256": "8952c0108f070c5cd0eb5270aca7473807ae4602f98b3d3380e659812b4ba601",
+      "reading": "033:ย5 「他獨跳下山來在那西方之傍搖身一變」 (file 道路之傍); poem 「說甚麼清牛道士 也強如素券先生」 same as file"
+    }
+  ]
+}
