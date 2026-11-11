@@ -1,0 +1,60 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "pdf_size_bytes": 1639462509,
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no OCR, generative restoration, contrast adjustment or sharpening",
+  "images": [
+    {
+      "file": "pdf310-yaosu.png",
+      "pdf_page": 310,
+      "clip_pdf_points": [
+        566.4,
+        108.4,
+        629.4,
+        686.7
+      ],
+      "scale": 2.6,
+      "sha256": "fcfc6794dd1a418157e66da93181de671a4d8475f2627433fc3fc4abaface03c",
+      "reading": "025:ya3 「明月腰酥打骸?」 last char 扌-radical form (file/wikisource 垢); same sense, kept"
+    },
+    {
+      "file": "pdf313-lock.png",
+      "pdf_page": 313,
+      "clip_pdf_points": [
+        410.6,
+        399.0,
+        489.6,
+        689.2
+      ],
+      "scale": 2.6,
+      "sha256": "327674d595e45b97d703ad32baf194539e168227fef7d6cbb076b727122a7a3d",
+      "reading": "025:ya8 「幾層門雙?俱落」 char after 雙 damaged/unreadable (file 錤, wikisource 鐄)"
+    },
+    {
+      "file": "pdf314-kua.png",
+      "pdf_page": 314,
+      "clip_pdf_points": [
+        0.0,
+        107.1,
+        95.2,
+        678.1
+      ],
+      "scale": 2.4,
+      "sha256": "d757da48a0b321e0ad979c0e59a319a93909f3bdf7676ba3956cffeeb7d66d2a",
+      "reading": "025:ya11 「出神的手段。苦阿。二童子說到此處」 no …… (file/wikisource have ……)"
+    },
+    {
+      "file": "pdf316-dalian.png",
+      "pdf_page": 316,
+      "clip_pdf_points": [
+        434.4,
+        284.2,
+        568.7,
+        674.9
+      ],
+      "scale": 2.4,
+      "sha256": "c794f45e9807712926caae57a9c63336f33ebeed00d022886302f17ec44ae779",
+      "reading": "025:ya15 「行者道獃子不是䌋縺我們被他籠在衣袖中哩」 two chars 䌋縺 (file has 縺 only, both places)"
+    }
+  ]
+}
