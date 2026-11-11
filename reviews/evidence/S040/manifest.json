@@ -1,0 +1,99 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "purpose": "Codex independent review 029–030, 2026-11-11; selected doubtful phrases only; not a full scan collation",
+  "transform": "render/crop only; no OCR or image enhancement",
+  "images": [
+    {
+      "file": "pdf362-vow.png",
+      "pdf_page": 362,
+      "clip_pdf_points": [
+        400,
+        100,
+        795,
+        700
+      ],
+      "scale": 2,
+      "sha256": "898661fdfd0851b805a00aab9584ac8bf84d73de8cd3564e7f0cf5cc7589e94d",
+      "reading": "029:ย5 對人暗許下一樁心願"
+    },
+    {
+      "file": "pdf366-letter.png",
+      "pdf_page": 366,
+      "clip_pdf_points": [
+        0,
+        110,
+        390,
+        700
+      ],
+      "scale": 2,
+      "sha256": "c366d8e5aab4bc413326fc747876b9111388523f449b95e96c4918a841ffbd82",
+      "reading": "029:ย11 難分難辨"
+    },
+    {
+      "file": "pdf367-message.png",
+      "pdf_page": 367,
+      "clip_pdf_points": [
+        0,
+        350,
+        390,
+        700
+      ],
+      "scale": 2,
+      "sha256": "d617305848889e1b38b34f526a5eba5723f11900300773ba4861f0e21b7252e3",
+      "reading": "029:ย15 你還不教下書哩"
+    },
+    {
+      "file": "pdf371-combat.png",
+      "pdf_page": 371,
+      "clip_pdf_points": [
+        0,
+        120,
+        395,
+        700
+      ],
+      "scale": 2,
+      "sha256": "88a423316c127c31d1a29bf67d2da58fb1a56bd14d47c2832cde0658c38f3a1e",
+      "reading": "029:ย22 來來往往甚消停 / 你羅閑事報不平"
+    },
+    {
+      "file": "pdf373-apology.png",
+      "pdf_page": 373,
+      "clip_pdf_points": [
+        0,
+        100,
+        390,
+        700
+      ],
+      "scale": 2,
+      "sha256": "1b2e05b0ff6fa120876405f055f1e6b5ef247040eafa8c89b0cb11b31516427e",
+      "reading": "030:ย4 見他錯敬"
+    },
+    {
+      "file": "pdf379-flourish.png",
+      "pdf_page": 379,
+      "clip_pdf_points": [
+        0,
+        100,
+        395,
+        700
+      ],
+      "scale": 2,
+      "sha256": "4defcc8b3cd030ee77679f35f6b5ab565d408a353b5c3fff7087bfcf61d56bd2",
+      "reading": "030:ย19 小龍丟了花字"
+    },
+    {
+      "file": "pdf380-verse.png",
+      "pdf_page": 380,
+      "clip_pdf_points": [
+        0,
+        100,
+        395,
+        700
+      ],
+      "scale": 2,
+      "sha256": "0754a24e1e8046283b2c3c4eeba84c0ef4aa272ff20b7eb909c1796524e503d8",
+      "reading": "030:ย21 黃婆傷損通分別"
+    }
+  ]
+}
