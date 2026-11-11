@@ -16,6 +16,32 @@
       "scale": 1.6,
       "sha256": "731e031a1ea0ca0228189fc1bad6d36cc3e3d93becec7b1e94ace18325547803",
       "reading": "right page: 024:ya18 「荼蘼架映着牡丹亭」 (3 chars before 映, file has 荼架); 024:ya19 vegetable verse line 2 「筍藷瓜瓠茭白」 six chars (file 筍瓜瓠茭白, wikisource 筍薯瓜瓠茭白)"
+    },
+    {
+      "file": "pdf301-aisheng-codex.png",
+      "pdf_page": 301,
+      "clip_pdf_points": [
+        180,
+        100,
+        225,
+        500
+      ],
+      "scale": 3.5,
+      "sha256": "f64f1288b9bbb6864eb34d0a1ced71c194ceea9d4e7ab8a0ff653cf8792dfecf",
+      "reading": "024:ย14 西方愛聖臨凡; same 愛聖 as chapter and local Wikisource; checked by Codex 2026-11-11"
+    },
+    {
+      "file": "pdf302-green-cloth-codex.png",
+      "pdf_page": 302,
+      "clip_pdf_points": [
+        382,
+        100,
+        764,
+        690
+      ],
+      "scale": 1.8,
+      "sha256": "4ba547dc0318571726cf69e67d09b6ce16ab8825d313d8017ec04f9e8573baf7",
+      "reading": "024:ย15 又多將綠帕墊著盤底; no count of cloths; checked by Codex 2026-11-11"
     }
   ]
 }
