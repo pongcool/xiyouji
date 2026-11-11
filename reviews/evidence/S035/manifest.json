@@ -55,6 +55,14 @@
       "scale": 2.4,
       "sha256": "c794f45e9807712926caae57a9c63336f33ebeed00d022886302f17ec44ae779",
       "reading": "025:ya15 「行者道獃子不是䌋縺我們被他籠在衣袖中哩」 two chars 䌋縺 (file has 縺 only, both places)"
+    },
+    {
+      "file": "pdf320-cloak-codex.png",
+      "pdf_page": 320,
+      "clip_pdf_points": null,
+      "scale": 1.6,
+      "sha256": "46dcaba0c036bd859c19d7b53a3ff4439aabcb5218d38db433bf94403de20033",
+      "reading": "025:ย24 做中袖 / 做个一口中; same as chapter, name of cloak checked against MOE dictionary by Codex 2026-11-11"
     }
   ]
 }
