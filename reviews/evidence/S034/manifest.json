@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "pdf_size_bytes": 1639462509,
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no OCR, generative restoration, contrast adjustment or sharpening",
+  "images": [
+    {
+      "file": "pdf305-garden-veg.png",
+      "pdf_page": 305,
+      "clip_pdf_points": [
+        387.8,
+        71.2,
+        760.2,
+        676.5
+      ],
+      "scale": 1.6,
+      "sha256": "731e031a1ea0ca0228189fc1bad6d36cc3e3d93becec7b1e94ace18325547803",
+      "reading": "right page: 024:ya18 「荼蘼架映着牡丹亭」 (3 chars before 映, file has 荼架); 024:ya19 vegetable verse line 2 「筍藷瓜瓠茭白」 six chars (file 筍瓜瓠茭白, wikisource 筍薯瓜瓠茭白)"
+    }
+  ]
+}
