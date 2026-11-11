@@ -1,0 +1,47 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "purpose": "Claude translation of chapter 032, 2026-11-11; selected doubtful phrases only (X025)",
+  "transform": "render/crop only; no OCR or image enhancement",
+  "images": [
+    {
+      "file": "pdf403-yinzhuo.png",
+      "pdf_page": 403,
+      "clip_pdf_points": [
+        400,
+        60,
+        796,
+        700
+      ],
+      "scale": 1.6,
+      "sha256": "a0a0746b3be1571315804ac70329005e0bfb092e60a58465f0d5ea031ee2d947",
+      "reading": "032:ย3 「放轡催銀濁兜韁趲玉龍」 same as file (銀濁)"
+    },
+    {
+      "file": "pdf410-chongyi.png",
+      "pdf_page": 410,
+      "clip_pdf_points": [
+        400,
+        60,
+        796,
+        700
+      ],
+      "scale": 1.6,
+      "sha256": "95a11744ba7d2209e78433a86ab23534e1a12fef3927de02f79d32a4098c1bfa",
+      "reading": "032:ย17 「這虫鷖不大不小的」 same as file (蟲鷖)"
+    },
+    {
+      "file": "pdf415-no-ellipsis.png",
+      "pdf_page": 415,
+      "clip_pdf_points": [
+        560,
+        60,
+        796,
+        700
+      ],
+      "scale": 1.6,
+      "sha256": "41a227006821d4cf1ff8f8bec870357468bcbd68b220a1dc72e7472af9882c73",
+      "reading": "032:ย25 「這毛臉的是孫行者。八戒聽見道」 no …… (file/wikisource 「孫行者。……」)"
+    }
+  ]
+}
