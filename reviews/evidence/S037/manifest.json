@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "pdf_size_bytes": 1639462509,
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no OCR, generative restoration, contrast adjustment or sharpening",
+  "images": [
+    {
+      "file": "pdf324-guangpi.png",
+      "pdf_page": 324,
+      "clip_pdf_points": [
+        523.0,
+        84.8,
+        634.0,
+        649.8
+      ],
+      "scale": 2.6,
+      "sha256": "7f25b4aecd699743c6559c2c90edabc110be85f48b81a3732d9a769e8269d407",
+      "reading": "026:ย3 「他美个光皮散兒好看若著求醫治樹」 (file/wikisource 弄個 / 者著); 「當面人情鬼」 glyph same as 甚麼鬼 in same column"
+    }
+  ]
+}
