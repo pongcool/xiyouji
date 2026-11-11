@@ -1,0 +1,92 @@
+{
+  "pdf": "sources\\新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no restoration or enhancement",
+  "review": "Independent review 034–035; source observations recorded in reviews only, central documents unchanged",
+  "images": [
+    {
+      "file": "pdf431-034-hurry.png",
+      "pdf_page": 431,
+      "clip_pdf_points": [
+        0,
+        105,
+        380,
+        700
+      ],
+      "scale": 2,
+      "sha256": "647e30a883f2091c5d8a13b50069380f5ae5bf1ae45d738812da698a0f723d9c"
+    },
+    {
+      "file": "pdf432-034-yang.png",
+      "pdf_page": 432,
+      "clip_pdf_points": [
+        0,
+        100,
+        380,
+        700
+      ],
+      "scale": 2,
+      "sha256": "a4bb199659ca085ee239a0ac2bfd8cce67f686f2e8b8d0bbc3e0da1597a87720"
+    },
+    {
+      "file": "pdf433-034-cover-face.png",
+      "pdf_page": 433,
+      "clip_pdf_points": [
+        380,
+        100,
+        770,
+        700
+      ],
+      "scale": 2,
+      "sha256": "934b3034cb71014a03565ce01fd0d258e11d353b41acb33550a63df48b1e1091"
+    },
+    {
+      "file": "pdf438-034-distance.png",
+      "pdf_page": 438,
+      "clip_pdf_points": [
+        380,
+        100,
+        770,
+        700
+      ],
+      "scale": 2,
+      "sha256": "04b141e9d85b21be9d8a998d1c5685a9defa5031909ce587e2aff46ccd2c69a5"
+    },
+    {
+      "file": "pdf443-035-years.png",
+      "pdf_page": 443,
+      "clip_pdf_points": [
+        380,
+        100,
+        770,
+        700
+      ],
+      "scale": 2,
+      "sha256": "524d9581fbaabc4fde2bcb9c64147ef0ca67c119a9205f301a787b241c5db960"
+    },
+    {
+      "file": "pdf445-035-divination.png",
+      "pdf_page": 445,
+      "clip_pdf_points": [
+        0,
+        100,
+        380,
+        700
+      ],
+      "scale": 2,
+      "sha256": "bf3146143f73f4ee3db5a16d817b2428a01fa1a2e1c9f4b4056831a1418bcb27"
+    },
+    {
+      "file": "pdf447-035-steaming.png",
+      "pdf_page": 447,
+      "clip_pdf_points": [
+        380,
+        100,
+        770,
+        700
+      ],
+      "scale": 2,
+      "sha256": "140a4df6b8a13e268bae00e2c3e7b3dc469d31d366e550a649ebfa101343463b"
+    }
+  ]
+}
