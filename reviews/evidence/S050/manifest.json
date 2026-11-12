@@ -1,0 +1,32 @@
+{
+  "pdf": "sources\\新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no restoration or enhancement",
+  "review": "Claude translation 042, 2026-11-12; p543 kept to show faint turtle poem (not legible enough to confirm 號幫泥/曾元卜/庭臺)",
+  "images": [
+    {
+      "file": "p546-lian.png",
+      "pdf_page": 546,
+      "clip_pdf_points": [
+        40,
+        330,
+        180,
+        520
+      ],
+      "scale": 5,
+      "sha256": "06142c27baf12d902e32ac4bea2804aee0c7ebd791396c76899427d63f00e422"
+    },
+    {
+      "file": "p543-turtle-poem.png",
+      "pdf_page": 543,
+      "clip_pdf_points": [
+        60,
+        170,
+        250,
+        680
+      ],
+      "scale": 3,
+      "sha256": "c960b486e5dcfd22da06f149072a8192a708e225178e940f14ffe6f28c3efb24"
+    }
+  ]
+}
