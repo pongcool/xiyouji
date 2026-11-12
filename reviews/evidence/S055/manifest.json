@@ -1,0 +1,11 @@
+{
+  "pdf": "sources\新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no restoration or enhancement",
+  "review": "Claude translation 047, 2026-11-12",
+  "images": [
+    {"file": "p609-right-fisher-stele.png", "pdf_page": 609, "clip_pdf_points": [385.0, 50.0, 775.0, 690.0], "scale": 1.6, "sha256": "687914bcec947e4543cda3d6075a245fe39a3cbde941f75f8ed327e486b65535", "shows": "047:ย7 想是扳罾的漁人; 亘古少人行; ย8 傍岸臨溪 此時入夜 處處柴扉掩"},
+    {"file": "p609-right-zoom-cishi-ruye.png", "pdf_page": 609, "clip_pdf_points": [385.0, 50.0, 470.0, 690.0], "scale": 3.0, "sha256": "68a633d9e8b4319e07b3f449952ef3d686524c865dab021d41e46a0cf0bbb597", "shows": "047:ย8 此時入夜 and small glyph like 矣 beside 臨溪"},
+    {"file": "p609-left-village-description.png", "pdf_page": 609, "clip_pdf_points": [0.0, 50.0, 390.0, 690.0], "scale": 1.6, "sha256": "ae202307f5cf579e767e30c15d911f44eedcb1215c269126013e369c4324f993", "shows": "047:ย8 柳外啼鵑; 家家竹院関"}
+  ]
+}
