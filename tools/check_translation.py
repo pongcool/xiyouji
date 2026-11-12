@@ -8,6 +8,7 @@
 - ป้ายย่อหน้า <!-- ยN --> ครบ ไม่ซ้ำ เรียงลำดับ และมีเนื้อความตามหลัง (ข้อยุติ X003)
 - อักษรจีนหลงในเนื้อเรื่อง, [TODO], เชิงอรรถไม่ครบคู่หรือผิดรหัส
 - รูปในคอลัมน์ "รูปที่ไม่ใช้ปะปน" ของ GLOSSARY.md
+- ตารางในเอกสารสะสม (GLOSSARY, CHARACTERS, WORLD, PROGRESS, docs/SOURCE_ISSUES): ตารางขาดหัว (ผิด) และแถวจำนวนคอลัมน์ไม่ตรงหัว (เตือน)
 - คำเตือน: เลขอารบิกในเนื้อเรื่อง, เครื่องหมายคำพูดไม่ครบคู่, จำนวนสูตรการเล่าน้อยกว่าต้นฉบับ
 
 ผ่านสคริปต์นี้ไม่ได้แปลว่าตรวจความหมายแล้ว ต้องตรวจตาม TRANSLATION_GUIDE.md ต่อ
@@ -187,6 +188,41 @@ def check(num, forbidden):
     return errors, warnings
 
 
+CUMULATIVE_FILES = ["GLOSSARY.md", "CHARACTERS.md", "WORLD.md", "PROGRESS.md", "docs/SOURCE_ISSUES.md"]
+TABLE_SEP = re.compile(r"^\|(\s*:?-{3,}:?\s*\|)+\s*$")
+
+
+def table_cols(line):
+    return len(re.split(r"(?<!\\)\|", line.strip().strip("|")))
+
+
+def check_cumulative_tables():
+    """ผิด: ตารางขาดหัว (แถวต่อท้ายไปตกหลังข้อความอื่น); เตือน: แถวจำนวนคอลัมน์ไม่ตรงหัว (เซลล์เกินถูกตัดเมื่อแสดงผล หรือแถวผิดตาราง)"""
+    errors, warnings = [], []
+    for name in CUMULATIVE_FILES:
+        path = ROOT / name
+        if not path.exists():
+            continue
+        lines = path.read_text(encoding="utf-8").splitlines()
+        i = 0
+        while i < len(lines):
+            if not lines[i].startswith("|"):
+                i += 1
+                continue
+            start = i
+            while i < len(lines) and lines[i].startswith("|"):
+                i += 1
+            block = lines[start:i]
+            if len(block) < 2 or not TABLE_SEP.match(block[1]):
+                errors.append(f"{name} บรรทัด {start + 1}: แถวตารางไม่มีหัวตาราง (ตารางขาดตอน)")
+                continue
+            want = table_cols(block[0])
+            bad = [start + 3 + k for k, row in enumerate(block[2:]) if table_cols(row) != want]
+            if bad:
+                warnings.append(f"{name}: แถวจำนวนคอลัมน์ไม่ตรงหัวตารางบรรทัด {start + 1} ({want} คอลัมน์): บรรทัด {compact(bad)}")
+    return errors, warnings
+
+
 def compact(nums):
     if len(nums) > 15:
         return ", ".join(map(str, nums[:15])) + f" … (รวม {len(nums)})"
@@ -218,6 +254,14 @@ def main():
         for w in warnings:
             print(f"  เตือน: {w}")
         failed |= bool(errors)
+    table_errors, table_warnings = check_cumulative_tables()
+    status = "ไม่ผ่าน" if table_errors else "ผ่าน"
+    print(f"== ตารางเอกสารสะสม: {status} (ผิด {len(table_errors)}, เตือน {len(table_warnings)})")
+    for e in table_errors:
+        print(f"  ผิด: {e}")
+    for w in table_warnings:
+        print(f"  เตือน: {w}")
+    failed |= bool(table_errors)
     sys.exit(1 if failed else 0)
 
 
