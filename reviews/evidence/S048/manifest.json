@@ -1,0 +1,56 @@
+{
+  "pdf": "sources\\新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no restoration or enhancement",
+  "review": "Codex independent review 039–040, 2026-11-12; S048 proposed source-issue entry requested in R040-C4; central document unchanged",
+  "images": [
+    {
+      "file": "p498-detail.png",
+      "pdf_page": 498,
+      "clip_pdf_points": [
+        0,
+        130,
+        380,
+        600
+      ],
+      "scale": 2,
+      "sha256": "f3d40f81eefbb707c22cd212f17ea54f75ceeacfabdfb8a5a3cec5f12b03994e"
+    },
+    {
+      "file": "p516-glance.png",
+      "pdf_page": 516,
+      "clip_pdf_points": [
+        0,
+        120,
+        180,
+        610
+      ],
+      "scale": 2,
+      "sha256": "52be50106c598119d82953044523d54a8daeaa7b5677849012e9d14f572455ef"
+    },
+    {
+      "file": "p517-poem2.png",
+      "pdf_page": 517,
+      "clip_pdf_points": [
+        210,
+        120,
+        380,
+        610
+      ],
+      "scale": 2,
+      "sha256": "6bcd4169cb8c645f27d51fcd9f622349e83ea22bc0800548b518cd73913c7c8e"
+    },
+    {
+      "file": "p518-wind.png",
+      "pdf_page": 518,
+      "clip_pdf_points": [
+        380,
+        120,
+        670,
+        620
+      ],
+      "scale": 2,
+      "sha256": "501186f93388c899ca7e2ecdadc3884ef1f95f0865eb9725c8779563aa8a40d0"
+    }
+  ]
+}
