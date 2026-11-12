@@ -1,0 +1,10 @@
+{
+  "pdf": "sources\新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no restoration or enhancement",
+  "review": "Claude translation 046, 2026-11-12",
+  "images": [
+    {"file": "p605-right-dragon-king.png", "pdf_page": 605, "clip_pdf_points": [390.0, 50.0, 775.0, 690.0], "scale": 1.6, "sha256": "cb5e51612437cfb3d35cbbdc404d32f26d6eb5e3a233c49f2e0903abe78880e2", "shows": "046:ย38 其餘都躧了傍門; 管教他骨碎皮焦顯甚麼手段"},
+    {"file": "p605-left-closing-poem.png", "pdf_page": 605, "clip_pdf_points": [0.0, 50.0, 390.0, 690.0], "scale": 1.6, "sha256": "ba6c00145c058b4f7c080ee7dc95c4cb815757ef2c8ea9a9259d907bc780e616", "shows": "046:ย40 何如秘食穩居山; end of 046 and title of 047"}
+  ]
+}
