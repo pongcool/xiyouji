@@ -1,0 +1,60 @@
+{
+ "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+ "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+ "transform": "render/crop only; no restoration or enhancement",
+ "review": "Claude translation 049, 2026-11-12",
+ "images": [
+  {
+   "file": "p639-right-ziyou-daoli.png",
+   "pdf_page": 639,
+   "clip_pdf_points": [
+    510.0,
+    50.0,
+    560.0,
+    690.0
+   ],
+   "scale": 3.0,
+   "sha256": "107a731fef82a908413a130579490664125e8ce7c3557c372f131f5c645aaf0c",
+   "shows": "049:ย20 待菩薩出來。自有道理 (ไฟล์ไม่มี 自有道理)"
+  },
+  {
+   "file": "p639-left-poem.png",
+   "pdf_page": 639,
+   "clip_pdf_points": [
+    150.0,
+    120.0,
+    305.0,
+    690.0
+   ],
+   "scale": 3.0,
+   "sha256": "4884441c5365d955385dd7566ba75f69d4e8dfabbfc1cb2e64dd92f642abbe37",
+   "shows": "049:ย22 性急能鵲薄; 諸天畱不停; 要往裡邊躍"
+  },
+  {
+   "file": "p642-right-jiuzhu.png",
+   "pdf_page": 642,
+   "clip_pdf_points": [
+    400.0,
+    340.0,
+    470.0,
+    480.0
+   ],
+   "scale": 4.0,
+   "sha256": "c1b2250e7321541ba60ef29bf5a124b6ed8fa2d9d1417e5c82d18fbfcced8f78",
+   "shows": "049:ย29 九助靈機號水仙 (ตรงไฟล์)"
+  },
+  {
+   "file": "p635-left-xunjin.png",
+   "pdf_page": 635,
+   "clip_pdf_points": [
+    0.0,
+    50.0,
+    390.0,
+    690.0
+   ],
+   "scale": 1.6,
+   "sha256": "120191ec8fa8b023db65ca42855c3deee61cde91eeb9453b2469909946623cec",
+   "shows": "049:ย9–ย10 遜金粧來似蟒形 (ตรงไฟล์)"
+  }
+ ]
+}
