@@ -1,0 +1,47 @@
+{
+ "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+ "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+ "transform": "render/crop only; no restoration or enhancement",
+ "review": "Claude translation 050, 2026-11-12",
+ "images": [
+  {
+   "file": "p653-right-jindou.png",
+   "pdf_page": 653,
+   "clip_pdf_points": [
+    410.0,
+    120.0,
+    580.0,
+    700.0
+   ],
+   "scale": 2.5,
+   "sha256": "fa33b579251de0dd7fe15c240cd3005c104d8b541d3a4169415c63d4d133a93d",
+   "shows": "050:ย19 這座山叫做金⿰山兜山、前有个金⿰山兜洞 (ไฟล์ตก ⿰山兜 เป็น 金山/金洞)"
+  },
+  {
+   "file": "p645-right-mountain.png",
+   "pdf_page": 645,
+   "clip_pdf_points": [
+    400.0,
+    50.0,
+    791.0,
+    700.0
+   ],
+   "scale": 1.6,
+   "sha256": "95caf44fa16e0ee4f9780ac0c0a61f86fae9011554a95316605820af1b78be76",
+   "shows": "050:ย3 奕削巍巍礙碧空 (ไฟล์ 變削)"
+  },
+  {
+   "file": "p648-right-zhai.png",
+   "pdf_page": 648,
+   "clip_pdf_points": [
+    400.0,
+    50.0,
+    791.0,
+    700.0
+   ],
+   "scale": 1.6,
+   "sha256": "a06649f1e159dad4bd6b0ce25e9723c99a68f60c2f76784cbd80659d4ee7dbe1",
+   "shows": "050:ย7 (ต่อจากหน้า 647 「還」) 要趕去作午齋哩 ไม่มี 尚; หน้า 647 ซ้าย 「還不尚一盞熱茶之時」"
+  }
+ ]
+}
