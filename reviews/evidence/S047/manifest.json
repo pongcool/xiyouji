@@ -1,0 +1,32 @@
+{
+  "pdf": "sources\\新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no restoration or enhancement",
+  "review": "Claude translation 040 (S047): title 刀歸 and 「這等這等……」",
+  "images": [
+    {
+      "file": "pdf509-040-title.png",
+      "pdf_page": 509,
+      "clip_pdf_points": [
+        395,
+        120,
+        520,
+        700
+      ],
+      "scale": 2.5,
+      "sha256": "3658232887aee9cb266b7f06cf6105b52121708b3b486fe37483796aa3f5f248"
+    },
+    {
+      "file": "pdf515-040-zhedeng.png",
+      "pdf_page": 515,
+      "clip_pdf_points": [
+        381,
+        80,
+        762.48,
+        500
+      ],
+      "scale": 2,
+      "sha256": "36afcbdd48e04a3e8e51faa091803daea25b29b24d340e5ad44f0ba974a86152"
+    }
+  ]
+}
