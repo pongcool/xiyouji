@@ -1,0 +1,21 @@
+{
+  "pdf": "sources\\新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no restoration or enhancement",
+  "review": "Claude source check for XO002/S003 (chapter 047 title), 2026-11-12",
+  "images": [
+    {
+      "file": "p605-title.png",
+      "pdf_page": 605,
+      "clip_pdf_points": [
+        40,
+        110,
+        140,
+        680
+      ],
+      "scale": 2,
+      "sha256": "d16e9da52bf258754111dd786f0384b8001498596ae1979eec28dfee00ddaab9",
+      "reading": "第四十七回　聖僧夜阻通天水　金木埀慈救小童 (埀 = variant of 垂)"
+    }
+  ]
+}
