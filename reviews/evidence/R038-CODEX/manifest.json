@@ -34,6 +34,19 @@
       "clip_pdf_points": null,
       "scale": 0.9,
       "sha256": "f0c49cff811a89194072bb16b098ad2e5b204fb3d90edbd095556b7f0be78b9c"
+    },
+    {
+      "file": "pdf488-dahan-confirm.png",
+      "pdf_page": 488,
+      "clip_pdf_points": [
+        478,
+        485,
+        525,
+        665
+      ],
+      "scale": 5,
+      "sha256": "c50f9afcce742e493f4df908753fdb0c33238018bf7641c9f6cf384ae099c2f3",
+      "review": "Codex spot-check 2026-11-12: confirms 只情打鼾 (鼻+干); corrects prior reading 打呼"
     }
   ]
 }
