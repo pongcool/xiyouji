@@ -1,0 +1,20 @@
+{
+  "pdf": "sources\\新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no restoration or enhancement",
+  "review": "Translation 038 by Claude 2026-11-12",
+  "images": [
+    {
+      "file": "pdf486-038-budajin.png",
+      "pdf_page": 486,
+      "clip_pdf_points": [
+        660,
+        100,
+        740,
+        560
+      ],
+      "scale": 2,
+      "sha256": "e9a3e76c6114aa3dfdad892b6938c533070d559cca74a4bc787b989e38ac6055"
+    }
+  ]
+}
