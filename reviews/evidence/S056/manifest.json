@@ -1,0 +1,12 @@
+{
+  "pdf": "sources\新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no restoration or enhancement",
+  "review": "Claude translation 048, 2026-11-12",
+  "images": [
+    {"file": "p621-right-pishou-yizhu.png", "pdf_page": 621, "clip_pdf_points": [390.0, 50.0, 784.0, 690.0], "scale": 1.6, "sha256": "b4fc363940682d97b27f3846f2ec64a698a6ba9b1d0b6b217ad311dc9d878580", "shows": "048:ย5 劈手一築。那怪物縮了手"},
+    {"file": "p623-left-snow-description.png", "pdf_page": 623, "clip_pdf_points": [0.0, 50.0, 390.0, 690.0], "scale": 1.6, "sha256": "775b3ea35668107ec40b4503ff0b1f1cb6878bfdd9965ef81ed8588d022937d7", "shows": "048:ย10 萬里青山似玉團; 裁蝶翅; 王恭幣"},
+    {"file": "p623-left-zoom-wanggong.png", "pdf_page": 623, "clip_pdf_points": [250.0, 80.0, 300.0, 380.0], "scale": 4.0, "sha256": "c87cfdb0ea4690fc64ea3615f539f1ceff3f8ce1cbb457e9f8c74910f06b6d14", "shows": "048:ย10 更不見子猷舟王恭幣蘇武餐氈"},
+    {"file": "p629-right-ice-holes.png", "pdf_page": 629, "clip_pdf_points": [390.0, 50.0, 784.0, 690.0], "scale": 1.6, "sha256": "ade1deeca4be33cc8e6927cc7a78dd14447e9beae7c2ec18b7fb9cd94a4d9aa5", "shows": "048:ย24 必有冷眼; 倘或躧着冷眼; 你不曾走過冰冷"}
+  ]
+}
