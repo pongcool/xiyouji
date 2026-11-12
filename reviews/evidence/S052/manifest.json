@@ -1,0 +1,32 @@
+{
+  "pdf": "sources\\新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no restoration or enhancement",
+  "review": "Claude translation 044, 2026-11-12",
+  "images": [
+    {
+      "file": "p565-poem.png",
+      "pdf_page": 565,
+      "clip_pdf_points": [
+        573.7,
+        86.0,
+        741.0,
+        680.6
+      ],
+      "scale": 2.0,
+      "sha256": "40ae3e102d30789711d5b93fb53077d4d591ae0929d638b0dfaa9a91665f9a8f"
+    },
+    {
+      "file": "p571-left-lizhang.png",
+      "pdf_page": 571,
+      "clip_pdf_points": [
+        0.0,
+        57.3,
+        394.6,
+        694.7
+      ],
+      "scale": 1.3,
+      "sha256": "7c6b3a53a0918c4342fa563f09cf352892541e37dbed52df76ab790d69a5d65a"
+    }
+  ]
+}
