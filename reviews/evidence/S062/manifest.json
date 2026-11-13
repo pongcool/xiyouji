@@ -1,0 +1,46 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "transform": "render/crop only; no restoration or enhancement",
+  "review": "Codex independent review 051–053 / 2026-11-13",
+  "status": "S062 proposed for Claude to register in SOURCE_ISSUES; Codex has not edited central documents",
+  "images": [
+    {
+      "file": "p663-challenge.png",
+      "pdf_page": 663,
+      "clip_pdf_points": [
+        0,
+        180,
+        150,
+        510
+      ],
+      "scale": 3,
+      "sha256": "9952e9c3d16441b3e83b5ae9f815b1620efc78b7249beb0c864be7b295a4b4bc",
+      "shows": "051:ย16 สแกน 挑戰; ไฟล์และ wikisource 眺戰"
+    },
+    {
+      "file": "p688-flowers.png",
+      "pdf_page": 688,
+      "clip_pdf_points": null,
+      "scale": 1.5,
+      "sha256": "93311b2ac5c42c8160415dc5e91f96573c82897559313221b985283f5183f3cf",
+      "shows": "053:ย14 幽花擺錦 และบริบทภูเขาเร้นสงัด ตรงไฟล์"
+    },
+    {
+      "file": "p691-nephew.png",
+      "pdf_page": 691,
+      "clip_pdf_points": null,
+      "scale": 1.4,
+      "sha256": "aef143319c0fe9b92801c11025f2271a91f1960e15b0e085f7a8cfbb8167d514",
+      "shows": "053:ย20 那一個為侄亡身不與泉 ตรงไฟล์"
+    },
+    {
+      "file": "p694-master.png",
+      "pdf_page": 694,
+      "clip_pdf_points": null,
+      "scale": 1.6,
+      "sha256": "2d376240a1fe58ebea43568849f3404184a977961cdb819ef49067c62df8b5c0",
+      "shows": "053:ย26 慢他師之心 และ ย27 一處賭安休 ตรงไฟล์"
+    }
+  ]
+}
