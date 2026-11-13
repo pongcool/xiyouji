@@ -1,0 +1,47 @@
+{
+ "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+ "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+ "transform": "render/crop only; no restoration or enhancement",
+ "review": "Claude translation 051, 2026-11-13",
+ "images": [
+  {
+   "file": "p659-right-mansions.png",
+   "pdf_page": 659,
+   "clip_pdf_points": [
+    390.24,
+    0,
+    780.48,
+    713.52
+   ],
+   "scale": 1.6,
+   "sha256": "c12dc7846ea965ca0fbcabab8bf36a12afbb1a22de66dae0b8f7ebbb70f10107",
+   "shows": "051:ย5 二十八宿：東七宿角亢氐房參尾箕西七宿斗牛女虛危室壁南七宿北七宿 ตรงไฟล์ (ไม่ใช่รอยตกของไฟล์)"
+  },
+  {
+   "file": "p664-left-fire.png",
+   "pdf_page": 664,
+   "clip_pdf_points": [
+    0,
+    100,
+    200,
+    690
+   ],
+   "scale": 2.2,
+   "sha256": "c052dba88949de918b957ba29840a5c078c51f091e0048cbc472a32fbb133c6e",
+   "shows": "051:ย18 烘烘ㄑㄑ火風紅 อักษรซ้ำเป็นรูป 火+戊 คล้าย 烕 (ไฟล์ 𤊨); ย19 ตรงไฟล์"
+  },
+  {
+   "file": "p658-right-zhangdaoling.png",
+   "pdf_page": 658,
+   "clip_pdf_points": [
+    390.24,
+    0,
+    780.48,
+    713.52
+   ],
+   "scale": 1.6,
+   "sha256": "aec27c4f27550e244e8a1fd99e7736e9e9bf69cd7fb593403a8773133197f9d8",
+   "shows": "051:ย3 張道齡、葛仙翁、許旌陽、丘弘濟四天師 (ไฟล์ 張道陵); 金⿰山兜山金⿰山兜洞 ตาม S058"
+  }
+ ]
+}
