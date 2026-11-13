@@ -1,0 +1,34 @@
+{
+ "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+ "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+ "transform": "render/crop only; no restoration or enhancement",
+ "review": "Claude translation 055, 2026-11-13",
+ "images": [
+  {
+   "file": "p716-right-night.png",
+   "pdf_page": 716,
+   "clip_pdf_points": [
+    390,
+    80,
+    760,
+    713
+   ],
+   "scale": 1.8,
+   "sha256": "a153c862dfb8ce606dc01ceb7ae163fd6a8f8ba32f6d3dfeac3e198000b577c1",
+   "shows": "055:ย12 唐僧道我的真陽為至寶怎肯輕與你這粉骷髏 ไม่มีจุดละ ……; 我越王因此久埋屍 ตรงไฟล์"
+  },
+  {
+   "file": "p716-zoom-wo-tou.png",
+   "pdf_page": 716,
+   "clip_pdf_points": [
+    560,
+    220,
+    660,
+    300
+   ],
+   "scale": 4,
+   "sha256": "b287d05694c6632a62901764e7f8f1253be10caf89e28b75e33ee4942becea0b",
+   "shows": "055:ย12 คอลัมน์ที่ 4 จากขวา 「那個道我頭作前朝…」 อักษรตัวที่สองหลัง 我 คล้าย 頭 (ไฟล์/wikisource 願); คอลัมน์ข้าง 「我枕剩衾」 และ 「我美若西」"
+  }
+ ]
+}
