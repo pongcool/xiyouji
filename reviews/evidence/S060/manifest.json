@@ -1,0 +1,34 @@
+{
+ "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+ "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+ "transform": "render/crop only; no restoration or enhancement",
+ "review": "Claude translation 052, 2026-11-13",
+ "images": [
+  {
+   "file": "p670-right-title.png",
+   "pdf_page": 670,
+   "clip_pdf_points": [
+    390,
+    0,
+    780,
+    713
+   ],
+   "scale": 1.6,
+   "sha256": "fffc4e943be3ceac5662e88b4771ff5aae9a4912a660647874694efc11482987",
+   "shows": "052 หัวบท 悟空大鬧金⿰山兜洞 (ไฟล์ 金洞)"
+  },
+  {
+   "file": "p671-right-battle.png",
+   "pdf_page": 671,
+   "clip_pdf_points": [
+    390,
+    0,
+    780,
+    713
+   ],
+   "scale": 1.6,
+   "sha256": "f8f17ce644a5b20ad1046630442d2c16c7392485b5e31c920213b07134d84f92",
+   "shows": "052:ย2 四海狼虫盡縮頭 (ไฟล์ 四野狼蟲); 永鎮金⿰山兜稱上籌 (ไฟล์ 金稱)"
+  }
+ ]
+}
