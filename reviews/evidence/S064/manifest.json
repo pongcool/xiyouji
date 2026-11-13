@@ -1,0 +1,34 @@
+{
+ "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+ "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+ "transform": "render/crop only; no restoration or enhancement",
+ "review": "Claude translation 056/058, 2026-11-13",
+ "images": [
+  {
+   "file": "p724-title.png",
+   "pdf_page": 724,
+   "clip_pdf_points": [
+    190,
+    250,
+    260,
+    560
+   ],
+   "scale": 3,
+   "sha256": "8fdda26993799d3cd80d1f3d87b2dbfebe195e492796161b7eb5632694760c2e",
+   "shows": "056 หัวบท 神狂誅草寇 道昧放心猿 (昧 ไม่ใช่ 迷)"
+  },
+  {
+   "file": "p726-right-column.png",
+   "pdf_page": 726,
+   "clip_pdf_points": [
+    680,
+    90,
+    800,
+    714
+   ],
+   "scale": 1.6,
+   "sha256": "638d13d567a335962f77f2fd76dcc8175bd6192a0250cae349d516299acec486",
+   "shows": "056:ย8 攔住路口道和尚那里走諕得个唐僧 (ไฟล์ตก 走)"
+  }
+ ]
+}

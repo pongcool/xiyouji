@@ -1,0 +1,21 @@
+{
+ "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+ "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+ "transform": "render/crop only; no restoration or enhancement",
+ "review": "Claude translation 056/058, 2026-11-13",
+ "images": [
+  {
+   "file": "p753-right-left-columns.png",
+   "pdf_page": 753,
+   "clip_pdf_points": [
+    415,
+    300,
+    560,
+    711
+   ],
+   "scale": 2,
+   "sha256": "7f780fee4cf50a17aa42a435d5d818567f37bbc5518190874a45cd56713b3533",
+   "shows": "058:ย8 只因這个妖精變作臣的模樣如此如彼 ไม่มีจุดละ ……"
+  }
+ ]
+}
