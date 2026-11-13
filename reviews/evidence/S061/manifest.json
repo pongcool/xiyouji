@@ -1,0 +1,21 @@
+{
+ "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+ "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+ "transform": "render/crop only; no restoration or enhancement",
+ "review": "Claude translation 053, 2026-11-13",
+ "images": [
+  {
+   "file": "p690-right-ruyi.png",
+   "pdf_page": 690,
+   "clip_pdf_points": [
+    390,
+    0,
+    780,
+    713
+   ],
+   "scale": 1.6,
+   "sha256": "80fa52f5b5102f2c403ad7f8373199d392d0514fa7167214a9423b72efa4cd58",
+   "shows": "053:ย17 鳳眼光明眉菂竪 (ตรงไฟล์ 眉菂豎); กวีรูปโฉม 如意真仙 ครบเจ็ดคู่"
+  }
+ ]
+}
