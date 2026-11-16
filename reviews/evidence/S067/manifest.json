@@ -1,0 +1,16 @@
+{
+ "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+ "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+ "transform": "render/crop only; no restoration or enhancement",
+ "review": "Claude translation 059, 2026-11-16",
+ "images": [
+  {
+   "file": "p761-left-columns.png",
+   "pdf_page": 761,
+   "clip_pdf_points": [150, 180, 300, 700],
+   "scale": 2,
+   "sha256": "384f79ddcf1a1120ea70b6d7e2ef8be92e589408b60bbf4bc24f5b1a4ddd83af",
+   "shows": "059:ย1 緊鎖牢(革+龍) และ ย2 剪斷二心鎖(革+龍)猿馬"
+  }
+ ]
+}

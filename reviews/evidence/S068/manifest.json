@@ -1,0 +1,24 @@
+{
+ "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+ "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+ "transform": "render/crop only; no restoration or enhancement",
+ "review": "Claude translation 060, 2026-11-16",
+ "images": [
+  {
+   "file": "p785-left-mantra.png",
+   "pdf_page": 785,
+   "clip_pdf_points": [0, 230, 340, 690],
+   "scale": 2,
+   "sha256": "39e90ee8cbed8298eb8aa93a4ce600df0bca6270bd4f5030eed29d1761723de1",
+   "shows": "060:ย21, ย23 มนตร์ 噓呵吸嘻吹呼 ตัวที่สามเป็น 呵 ตรงไฟล์ (wikisource 啊)"
+  },
+  {
+   "file": "p787-right-closing-couplet.png",
+   "pdf_page": 787,
+   "clip_pdf_points": [590, 100, 660, 660],
+   "scale": 2,
+   "sha256": "747497e2c71a73307d2a5fcf940d33f79bfe3e24dd83118ca5e8d78efa87600b",
+   "shows": "060:ย25 裂性魔來近木叉人 (ไฟล์ 烈性)"
+  }
+ ]
+}
