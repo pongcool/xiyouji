@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude translation 064, 2026-11-18",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p837-yizhe.png",
+      "pdf_page": 837,
+      "clip_pdf_points": [
+        715,
+        86,
+        758,
+        677
+      ],
+      "scale": 3,
+      "sha256": "5fac32e9cb66398bcbfda4f7f67e1ccae882d0cdb19c637e63d76e7de966d9f6",
+      "shows": "064:ย31 三个小徒不知在何處等我。意者弟子不能久留"
+    }
+  ]
+}

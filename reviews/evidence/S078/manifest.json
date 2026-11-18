@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude translation 064, 2026-11-18",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p837-tanchang.png",
+      "pdf_page": 837,
+      "clip_pdf_points": [
+        0,
+        356,
+        46,
+        677
+      ],
+      "scale": 3,
+      "sha256": "c0530b58c49f3b855ddb78accf4eac7437efbe852a2b64d7401c59b29a1c5a4d",
+      "shows": "064:ย34 周時孔子立壇塲 (場)"
+    }
+  ]
+}

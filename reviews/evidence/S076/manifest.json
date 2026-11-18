@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude translation 064, 2026-11-18",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p838-xiewu.png",
+      "pdf_page": 838,
+      "clip_pdf_points": [
+        328,
+        106,
+        367,
+        426
+      ],
+      "scale": 3,
+      "sha256": "05f4d9c92ff9b3a394b64fd64d5a7ec293e2645927f99346bc6c47b5c16166cd",
+      "shows": "064:ย36 汝等皆是一類邪物，這般誘我"
+    }
+  ]
+}
