@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex independent review 062, 2026-11-18",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p802-season.png",
+      "pdf_page": 802,
+      "clip_pdf_points": [
+        149,
+        310,
+        248,
+        665
+      ],
+      "scale": 2.5,
+      "sha256": "e151de0f558a2bb0beba3d941e643ea8406871031ba69fb7ae6897853cfcdd9c",
+      "shows": "062:ย2 การวางวรรค 純陰陽月 ก่อน 帝元…"
+    }
+  ]
+}

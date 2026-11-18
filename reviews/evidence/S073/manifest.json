@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex independent review 062, 2026-11-18",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p802-title.png",
+      "pdf_page": 802,
+      "clip_pdf_points": [
+        495,
+        165,
+        565,
+        610
+      ],
+      "scale": 2.6,
+      "sha256": "8dd5267786bf7c84beff24b436a7b5071dc4afcf988360e59b9253823df5dbbc",
+      "shows": "062:หัวบท 縛魔歸正乃修身"
+    }
+  ]
+}

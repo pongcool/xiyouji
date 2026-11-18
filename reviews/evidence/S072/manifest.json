@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex independent review 061, 2026-11-18",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p799-vajras.png",
+      "pdf_page": 799,
+      "clip_pdf_points": [
+        390,
+        95,
+        771,
+        665
+      ],
+      "scale": 1.7,
+      "sha256": "08dd92a64f7a6dda5dc7a7ce3e43c9ea25c40d8c0c20b408a6c3a0b80f05f8f6",
+      "shows": "061:ย20 五臺山碧摩巖 และ 毘羅沙門大力金剛"
+    }
+  ]
+}

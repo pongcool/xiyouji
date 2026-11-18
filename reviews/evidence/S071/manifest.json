@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex independent review 061, 2026-11-18",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p793-jar.png",
+      "pdf_page": 793,
+      "clip_pdf_points": [
+        152,
+        365,
+        216,
+        670
+      ],
+      "scale": 2.5,
+      "sha256": "0832f47abd1ffc122bca77f80f1832283aa051c7d874384bbead3eddaba8f086",
+      "shows": "061:ย10 豆腐缸 และ 轉路走他外"
+    }
+  ]
+}

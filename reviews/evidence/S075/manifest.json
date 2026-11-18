@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex independent review 062, 2026-11-18",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p810-tribute.png",
+      "pdf_page": 810,
+      "clip_pdf_points": [
+        191,
+        135,
+        289,
+        680
+      ],
+      "scale": 2.5,
+      "sha256": "58657d6d6164e4cc10fa4a19a7125ac79550ff100066bbfdb7f970b0605d8dce",
+      "shows": "062:ย21 三年無有光彩，外國這二年也不來朝"
+    }
+  ]
+}
