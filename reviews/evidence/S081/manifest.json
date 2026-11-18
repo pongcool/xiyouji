@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex independent review 065, 2026-11-18",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p851-jiuxiao.png",
+      "pdf_page": 851,
+      "clip_pdf_points": [
+        715.758,
+        116.97,
+        759.394,
+        344.242
+      ],
+      "scale": 3,
+      "sha256": "f26a13bc88015dd8dc75777eddd53acb6a4f76a9dd3e29bbd71b3d84041fc1d8",
+      "shows": "065:ย25 九霄宮裏 (ไฟล์ 九霄空裏)"
+    }
+  ]
+}
