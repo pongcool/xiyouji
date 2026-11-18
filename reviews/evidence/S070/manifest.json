@@ -1,0 +1,21 @@
+{
+ "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+ "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+ "transform": "render/crop only; no restoration or enhancement",
+ "review": "Claude translation 062, 2026-11-18",
+ "images": [
+  {
+   "file": "p807-left-feichong.png",
+   "pdf_page": 807,
+   "clip_pdf_points": [
+    150.0,
+    250.0,
+    215.0,
+    420.0
+   ],
+   "scale": 2,
+   "sha256": "776080fa9638931bf124543a9fbee8f2017442c288fdd2c82cd7a679856f9c56",
+   "shows": "062:ย13 「步步簷前白玉欄，積垢飛虫」 (ไฟล์ 積垢蟲 ขาด 飛; wikisource 積垢飛蟲)"
+  }
+ ]
+}
