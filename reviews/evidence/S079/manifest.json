@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude translation 065, 2026-11-18",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p850-list.png",
+      "pdf_page": 850,
+      "clip_pdf_points": [
+        561,
+        357,
+        717,
+        657
+      ],
+      "scale": 3,
+      "sha256": "01e56e82ce206dd3ff33e3a7a2ff5ccd59b1a5f15a37c733b548626638c2dea9",
+      "shows": "065:ย23 胃土彘 (ตรงไฟล์); 領著金頭揭諦、水頭揭諦、六甲丁等神 (ไฟล์ 銀頭揭諦、六甲六丁)"
+    }
+  ]
+}
