@@ -1,0 +1,21 @@
+{
+ "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+ "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+ "transform": "render/crop only; no restoration or enhancement",
+ "review": "Claude translation 061, 2026-11-18",
+ "images": [
+  {
+   "file": "p789-left-dian.png",
+   "pdf_page": 789,
+   "clip_pdf_points": [
+    170.0,
+    150.0,
+    260.0,
+    480.0
+   ],
+   "scale": 2,
+   "sha256": "f8de4bc902b1cc8be2f3f06dd8d028ecf73a026c1768993101f66afecafe4e9a",
+   "shows": "061:ย3 「今卻被小鴈兒鵮了眼睛」 (ไฟล์ขาดอักษรหลัง 雁兒; wikisource 嗛)"
+  }
+ ]
+}
