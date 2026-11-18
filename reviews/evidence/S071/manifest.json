@@ -16,6 +16,19 @@
       "scale": 2.5,
       "sha256": "0832f47abd1ffc122bca77f80f1832283aa051c7d874384bbead3eddaba8f086",
       "shows": "061:ย10 豆腐缸 และ 轉路走他外"
+    },
+    {
+      "file": "p793-boat.png",
+      "pdf_page": 793,
+      "clip_pdf_points": [
+        187,
+        520,
+        217,
+        576
+      ],
+      "scale": 10,
+      "sha256": "fb59676aa6693a4eb98e66778babdbb86f5ea3a79e399eb431159a72e135dd7d",
+      "shows": "061:ย10 enlarged glyph after 豆腐: 舟 + 工 = 舡. Corrects the initial reading 缸 above."
     }
   ]
 }
