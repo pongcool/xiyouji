@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude translation 066, 2026-11-18",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p863-cuoya.png",
+      "pdf_page": 863,
+      "clip_pdf_points": [
+        560,
+        130,
+        640,
+        400
+      ],
+      "scale": 3,
+      "sha256": "fb7ffc61fa0e4d0305636c6a5d7436288c2971c8aa55ec2847ad3c2bffaae27b",
+      "shows": "066:ย21 疼得傞牙倸嘴 (ไฟล์ 傞牙嘴; wikisource 傞牙徠嘴)"
+    }
+  ]
+}
