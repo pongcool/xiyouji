@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude translation 068, 2026-11-19",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p885-bubi.png",
+      "pdf_page": 885,
+      "clip_pdf_points": [
+        705,
+        120,
+        750,
+        640
+      ],
+      "scale": 2.5,
+      "sha256": "9fc1939b616d53c15b95b8f2e9a06ce851f4bf63fa38f0ae85a8c63c2a401b4c",
+      "shows": "068:ย19 我師兄卻不比我們任你作戲 (ไฟล์ 不比我任你們作戲)"
+    }
+  ]
+}

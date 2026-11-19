@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude translation 068, 2026-11-19",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p885-yao.png",
+      "pdf_page": 885,
+      "clip_pdf_points": [
+        195,
+        120,
+        235,
+        640
+      ],
+      "scale": 2.5,
+      "sha256": "114c4ab6d94648238dd9e7823083b48eb3c71d40084e90fcc5993293be4da1f1",
+      "shows": "068:ย20 藥不跟賣，病不討醫 (ไฟล์ 藥不輕賣)"
+    }
+  ]
+}

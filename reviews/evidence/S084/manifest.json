@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude translation 068, 2026-11-19",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p882-juanzi.png",
+      "pdf_page": 882,
+      "clip_pdf_points": [
+        500,
+        120,
+        540,
+        640
+      ],
+      "scale": 2.5,
+      "sha256": "4bc1f5d3b54d398eb4786baa023defb546323867eae2e87282f8db07a13ba1c1",
+      "shows": "068:ย12 糖糕、蒸酥、點心、捲子、油食、蜜食、無數好東西 (ไฟล์ 𩜇子 … ……)"
+    }
+  ]
+}
