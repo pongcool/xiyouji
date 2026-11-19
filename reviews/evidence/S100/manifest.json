@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude self-check during translation, 2026-11-19",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p945-s100.png",
+      "pdf_page": 945,
+      "clip_pdf_points": [
+        611,
+        271,
+        692,
+        679
+      ],
+      "scale": 2.5,
+      "sha256": "4f362adca1b6745b6c4a51569eae4199810381e7b6070a86f3540431a4cbbf2d",
+      "shows": "073:ย1 卻似火中金有色　雙雙野鹿忘情緒 (ไฟล์ 卻是…忘情閑)"
+    }
+  ]
+}
