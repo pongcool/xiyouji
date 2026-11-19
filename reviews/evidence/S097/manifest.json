@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude self-check during translation, 2026-11-19",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p930-s097.png",
+      "pdf_page": 930,
+      "clip_pdf_points": [
+        172,
+        286,
+        281,
+        680
+      ],
+      "scale": 2.5,
+      "sha256": "14cc4695ced2347f8ce2ec1e28bc5e43ca898cc026e40ded0d3d26adac5ad8cf",
+      "shows": "071:ย30 又與我說折鳳之故。從頭至尾 ไม่มี ……"
+    }
+  ]
+}

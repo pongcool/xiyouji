@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude self-check during translation, 2026-11-19",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p930-s098.png",
+      "pdf_page": 930,
+      "clip_pdf_points": [
+        562,
+        358,
+        640,
+        680
+      ],
+      "scale": 2.5,
+      "sha256": "2958a7d09e529da295e55142b12e3e3fd3c8110b1a9cafee78948cb871322679",
+      "shows": "071:ย29 毒刺者乃棕毛也（ไฟล์ 棕衣）"
+    }
+  ]
+}
