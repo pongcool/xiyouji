@@ -1,0 +1,16 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude translation 067, 2026-11-19",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p872-xinnian.png",
+      "pdf_page": 872,
+      "clip_pdf_points": [212, 330, 252, 560],
+      "scale": 3,
+      "sha256": "6c99b9de988e1f5c0d95f984ce2baebc34eac00afb5220fc41f7cb6d0e23b0fc",
+      "shows": "067:ย21 那軟柄鎗乃是兩條信掭 (ไฟล์และ wikisource 信㮇)"
+    }
+  ]
+}
