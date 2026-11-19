@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude translation 069, 2026-11-19",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p897-youma.png",
+      "pdf_page": 897,
+      "clip_pdf_points": [
+        20,
+        450,
+        95,
+        665
+      ],
+      "scale": 2.5,
+      "sha256": "a163558e8065bed45b38f262c89878692cd7d55dbf1ac6c4a0c371e44488794d",
+      "shows": "069:ย23 「也虧了我那藥裏有馬」 ต่อด้วยคอลัมน์ 「這行者聽說」 ไม่มีจุดละ (ไฟล์ 「那藥裏有馬……」)"
+    }
+  ]
+}
