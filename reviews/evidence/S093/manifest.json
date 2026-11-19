@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex independent review, 2026-11-19",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p911-cannon.png",
+      "pdf_page": 911,
+      "clip_pdf_points": [
+        496,
+        464,
+        605,
+        674
+      ],
+      "scale": 2.5,
+      "sha256": "f5cd0f53737572ce8f8748fd7557717e5bfc162d056d7c7152eb36d5ca837035",
+      "shows": "070:ย21 鋼叉銃砲及頭盔"
+    }
+  ]
+}

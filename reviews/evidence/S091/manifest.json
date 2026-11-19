@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex independent review, 2026-11-19",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p897-disciples.png",
+      "pdf_page": 897,
+      "clip_pdf_points": [
+        532,
+        410,
+        626,
+        680
+      ],
+      "scale": 2.5,
+      "sha256": "16ab19eb7137cb8de751451384eae5adc090206488617acfad00c7dd730680e6",
+      "shows": "069:ย21 這行者與沙僧八戒對師父"
+    }
+  ]
+}

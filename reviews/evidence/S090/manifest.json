@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex independent review, 2026-11-19",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p890-cun-pulse.png",
+      "pdf_page": 890,
+      "clip_pdf_points": [
+        550,
+        120,
+        770,
+        540
+      ],
+      "scale": 2.5,
+      "sha256": "629ca04bfc181c8c0ac4f54e87e87f8e29fbab460b399ad1dbd4b61830c84960",
+      "shows": "069:ย1 弦而緊 ในการบอกชีพจรครั้งแรก เทียบ 強而緊 ในการแจกอาการ"
+    }
+  ]
+}

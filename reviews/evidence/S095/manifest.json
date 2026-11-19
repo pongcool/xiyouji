@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex independent review, 2026-11-19",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p914-return-to-disguise.png",
+      "pdf_page": 914,
+      "clip_pdf_points": [
+        620,
+        115,
+        680,
+        545
+      ],
+      "scale": 2.5,
+      "sha256": "8aa9ba37e7e028d615ffc6948c4a4109cbc675a36979bc20f13098c3fc5a431f",
+      "shows": "070:ย27 這行者還作心腹小校"
+    }
+  ]
+}

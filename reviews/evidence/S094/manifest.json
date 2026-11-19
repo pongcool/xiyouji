@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex independent review, 2026-11-19",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p915-meats-and-dasheng.png",
+      "pdf_page": 915,
+      "clip_pdf_points": [
+        595,
+        120,
+        695,
+        687
+      ],
+      "scale": 2.5,
+      "sha256": "36ba731ad8ca77a3cd0d54c9a18574b88e1eb4cc250c17bb9d4f03c0227c283d",
+      "shows": "070:ย28 兔鹿 ในรายการเนื้อ และ ย29 孫大聖在旁取事"
+    }
+  ]
+}
