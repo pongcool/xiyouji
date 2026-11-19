@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex independent review, 2026-11-19",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p953-gold-light.png",
+      "pdf_page": 953,
+      "clip_pdf_points": [
+        462,
+        115,
+        805,
+        675
+      ],
+      "scale": 1.9,
+      "sha256": "a704b8cc1993a35e3bf2edc30fe749175782c673f11440181cd2f7a4077474c2",
+      "shows": "073:ย20 卻撞破金光／往上又撞不得 (ตรงไฟล์)"
+    }
+  ]
+}
