@@ -1,0 +1,68 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude translation of chapter 089, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1155.png",
+      "pdf_page": 1155,
+      "clip_pdf_points": [
+        20,
+        90,
+        200,
+        640
+      ],
+      "scale": 1.8,
+      "sha256": "8ae6ff5842db9790a1a0975c1dc7b12b5b44c8f8c9f319403d6ed1c53944149d",
+      "shows": "089:ย10 สแกน 「等我教你變如此如彼就是他的模樣了」 ไม่มีจุดละ",
+      "reviewer": "Claude",
+      "date": "2026-11-20"
+    },
+    {
+      "file": "p1157-y11.png",
+      "pdf_page": 1157,
+      "clip_pdf_points": [
+        640,
+        40,
+        757,
+        420
+      ],
+      "scale": 3,
+      "sha256": "3f8da997d4e49af97b8c0d830c5995bfaf67d6e8279c71d32b5d9bf9046b9d48",
+      "shows": "089:ย11 สแกน 「糟鼻子𤟷猍口尞牙尖利」 ตรงไฟล์ (尞 รูปแปรของ 獠)",
+      "reviewer": "Claude",
+      "date": "2026-11-20"
+    },
+    {
+      "file": "p1157-y12.png",
+      "pdf_page": 1157,
+      "clip_pdf_points": [
+        180,
+        90,
+        335,
+        640
+      ],
+      "scale": 2.2,
+      "sha256": "780c188b60a4757260ed4df991b757503d7c28c277d43c1f810bddf55de35dd7",
+      "shows": "089:ย12 บัตรเชิญ 「右啟 祖翁九靈聖老大人尊前」 ไม่มี 元",
+      "reviewer": "Claude",
+      "date": "2026-11-20"
+    },
+    {
+      "file": "p1160.png",
+      "pdf_page": 1160,
+      "clip_pdf_points": [
+        215,
+        90,
+        335,
+        640
+      ],
+      "scale": 2.2,
+      "sha256": "3f89a0242567b242f6a1fc4b9a73b1186cbb57d816cd6569be0f41613312180c",
+      "shows": "089:ย19 คำทวนบัตร 「屈尊車從過山一敘勿外萬感 啟祖翁九靈元聖老大人尊前」; 「纔子那妖精敗陣」",
+      "reviewer": "Claude",
+      "date": "2026-11-20"
+    }
+  ]
+}
