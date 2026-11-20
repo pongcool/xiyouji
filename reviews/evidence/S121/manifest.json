@@ -1,0 +1,16 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude self-check during translation, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1122.png",
+      "pdf_page": 1122,
+      "clip_pdf_points": [390, 71, 662, 675],
+      "scale": 2,
+      "sha256": "e50e3e2f520b8e9ab7942ecddf648e592860dbf5ef211804ae9a6861e710e2d5",
+      "shows": "086:ย10 กวีศึก 「悟能精壯喜?年」 (ไฟล์ 喜夯來) และ 「南禺老怪」 ตรงไฟล์"
+    }
+  ]
+}
