@@ -1,0 +1,23 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Codex independent review, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "codex-p1144.png",
+      "pdf_page": 1144,
+      "clip_pdf_points": [
+        385,
+        285,
+        462,
+        645
+      ],
+      "scale": 3,
+      "sha256": "5fc50ec1854a8cc2a7e8bd331c90574e80eb49ccb70d5261f41e87e90fd6daf7",
+      "shows": "088:ย6 สแกนอ่าน 「萬蟄生魔」 ใช้ 生 ในตำแหน่งที่ไฟล์ใช้อักษร 千",
+      "reviewer": "Codex",
+      "date": "2026-11-20"
+    }
+  ]
+}

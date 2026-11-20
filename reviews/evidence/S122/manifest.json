@@ -42,6 +42,51 @@
       "scale": 1.3,
       "sha256": "5751d1a6737eee146279d897933a932801133e32329f0a9d9bd2489cbaf38410",
       "shows": "087:ย21 「天尊隨下九鳳丹霞之扆」"
+    },
+    {
+      "file": "codex-p1139-y24.png",
+      "pdf_page": 1139,
+      "clip_pdf_points": [
+        388,
+        103,
+        600,
+        681
+      ],
+      "scale": 1.7,
+      "sha256": "d12b8e4e060f0da5cadf951c9c033db7d42ec77c8811eeab22d03c1814ffa59d",
+      "shows": "087:ย24 「那廝們既有善念」 และ 「上界執符使者」",
+      "reviewer": "Codex",
+      "date": "2026-11-20"
+    },
+    {
+      "file": "codex-p1139-y26.png",
+      "pdf_page": 1139,
+      "clip_pdf_points": [
+        0,
+        104,
+        192,
+        680
+      ],
+      "scale": 1.7,
+      "sha256": "4505df8f7ad4ee691c9a3fbf192d9079aee958ead3c794da47375eb58379d6ef",
+      "shows": "087:ย26 「一念回天」「全虧大聖施元運」",
+      "reviewer": "Codex",
+      "date": "2026-11-20"
+    },
+    {
+      "file": "codex-p1140-gap.png",
+      "pdf_page": 1140,
+      "clip_pdf_points": [
+        260,
+        97,
+        670,
+        687
+      ],
+      "scale": 1.7,
+      "sha256": "39f48f673ff70f7be5c26653de738a9711f62e09960ea10723c94150103f8763",
+      "shows": "087:ย27–ย30 ฝั่งขวาจบที่ 「風伯垂真」 ฝั่งซ้ายเริ่มที่ 「位老爺看看」 เห็น 「神祇」 ฝั่งขวา",
+      "reviewer": "Codex",
+      "date": "2026-11-20"
     }
   ]
 }
