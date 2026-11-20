@@ -1,0 +1,16 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude self-check during translation, 2026-11-20",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p961-s102.png",
+      "pdf_page": 961,
+      "clip_pdf_points": [445, 120, 500, 690],
+      "scale": 2.5,
+      "sha256": "028eac78965f394a7f76e95c138d6a3d61def59395d2eaeb2b4abe2fa98661df",
+      "shows": "074:ย7 他就把臉抹一抹即現出本像咨牙俫嘴兩股通紅 (ไฟล์ 咨牙嘴 ไม่มี 俫)"
+    }
+  ]
+}
