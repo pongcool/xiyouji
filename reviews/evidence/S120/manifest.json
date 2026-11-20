@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude self-check during translation, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1115.png",
+      "pdf_page": 1115,
+      "clip_pdf_points": [
+        380,
+        100,
+        759,
+        699
+      ],
+      "scale": 1.6,
+      "sha256": "1ccef6aeb0070f86899eb78c2353864d46232ad65fce7f5d57823e1d3fbd6344",
+      "shows": "085:ย28 「與母鰥居」 ตรงไฟล์; 「倘若無常，誰與他埋屍送老」 (ไฟล์ 倘若身喪)"
+    }
+  ]
+}
