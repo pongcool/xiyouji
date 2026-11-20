@@ -1,0 +1,47 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude translation check 076, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p988.png",
+      "pdf_page": 988,
+      "clip_pdf_points": [
+        430,
+        450,
+        500,
+        700
+      ],
+      "scale": 2.5,
+      "sha256": "5ac23dc5f85467bc3bb07d5cc8baba9670820d70b1ac5d0e5496be7b0d0480cf",
+      "shows": "076:ย4 「從他那上腭子往前爬」 ไฟล์ 「上子」"
+    },
+    {
+      "file": "p995.png",
+      "pdf_page": 995,
+      "clip_pdf_points": [
+        400,
+        120,
+        600,
+        420
+      ],
+      "scale": 1.8,
+      "sha256": "7a0ee507b288731bad25ac3315f140baaab394ed167093d5e1a668b54798c745",
+      "shows": "076:ย16 กวี 「黃牙老像變人形」 ไฟล์ 「黃牙老變人形」"
+    },
+    {
+      "file": "p998.png",
+      "pdf_page": 998,
+      "clip_pdf_points": [
+        415,
+        130,
+        530,
+        705
+      ],
+      "scale": 2.2,
+      "sha256": "4b0268d2b128249811e75aea67880ebd741bc532b337fcac2110b1d4d73b3345",
+      "shows": "076:ย21 「若至城邊如此〻〻」 ไม่มี …… ของไฟล์"
+    }
+  ]
+}
