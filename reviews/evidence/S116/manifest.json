@@ -1,0 +1,47 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude self-check during translation, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1077-1.png",
+      "pdf_page": 1077,
+      "clip_pdf_points": [
+        300.0,
+        130.0,
+        350.0,
+        380.0
+      ],
+      "scale": 5.0,
+      "sha256": "12c458eedf789df7d2fe8abeacde3aa9422f8ed63aaccb1168db1becfcf06107",
+      "shows": "083 หัวบทในสแกน 「心猿試得丹頭」 (ไฟล์และ wikisource 識得)"
+    },
+    {
+      "file": "p1080-2.png",
+      "pdf_page": 1080,
+      "clip_pdf_points": [
+        0.0,
+        60.0,
+        797.0,
+        200.0
+      ],
+      "scale": 2.0,
+      "sha256": "3e7050d9db1030560cc89da71a9de65659aa9cb6688b8a73b940bfe19b70777d",
+      "shows": "083 ป้ายภาพประกอบ 「孫心猿識透取丹頭」 ใช้ 識"
+    },
+    {
+      "file": "p1078-3.png",
+      "pdf_page": 1078,
+      "clip_pdf_points": [
+        585.0,
+        110.0,
+        690.0,
+        680.0
+      ],
+      "scale": 3.0,
+      "sha256": "32ebf6d5d7e7e77c9f40187b80069bdc6ffb3e5aed15ee3fee75a6c03947680e",
+      "shows": "083:ย1 กวี 「水火不投毋道損」 (ไฟล์ 母) และ ย2 「師兄胡纏。須(?)子在他肚裡」 (ไฟล์ 才子)"
+    }
+  ]
+}
