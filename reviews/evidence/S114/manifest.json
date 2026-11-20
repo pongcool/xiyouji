@@ -1,0 +1,34 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude self-check during translation, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1056-1.png",
+      "pdf_page": 1056,
+      "clip_pdf_points": [
+        395.0,
+        100.0,
+        790.0,
+        660.0
+      ],
+      "scale": 2.0,
+      "sha256": "a19f654f4d745e7a72b13b4d70c9e5798084d812d51dc869d76dcea85149e544",
+      "shows": "081:ย6 「入定蒲團上」 (ไฟล์ 人定) คอลัมน์ซ้ายสุดของครึ่งขวา"
+    },
+    {
+      "file": "p1057-2.png",
+      "pdf_page": 1057,
+      "clip_pdf_points": [
+        395.0,
+        100.0,
+        790.0,
+        660.0
+      ],
+      "scale": 2.0,
+      "sha256": "9d7df34fc3fdd820025926be7e6d390c92d97bd5d0c175dd09bc224d4e044f50",
+      "shows": "081:ย8 「公子登筵」 (ไฟล์ 公了)"
+    }
+  ]
+}
