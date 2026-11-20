@@ -1,0 +1,47 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex independent review, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p961.png",
+      "pdf_page": 961,
+      "clip_pdf_points": [
+        525,
+        110,
+        620,
+        530
+      ],
+      "scale": 2.5,
+      "sha256": "673e117035146263eee06f7c3688788ff1c10cf233ab08d41d39d7328fb57dbc",
+      "shows": "074:ย6 一萬個七八歲"
+    },
+    {
+      "file": "p967.png",
+      "pdf_page": 967,
+      "clip_pdf_points": [
+        420,
+        115,
+        548,
+        675
+      ],
+      "scale": 2.5,
+      "sha256": "31dc89c08dde89c58ea6ed050e4f4b8d7414592de8cafe6da3d4128dab93f52a",
+      "shows": "074:ย17 綠絨繩兒 และ 風字墜腳"
+    },
+    {
+      "file": "p971.png",
+      "pdf_page": 971,
+      "clip_pdf_points": [
+        535,
+        110,
+        800,
+        665
+      ],
+      "scale": 2.5,
+      "sha256": "7ddd90f03ef964750f696302be87fd0e1c0afcf70e23319ffe10fda833209fbf",
+      "shows": "074:ย22 ข้อความ 軍民…不敢走; ย23 聞名就走"
+    }
+  ]
+}

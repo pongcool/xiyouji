@@ -1,0 +1,73 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex independent review, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p972.png",
+      "pdf_page": 972,
+      "clip_pdf_points": [
+        495,
+        115,
+        800,
+        665
+      ],
+      "scale": 2.5,
+      "sha256": "ebfbf41fe03715e5f0f1233bd29a2711c858601a3cc6086261f1069d7f5c4dae",
+      "shows": "075:ย2–ย4 วรรคคู่คำพรรณนาปีศาจ"
+    },
+    {
+      "file": "p976.png",
+      "pdf_page": 976,
+      "clip_pdf_points": [
+        485,
+        235,
+        582,
+        690
+      ],
+      "scale": 2.5,
+      "sha256": "3952770736ed316a291650fab57909c11a9f147be93a1f38b7481a9fb5f446ae",
+      "shows": "075:ย12 共果正道"
+    },
+    {
+      "file": "p980.png",
+      "pdf_page": 980,
+      "clip_pdf_points": [
+        535,
+        120,
+        645,
+        675
+      ],
+      "scale": 2.5,
+      "sha256": "d3900dbe05898684c76d84b8ffd2b07dbaedb4ad5cc1ca932757d7f5033d5455",
+      "shows": "075:ย22 打我一棍 และ 教我打兩棍"
+    },
+    {
+      "file": "p982-left.png",
+      "pdf_page": 982,
+      "clip_pdf_points": [
+        230,
+        116,
+        374,
+        680
+      ],
+      "scale": 2.5,
+      "sha256": "b27cec39565fd925b12fc4404bc50e32a4e1a00e1adc32a3773b8d850f219a7f",
+      "shows": "075:ย24 วรรคคู่และ 擒三藏"
+    },
+    {
+      "file": "p982-right.png",
+      "pdf_page": 982,
+      "clip_pdf_points": [
+        485,
+        127,
+        652,
+        684
+      ],
+      "scale": 2.5,
+      "sha256": "36f80ec2b53dad427417ecbbe80bccbb3c68c39dcb79a6ef1acb86278208ea92",
+      "shows": "075:ย23 天將曾將九曜追 และ 新華劍"
+    }
+  ]
+}
