@@ -1,0 +1,158 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Codex independent review of chapter 090, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1164-right.png",
+      "pdf_page": 1164,
+      "clip_pdf_points": [
+        395,
+        128,
+        762,
+        670
+      ],
+      "scale": 2.25,
+      "sha256": "722dedb4a7f112c0bf0e0462e2e1f5bb506ab0e0ac6154ab932962885d654d7a",
+      "shows": "หัวบทและแนวตั้งทัพใน 090:ย1",
+      "reviewer": "Codex",
+      "date": "2026-11-20"
+    },
+    {
+      "file": "p1164-left.png",
+      "pdf_page": 1164,
+      "clip_pdf_points": [
+        0,
+        115,
+        360,
+        670
+      ],
+      "scale": 2.25,
+      "sha256": "ba481832e43ccdbaef9667e306d100cc534fbd65aab8cf6f42c3a72b4d9260f2",
+      "shows": "090:ย2 คำโต้ของสิงโตเหลือง ช่วงปะทะ และชื่ออาวุธ",
+      "reviewer": "Codex",
+      "date": "2026-11-20"
+    },
+    {
+      "file": "p1167-right.png",
+      "pdf_page": 1167,
+      "clip_pdf_points": [
+        407,
+        108,
+        788,
+        674
+      ],
+      "scale": 2.25,
+      "sha256": "ba5e86a44ad13ce6dc1d2faa5d2f4e631cfb1dbf2925c39cdeb2d9d3f4b18cda",
+      "shows": "090:ย5 梆鈴 และชื่ออาวุธในกวี ย6",
+      "reviewer": "Codex",
+      "date": "2026-11-20"
+    },
+    {
+      "file": "p1169-left.png",
+      "pdf_page": 1169,
+      "clip_pdf_points": [
+        0,
+        120,
+        350,
+        681
+      ],
+      "scale": 2.25,
+      "sha256": "68a0bab968ba00847ab20cd6a6e727b15db8c8b815f61bcabec1efd5d6819e67",
+      "shows": "090:ย12 荊條柳棍",
+      "reviewer": "Codex",
+      "date": "2026-11-20"
+    },
+    {
+      "file": "p1171-right.png",
+      "pdf_page": 1171,
+      "clip_pdf_points": [
+        426,
+        118,
+        795,
+        671
+      ],
+      "scale": 2.25,
+      "sha256": "a8de35037eff5cf41a1c11c88728bcd3dc11d6d479fe3864aa43ae00b0d14b00",
+      "shows": "090:ย15 金甲",
+      "reviewer": "Codex",
+      "date": "2026-11-20"
+    },
+    {
+      "file": "p1171-left.png",
+      "pdf_page": 1171,
+      "clip_pdf_points": [
+        0,
+        118,
+        378,
+        674
+      ],
+      "scale": 2.25,
+      "sha256": "4fd0a05b143ff5308861d1e8d11220c97a534970bf7d6f9438edeb1ad88d9b76",
+      "shows": "090:ย16 วังเมี่ยวเหยียน",
+      "reviewer": "Codex",
+      "date": "2026-11-20"
+    },
+    {
+      "file": "p1173-left.png",
+      "pdf_page": 1173,
+      "clip_pdf_points": [
+        136,
+        119,
+        371,
+        678
+      ],
+      "scale": 2.25,
+      "sha256": "4d7dc8ad036f30feb23174bae2c372ba18436ccc068e8fed14300d6ccfefc0c5",
+      "shows": "090:ย18 คำบ่าวเลี้ยงสิงโต",
+      "reviewer": "Codex",
+      "date": "2026-11-20"
+    },
+    {
+      "file": "p1173-right.png",
+      "pdf_page": 1173,
+      "clip_pdf_points": [
+        431,
+        119,
+        791,
+        678
+      ],
+      "scale": 2.25,
+      "sha256": "d944edf6de9c5112843faedef49c6f41a3f0f5b50540b125405e9b16165f1480",
+      "shows": "090:ย17 王父子四人",
+      "reviewer": "Codex",
+      "date": "2026-11-20"
+    },
+    {
+      "file": "p1174-right.png",
+      "pdf_page": 1174,
+      "clip_pdf_points": [
+        424,
+        112,
+        792,
+        673
+      ],
+      "scale": 2.25,
+      "sha256": "c40d8712fb2b5bd48e54188db01a003f162827a547509800a4391aeb02511999",
+      "shows": "090:ย19 著了惱睡了",
+      "reviewer": "Codex",
+      "date": "2026-11-20"
+    },
+    {
+      "file": "p1174-left.png",
+      "pdf_page": 1174,
+      "clip_pdf_points": [
+        247,
+        117,
+        357,
+        680
+      ],
+      "scale": 2.25,
+      "sha256": "29eb5b948fd9a3e66fb1e363f71f682d2abbd3b1c18b45bf6e878bba3afef0d3",
+      "shows": "090:ย20 駕起綠雲",
+      "reviewer": "Codex",
+      "date": "2026-11-20"
+    }
+  ]
+}
