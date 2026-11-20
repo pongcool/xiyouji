@@ -1,0 +1,60 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude translation check 077, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1001.png",
+      "pdf_page": 1001,
+      "clip_pdf_points": [
+        600,
+        100,
+        800,
+        420
+      ],
+      "scale": 1.8,
+      "sha256": "dd1fa122025c929b43ad3fdefee86a16efdbb729d981680fd44f7384c1085cd7",
+      "shows": "077:ย2 「刀削斷幾根鬃毛」 (รูปอักษร 髟+宗) ไฟล์ 「幾根毛」"
+    },
+    {
+      "file": "p1005.png",
+      "pdf_page": 1005,
+      "clip_pdf_points": [
+        390,
+        400,
+        520,
+        710
+      ],
+      "scale": 2,
+      "sha256": "12eac0576cf1f61202e3fd38e9e0f7ab5ce466dd3d73f1723503a19bb8cec203",
+      "shows": "077:ย11 「與他個雙㮇燈」 ตรงไฟล์"
+    },
+    {
+      "file": "p1009.png",
+      "pdf_page": 1009,
+      "clip_pdf_points": [
+        200,
+        430,
+        300,
+        710
+      ],
+      "scale": 2,
+      "sha256": "c6645abb973516786579042221a436176386f84d0b2749b8b4cba0e323fe7da5",
+      "shows": "077:ย21 「乃獅王象王」 ไฟล์ 「獅王、王」"
+    },
+    {
+      "file": "p1012.png",
+      "pdf_page": 1012,
+      "clip_pdf_points": [
+        20,
+        430,
+        110,
+        710
+      ],
+      "scale": 2,
+      "sha256": "daaff1522817a111c477aca8e5b95f4d82eef14b2ae0bdceb5f390321ddd85a5",
+      "shows": "077:ย25 「青獅白像」 ไฟล์ 「青獅、白」"
+    }
+  ]
+}
