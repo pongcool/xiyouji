@@ -1,0 +1,34 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude translation check 078, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1021.png",
+      "pdf_page": 1021,
+      "clip_pdf_points": [
+        530,
+        400,
+        640,
+        712
+      ],
+      "scale": 2,
+      "sha256": "d3565fa17f0bfdcbedfe07a5fe8ceb402e0c966fc28e56f43bb8af03468be68e",
+      "shows": "078:ย19 「身上穿一領筋頂?」 อักษรหลัง 頂 ไม่ใช่ 梅 ของไฟล์"
+    },
+    {
+      "file": "p1021-detail.png",
+      "pdf_page": 1021,
+      "clip_pdf_points": [
+        568,
+        590,
+        600,
+        712
+      ],
+      "scale": 5,
+      "sha256": "6b9faff5c94e013f135c4f1889c371c30d920e20386770f49177006a27c091e9",
+      "shows": "078:ย19 ภาพขยาย 「筋頂?」 อักษรสุดท้ายอ่านความไม่ได้ (คล้าย 大/夭 บน 田)"
+    }
+  ]
+}
