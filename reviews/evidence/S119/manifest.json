@@ -1,0 +1,47 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude self-check during translation, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1095.png",
+      "pdf_page": 1095,
+      "clip_pdf_points": [
+        400,
+        100,
+        759,
+        620
+      ],
+      "scale": 2,
+      "sha256": "4e53c5cf753874dd341014f68abf168051513807322927c94350383fd9bda1ac",
+      "shows": "084:ย13 「有々々的官人們上樓」 (ไฟล์ 有有有，請官人們上樓) และ ย14 「販馬的客人尚還小」 ตรงไฟล์"
+    },
+    {
+      "file": "p1100.png",
+      "pdf_page": 1100,
+      "clip_pdf_points": [
+        270,
+        320,
+        385,
+        480
+      ],
+      "scale": 4,
+      "sha256": "df2acea5e3c6e2dcc5a13520cc912a488338810db0a316b75927f48688496b83",
+      "shows": "084:ย21 「尾軃玉條」 อักษรที่สองรูป 身+單 (ไฟล์และ wikisource 𢷑)"
+    },
+    {
+      "file": "p1102.png",
+      "pdf_page": 1102,
+      "clip_pdf_points": [
+        560,
+        100,
+        759,
+        560
+      ],
+      "scale": 3,
+      "sha256": "c17adb69598a694a55452b68f8edfa965dbae2fd9a7a44b2b58d30f43c99b6c4",
+      "shows": "084:ย26 「想是寡人殺害和尚。即傳旨分付」 ไม่มี …… (ไฟล์และ wikisource มี ……)"
+    }
+  ]
+}
