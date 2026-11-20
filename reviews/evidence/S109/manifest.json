@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Codex independent review, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p987.png",
+      "pdf_page": 987,
+      "clip_pdf_points": [
+        166,
+        350,
+        336,
+        675
+      ],
+      "scale": 2.6,
+      "sha256": "965087264c8cd0eddb651195aa2544212c08bf5b7d149cb7c59370ceeb1638f1",
+      "shows": "076:ย3 「好漢千里客萬里去傳名」 ไฟล์ 「好看千里客」"
+    }
+  ]
+}

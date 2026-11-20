@@ -1,0 +1,34 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Codex independent review, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1018-right.png",
+      "pdf_page": 1018,
+      "clip_pdf_points": [
+        678,
+        124,
+        764,
+        675
+      ],
+      "scale": 2.6,
+      "sha256": "40bc7c42fb743ae128029097e12cbe22e83b4763c995b822f2274019ce903e17",
+      "shows": "078:ย9 「叫做小兒城。此非無道而何。長老明早到朝」 มี 此非無道而何 เกินจากไฟล์"
+    },
+    {
+      "file": "p1018-left.png",
+      "pdf_page": 1018,
+      "clip_pdf_points": [
+        131,
+        140,
+        363,
+        669
+      ],
+      "scale": 2.2,
+      "sha256": "cf85b6de2390c1c67dc79464c6f41bf5fc1d5beff096f3182ff5042aa48df8c9",
+      "shows": "078:ย11 「可以延壽。這都是無道之事」 และ ย12 「如不是人只恐他走了傍門」"
+    }
+  ]
+}
