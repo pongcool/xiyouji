@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude self-check during translation, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1032-right.png",
+      "pdf_page": 1032,
+      "clip_pdf_points": [
+        382.0,
+        120.0,
+        764.0,
+        690.0
+      ],
+      "scale": 2.4,
+      "sha256": "8ddb3eaff225be86ac93677ad26ef83a51d03c1dbe85b94ed5434b8334d54c77",
+      "shows": "079:ย11 กวีศึก 「我有意降邪怪」「洞中霞采欠光明，崖下芳菲俱掩壓」「看看鬭出洞門來」; ไฟล์เป็น 降妖怪 / 欽光明 / 崖上 / 殺出"
+    }
+  ]
+}
