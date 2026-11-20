@@ -1,0 +1,34 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude self-check during translation, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1042-left-col.png",
+      "pdf_page": 1042,
+      "clip_pdf_points": [
+        30.0,
+        280.0,
+        80.0,
+        420.0
+      ],
+      "scale": 3.5,
+      "sha256": "6e4707424d1f7615a110eae2ca90b3314cd6847d51e924c3d2a7c13121eec26f",
+      "shows": "080:ย11 「見利忘義的囔糟」 ไฟล์ตก 囔 เหลือ 「的糟」"
+    },
+    {
+      "file": "p1039-right-col.png",
+      "pdf_page": 1039,
+      "clip_pdf_points": [
+        395.0,
+        150.0,
+        470.0,
+        640.0
+      ],
+      "scale": 3.0,
+      "sha256": "3dce05f0e91981045c5a0d4a65b993e255fc22e27d2ae56177ff32b49cc45184",
+      "shows": "080:ย5 ท้ายคำพรรณนาป่า 「托塔天王來到此　總會降妖也失魂」 (ไฟล์ 縱會) ไม่มีเครื่องหมายคำพูด"
+    }
+  ]
+}
