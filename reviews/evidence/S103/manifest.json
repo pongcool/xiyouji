@@ -1,0 +1,21 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Claude self-check during translation, 2026-11-20",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p971-s103.png",
+      "pdf_page": 971,
+      "clip_pdf_points": [
+        440,
+        100,
+        520,
+        450
+      ],
+      "scale": 2.5,
+      "sha256": "a4f845e52d2783b5f023492b6826eb591caa9cb386b34da4b8bfb720b19d5234",
+      "shows": "075 ชื่อบท 第七十五回 心猿鑽透陰陽竅 魔王… (ไฟล์ 陰陽體)"
+    }
+  ]
+}
