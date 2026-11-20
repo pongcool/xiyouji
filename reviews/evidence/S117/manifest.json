@@ -1,0 +1,47 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Codex independent review, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1054.png",
+      "pdf_page": 1054,
+      "clip_pdf_points": [
+        625,
+        571,
+        687,
+        682
+      ],
+      "scale": 4,
+      "sha256": "488dda6051978caac3bbf853a066d96a3810df6635e9e8dd7e1e89363411bcef",
+      "shows": "081:ย5 往下一…，左脚下躧了一粒米; อักษรท้ายในคอลัมน์แรกจาง"
+    },
+    {
+      "file": "p1059.png",
+      "pdf_page": 1059,
+      "clip_pdf_points": [
+        637,
+        95,
+        780,
+        490
+      ],
+      "scale": 4,
+      "sha256": "63b1975431c9aa689d27eb11d5b45f5605db55e7d8988e054a405225ae31d692",
+      "shows": "081:ย11 ไฟล์และ 維基文庫 ใช้ 㧚; สแกนรูปคล้าย 揑/捏 ในทั้งร้อยแก้วและกวี"
+    },
+    {
+      "file": "p1079.png",
+      "pdf_page": 1079,
+      "clip_pdf_points": [
+        280,
+        440,
+        340,
+        690
+      ],
+      "scale": 4,
+      "sha256": "9527849b4b17f89daca3fa609eb1e7dd5bc827f376e319ee31293e31ce522492",
+      "shows": "083:ย6 虎皮裙繫明花響 ตรงกับไฟล์และ 維基文庫"
+    }
+  ]
+}
