@@ -43,5 +43,33 @@
       "sha256": "c17adb69598a694a55452b68f8edfa965dbae2fd9a7a44b2b58d30f43c99b6c4",
       "shows": "084:ย26 「想是寡人殺害和尚。即傳旨分付」 ไม่มี …… (ไฟล์และ wikisource มี ……)"
     }
+  ],
+  "independent_review_2026-11-20": [
+    {
+      "file": "codex-p1089.png",
+      "pdf_page": 1089,
+      "clip_pdf_points": [
+        6,
+        120,
+        396,
+        680
+      ],
+      "scale": 1.6,
+      "sha256": "c07c8ed3c64ff810f26fc8cb227710226cb8b289991c5649ea41fedef25478dc",
+      "shows": "084 ชื่อบทและ ย1 ไม่มี 話說"
+    },
+    {
+      "file": "codex-p1091.png",
+      "pdf_page": 1091,
+      "clip_pdf_points": [
+        8,
+        120,
+        790,
+        680
+      ],
+      "scale": 1.6,
+      "sha256": "95d65b371c2be0efaa5b81a704969e7e4ca9707101a7e004ab8ec254f54a1790",
+      "shows": "084:ย6–ย7 รูปวรรคและอักษร 翼磽"
+    }
   ]
 }

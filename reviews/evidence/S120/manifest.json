@@ -17,5 +17,98 @@
       "sha256": "1ccef6aeb0070f86899eb78c2353864d46232ad65fce7f5d57823e1d3fbd6344",
       "shows": "085:ย28 「與母鰥居」 ตรงไฟล์; 「倘若無常，誰與他埋屍送老」 (ไฟล์ 倘若身喪)"
     }
+  ],
+  "independent_review_2026-11-20": [
+    {
+      "file": "codex-p1104.png",
+      "pdf_page": 1104,
+      "clip_pdf_points": [
+        0,
+        112,
+        800,
+        685
+      ],
+      "scale": 1.6,
+      "sha256": "27e840b98aab9bdb2cbc4c991570259bd086004792f7a554e1fd23019c9490ab",
+      "shows": "085:ย6 รูป 心靜 และ ย7 การจัดวรรค"
+    },
+    {
+      "file": "codex-p1107.png",
+      "pdf_page": 1107,
+      "clip_pdf_points": [
+        600,
+        110,
+        800,
+        680
+      ],
+      "scale": 1.6,
+      "sha256": "200248df710d384f2d576dde3daa23284f80abc2f7375b28a87045602c885b3c",
+      "shows": "085:ย13 白麵饝饝"
+    },
+    {
+      "file": "codex-p1108.png",
+      "pdf_page": 1108,
+      "clip_pdf_points": [
+        0,
+        115,
+        410,
+        682
+      ],
+      "scale": 1.6,
+      "sha256": "2d9b192ea34d641ce0e58cfeed423d5b63d170febf62922ec9f98e90beff7ade",
+      "shows": "085:ย17–ย18 背馬 และ 正要拿你"
+    },
+    {
+      "file": "codex-p1109.png",
+      "pdf_page": 1109,
+      "clip_pdf_points": [
+        400,
+        113,
+        797,
+        682
+      ],
+      "scale": 1.6,
+      "sha256": "2eb84855096fe2bb93a8247e0cc4f2672a8025f6f68403d6805e3283deac7e5c",
+      "shows": "085:ย18 รูปวรรคกวีศึกและอาวุธ"
+    },
+    {
+      "file": "codex-p1112.png",
+      "pdf_page": 1112,
+      "clip_pdf_points": [
+        3,
+        113,
+        413,
+        680
+      ],
+      "scale": 1.6,
+      "sha256": "5a77252a5d4911548038f8f5907f939de4307ae46353615e845115542001f44e",
+      "shows": "085:ย25 老妖道 และ 斷么絕六"
+    },
+    {
+      "file": "codex-p1115.png",
+      "pdf_page": 1115,
+      "clip_pdf_points": [
+        402,
+        106,
+        803,
+        684
+      ],
+      "scale": 1.6,
+      "sha256": "906860fe1195e60aadce4a2beecd3a08ddf68ed6901f9b6576d1911ccc3d0232",
+      "shows": "085:ย29–ย30 ท้ายบทหลังคู่กวี"
+    },
+    {
+      "file": "codex-p1116.png",
+      "pdf_page": 1116,
+      "clip_pdf_points": [
+        0,
+        108,
+        412,
+        680
+      ],
+      "scale": 1.6,
+      "sha256": "59c2287e4b81ff98502246a2eb47382540d9c81db53b19a010997ecedaf0d9f7",
+      "shows": "ขอบเขตหลัง 085:ย30 ขึ้นบท 086 ในหน้าถัดไป"
+    }
   ]
 }
