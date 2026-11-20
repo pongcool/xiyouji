@@ -1,0 +1,47 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Codex independent review, 2026-11-20",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1038-verse.png",
+      "pdf_page": 1038,
+      "clip_pdf_points": [
+        277,
+        104,
+        453,
+        665
+      ],
+      "scale": 3,
+      "sha256": "bd4622f3c319e7daf6327d458653c91174bcadd5a3890fd9e148a9593ee51102",
+      "shows": "080:ย3 คอลัมน์กวี 拗馬軍 (ท้ายคอลัมน์ใกล้ขอบ) และ 何時對子見當今"
+    },
+    {
+      "file": "p1039-tiger.png",
+      "pdf_page": 1039,
+      "clip_pdf_points": [
+        445,
+        115,
+        510,
+        665
+      ],
+      "scale": 3,
+      "sha256": "c720a3b112820d6d8af014e86daec7124e7ebdd234a1010f3a7bb1d116101c5f",
+      "shows": "080:ย5 大虫擺尾 ขนาน 老虎磕牙"
+    },
+    {
+      "file": "p1045-places.png",
+      "pdf_page": 1045,
+      "clip_pdf_points": [
+        580,
+        115,
+        665,
+        670
+      ],
+      "scale": 3,
+      "sha256": "92e9cdd9aa0b85707e06da1ac1807defc647023e8cbacecc1fc94fd9b1eb46d4",
+      "shows": "080:ย15 「或到庵觀寺院，有人家之處」"
+    }
+  ]
+}
