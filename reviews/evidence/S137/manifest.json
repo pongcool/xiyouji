@@ -1,0 +1,53 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "X052 Codex targeted review, 2026-11-23",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p15-y5-ball.png",
+      "pdf_page": 15,
+      "clip_pdf_points": [
+        493.5744177246094,
+        118.07519958496094,
+        598.272021484375,
+        666.77759765625
+      ],
+      "scale": 2.8,
+      "sha256": "463740f80a1c41ea1df7ceb887658516c33a4d028100e874d7d8dc84d1ccc6a3",
+      "shows": "001:ย5 似圓毬樣大",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p850-y23-stars.png",
+      "pdf_page": 850,
+      "clip_pdf_points": [
+        568.8744213867187,
+        92.78880126953125,
+        779.280029296875,
+        678.0720092773437
+      ],
+      "scale": 1.8,
+      "sha256": "a730730d9f0a87737a0e0ac19b5ddc2cab92df8333e914d97983c5e82631177c",
+      "shows": "065:ย23 รายชื่อดาว 氐土蝠 และ 女土貉",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1060-y14-tiles.png",
+      "pdf_page": 1060,
+      "clip_pdf_points": [
+        380.43601196289063,
+        111.78240234375001,
+        504.66001586914064,
+        314.3880065917969
+      ],
+      "scale": 2.2,
+      "sha256": "3be1cbe601ec96bd94382f9a5fc9f5ce000d1b1fad3903a3d8c6d666c8bf4e12",
+      "shows": "081:ย14 金殿碎鴛鴦",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    }
+  ]
+}
