@@ -1,0 +1,53 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude translation of chapter 092, 2026-11-23",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1193-left.png",
+      "pdf_page": 1193,
+      "clip_pdf_points": [
+        0,
+        90,
+        380,
+        690
+      ],
+      "scale": 1.6,
+      "sha256": "c92e7f2d3e0633af33296315ddb37bb06d0450bdfafbc08e11589b12bef77ab2",
+      "shows": "092:ย7–ย8 กวีศึก 「藤紇…」「藤條節…」",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1197-left.png",
+      "pdf_page": 1197,
+      "clip_pdf_points": [
+        0,
+        90,
+        390,
+        700
+      ],
+      "scale": 1.6,
+      "sha256": "d68de55e3aaf03b5b4f8b3a48a443832c2af816fab9fe238d9a4ec8d52eecdc8",
+      "shows": "092:ย14–ย15 รายการสมบัติในถ้ำ",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1199-left.png",
+      "pdf_page": 1199,
+      "clip_pdf_points": [
+        0,
+        90,
+        395,
+        700
+      ],
+      "scale": 1.6,
+      "sha256": "6030f3493f643d7042ba8e3120de0ee3838541c526fb47740032d8c9959681aa",
+      "shows": "092:ย17–ย18 「老龍王敖順」 และกองทัพน้ำ",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    }
+  ]
+}
