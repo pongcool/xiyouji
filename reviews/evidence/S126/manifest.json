@@ -1,0 +1,53 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude translation of chapter 091, 2026-11-23",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1181-left.png",
+      "pdf_page": 1181,
+      "clip_pdf_points": [
+        0,
+        90,
+        370,
+        680
+      ],
+      "scale": 1.6,
+      "sha256": "2fccd2e9b558d55b794b792809a9dd8237104947c15d4c4fde3c087ff326ea51",
+      "shows": "091:ย9–ย10 สแกน 「眾等既在本寺裡看了燈又到東門廂」 และ 「卸了袈裟付與沙僧又掃二層」 ไม่มีจุดละ",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1181-right.png",
+      "pdf_page": 1181,
+      "clip_pdf_points": [
+        420,
+        90,
+        792,
+        680
+      ],
+      "scale": 1.6,
+      "sha256": "22df30c72651017e75286cda7c8402a4b6fec3147c05dbaf36c47b48a3fd8f29",
+      "shows": "091:ย8 สแกน 「師徒們玩賞一日至晚殿上掌了燈」",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1184-right.png",
+      "pdf_page": 1184,
+      "clip_pdf_points": [
+        400,
+        90,
+        784,
+        680
+      ],
+      "scale": 1.6,
+      "sha256": "f3957e92d8a4fc9f2d8b8c8dfbe35ce0c676f725a88f760c191b1533fce8c5ed",
+      "shows": "091:ย14 สแกน 「卻被他侮暗燈光」 ตรงไฟล์",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    }
+  ]
+}
