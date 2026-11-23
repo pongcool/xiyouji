@@ -78,6 +78,51 @@
       "shows": "095:ย26 สแกน 「謝此僧存養公主之恩」「仍着三部辦料重修」 (ไฟล์ 供養, 工部); ย28 「供養在華夷樓上」 ตรงไฟล์",
       "reviewer": "Claude",
       "date": "2026-11-23"
+    },
+    {
+      "file": "codex-p1224-title.png",
+      "pdf_page": 1224,
+      "clip_pdf_points": [
+        39,
+        116,
+        110,
+        659
+      ],
+      "scale": 2.4,
+      "sha256": "4b79c4e192b5d47981e3ac264df15259153091629130c674a8caf61e52e59f0a",
+      "shows": "095:หัวบท 假合形骸擒玉兔　真陰歸正會靈元",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "codex-p1230-y15-y16.png",
+      "pdf_page": 1230,
+      "clip_pdf_points": [
+        12,
+        120,
+        299,
+        685
+      ],
+      "scale": 2,
+      "sha256": "6fa3a5c298a777c5c380e3917f4d0e086004e28807ab1f6352ae76aebbcc1e86",
+      "shows": "095:ย15 趕急鑽進去也; ย16 行者莫動手／老太陰那里來的",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "codex-p1234-y21.png",
+      "pdf_page": 1234,
+      "clip_pdf_points": [
+        269,
+        116,
+        687,
+        684
+      ],
+      "scale": 2,
+      "sha256": "e39c4e862d286076be92f491b2be7a3ac2b180bd494c144bb847747481741e34",
+      "shows": "095:ย21 前日自東來／惟恐本寺頑僧污染，只說是妖精被我鎖住",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
     }
   ]
 }

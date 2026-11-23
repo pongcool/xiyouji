@@ -33,6 +33,81 @@
       "shows": "094:ย8 สแกน 「你还把熱舌頭鐸我」 ตรงไฟล์ (ตรวจคำ 鐸)",
       "reviewer": "Claude",
       "date": "2026-11-23"
+    },
+    {
+      "file": "codex-p1216-y6.png",
+      "pdf_page": 1216,
+      "clip_pdf_points": [
+        520,
+        117,
+        672,
+        685
+      ],
+      "scale": 2,
+      "sha256": "dcdb63275c6a75b009e306635316a02350ba615d75ee506c5ff3b86993936f9d",
+      "shows": "094:ย6 十三日壬子辰良 (ไฟล์ 十二日壬子辰良)",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "codex-p1219-y11.png",
+      "pdf_page": 1219,
+      "clip_pdf_points": [
+        438,
+        122,
+        653,
+        680
+      ],
+      "scale": 2,
+      "sha256": "e965dbe04e7bd9f426b8240d66232e53c94dc640ff3876b1e8ec4750bfefae62",
+      "shows": "094:ย11 與宮主上頭 และ 十二日佳配",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "codex-p1221-y18.png",
+      "pdf_page": 1221,
+      "clip_pdf_points": [
+        92,
+        119,
+        383,
+        683
+      ],
+      "scale": 2,
+      "sha256": "6ed8d0648b6fa9919d4ea871b05ec28bfbf526500550fbbba495ef4c595affb2",
+      "shows": "094:ย18 只謹言，只謹言。既至亭內，嗔責他三人道，汝等 และ 饒罪",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "codex-p1221-y19.png",
+      "pdf_page": 1221,
+      "clip_pdf_points": [
+        12,
+        126,
+        140,
+        681
+      ],
+      "scale": 2,
+      "sha256": "bfaf53fe87c71e9a52faa7ff2c3a7a43e577a5bb66252a09c35cb4caa51bd062",
+      "shows": "094:ย19 正值十二日佳辰",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "codex-p1223-y21.png",
+      "pdf_page": 1223,
+      "clip_pdf_points": [
+        453,
+        128,
+        640,
+        678
+      ],
+      "scale": 2,
+      "sha256": "647be9d710e0b383d11e12fd15a80bac5e7f523a23f0987d845624ec8de6735f",
+      "shows": "094:ย21 熬至十二日，天未明／今日却是十二了",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
     }
   ]
 }
