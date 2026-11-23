@@ -48,6 +48,60 @@
       "shows": "098:ย25 รายชื่อชุดที่ส่งมอบ: 金光明品經 五十卷 (ไฟล์ 大光明經), 摩謁經 (ไฟล์ 摩竭經), 寶常經二百七十卷 (ไฟล์ 一百七十卷)",
       "reviewer": "Claude",
       "date": "2026-11-23"
+    },
+    {
+      "file": "p1273-y21-baixiong-codex.png",
+      "pdf_page": 1273,
+      "clip_pdf_points": [
+        440,
+        145,
+        560,
+        670
+      ],
+      "scale": 2.35,
+      "sha256": "50bdf657b82b2f0dfbf18d0fe2d421e8c893738209d9bf4f456d26bb48632156",
+      "shows": "098:ย21 ชื่อครั้งแรก 「白雄尊者」 และตอนรับคำสั่งออกติดตาม 「白熊尊者」",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1274-y24-wheat-monks-codex.png",
+      "pdf_page": 1274,
+      "clip_pdf_points": [
+        35,
+        138,
+        190,
+        677
+      ],
+      "scale": 2.35,
+      "sha256": "9eca32679b977ddf45adaaad7ead7d0433fcafcf130ef9db07e4b4eb789ac1d3",
+      "shows": "098:ย24 「三斗三升麥粒黃金」 และ 「東土眾僧愚迷不悟」",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1277-y25-list-full-codex.png",
+      "pdf_page": 1277,
+      "scale": 1.55,
+      "sha256": "bf1821db857c60d94d54b9476f7c44fc927994a80b9f46e56ee75362dd280a3e",
+      "shows": "098:ย25–ย26 รายการ 35 หมวดครบหน้า 寶常經二百七十卷 และยอดที่รายงาน 五千零四十八卷",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1278-y28-count-codex.png",
+      "pdf_page": 1278,
+      "clip_pdf_points": [
+        392,
+        130,
+        767,
+        670
+      ],
+      "scale": 1.55,
+      "sha256": "02c65028f4fe39aba7b19218d1d53db5a918a2067794b039a9a332504f2f540c",
+      "shows": "098:ย27–ย28 「三山門」 และจำนวนวันที่คำนวณ 「五千零四十日。還少八日」",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
     }
   ]
 }

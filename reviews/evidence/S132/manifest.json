@@ -18,6 +18,21 @@
       "shows": "097:ย14 สแกน 「老爹纔子提控送下四个和尚」 (ไฟล์และ wikisource 「才子提審」)",
       "reviewer": "Claude",
       "date": "2026-11-23"
+    },
+    {
+      "file": "p1262-y24-qinguang-codex.png",
+      "pdf_page": 1262,
+      "clip_pdf_points": [
+        185,
+        130,
+        370,
+        675
+      ],
+      "scale": 2.35,
+      "sha256": "12b3e01001a0400de449eb33f5f5a4ca3e8e93fa5a8e5c0e2be7c564c78b1293",
+      "shows": "097:ย24 「十閻王接下大聖」 แต่ผู้ตอบเป็น 「秦廣王道」",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
     }
   ]
 }
