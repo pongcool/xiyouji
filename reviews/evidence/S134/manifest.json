@@ -63,6 +63,81 @@
       "shows": "099:ย1 ภัยที่ 76–80 (79 奪帛酧恩, 80 脫胎凌雲) และ 路逢十萬八千里; ย2; ย3 附耳低言道如此如此 ไม่มีจุดละ",
       "reviewer": "Claude",
       "date": "2026-11-23"
+    },
+    {
+      "file": "p1278-title-codex.png",
+      "pdf_page": 1278,
+      "clip_pdf_points": [
+        265.0,
+        125.0,
+        302.0,
+        670.0
+      ],
+      "scale": 2.8,
+      "sha256": "b21cc74f98fa73ecdebcb131c6888ffc5221e01a08836629e600382eba52badd",
+      "shows": "ชื่อบท 魔残盡 ตรงตำแหน่งที่ไฟล์ใช้ 魔滅盡",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1282-y5-y6-turtle-codex.png",
+      "pdf_page": 1282,
+      "clip_pdf_points": [
+        0.0,
+        130.0,
+        380.0,
+        701.52001953125
+      ],
+      "scale": 1.65,
+      "sha256": "9da38bb796fd4560136820c7af8fe17b1c1cd20857b5ee13fc027ce4f210a373",
+      "shows": "099:ย5–ย6 กวีตะพาบ และคำถามเรื่อง 歸著 กับอายุ",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1283-y7-storm-codex.png",
+      "pdf_page": 1283,
+      "clip_pdf_points": [
+        0.0,
+        130.0,
+        763.6799926757812,
+        702.47998046875
+      ],
+      "scale": 1.55,
+      "sha256": "fe015d26c073bc1e56695ba623ec2ef928a0682b0e70e4fa65118477e5cb6c20",
+      "shows": "099:ย7 พายุจัดเป็นวรรคคู่",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1284-y9-y11-drying-codex.png",
+      "pdf_page": 1284,
+      "clip_pdf_points": [
+        0.0,
+        130.0,
+        786.239990234375,
+        710.0
+      ],
+      "scale": 1.55,
+      "sha256": "bdb8d697f3d09f91e1b3c17061bcd460458f75198153409158f3939ff99daa18",
+      "shows": "099:ย9 水勝真經伏; ย10 หุบและระยะยี่สิบลี้; ย11 二老官 และคัมภีร์ติดหิน",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1285-y13-temple-codex.png",
+      "pdf_page": 1285,
+      "clip_pdf_points": [
+        0.0,
+        130.0,
+        390.0,
+        710.0
+      ],
+      "scale": 1.8,
+      "sha256": "12cea1ddb866ad413f6f272b5dcabb3b68cc17cf63b05b8d9af0968dcdbd8c91",
+      "shows": "099:ย13 救僧寺 และคำพรรณนาวัดจัดวรรคคู่",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
     }
   ]
 }

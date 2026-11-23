@@ -78,6 +78,126 @@
       "shows": "100:ย14 「理行囊行者在吾左右又向太宗道」 ไม่มีเครื่องหมายคำพูด",
       "reviewer": "Claude",
       "date": "2026-11-23"
+    },
+    {
+      "file": "p1287-y1-temple-codex.png",
+      "pdf_page": 1287,
+      "clip_pdf_points": [
+        570.0,
+        130.0,
+        785.0399780273438,
+        705.0
+      ],
+      "scale": 1.8,
+      "sha256": "2e702a5ba4c5f570c68422e2ec9060beb8fb2bd5e2082abb9f6561e147ecbbe8",
+      "shows": "100:ย1 救生寺",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1290-y5-35bu-codex.png",
+      "pdf_page": 1290,
+      "clip_pdf_points": [
+        660.0,
+        130.0,
+        786.0,
+        705.0
+      ],
+      "scale": 1.9,
+      "sha256": "695226dc886861e750cef20e2e687fbce10e6a7ad654fafd14c19c4deb7e3acc",
+      "shows": "100:ย5 此經有三十五部 และ 五千零四十八卷",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1290-y7-seals-codex.png",
+      "pdf_page": 1290,
+      "clip_pdf_points": [
+        0.0,
+        130.0,
+        85.0,
+        705.0
+      ],
+      "scale": 2.8,
+      "sha256": "7468079d0132752d9b514de6906d8a011bd10a819d6c4e2775916be500a05946",
+      "shows": "100:ย7 獅駝國印 ระหว่างตราจูจื่อกับปี่ชิว",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1291-y8-banquet-codex.png",
+      "pdf_page": 1291,
+      "clip_pdf_points": [
+        0.0,
+        130.0,
+        786.0,
+        705.0
+      ],
+      "scale": 1.55,
+      "sha256": "5d0320d70d7912bc4adcd6a7488e55b90eeb92267593f0f1e07ccc191490489f",
+      "shows": "100:ย8 รายการงานเลี้ยงจัดเป็นวรรคคู่",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1294-y13-tower-codex.png",
+      "pdf_page": 1294,
+      "clip_pdf_points": [
+        620.0,
+        130.0,
+        790.0,
+        705.0
+      ],
+      "scale": 2.4,
+      "sha256": "2c0bf9fe6efd0bb3d2aaa306d2bb03e841e83152ef49c569e52f09524b094582",
+      "shows": "100:ย13 ชื่อวัดในคำทูลและรับสั่ง มีองค์ประกอบ 鳥",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1296-y17-y18-fruits-codex.png",
+      "pdf_page": 1296,
+      "clip_pdf_points": [
+        0.0,
+        125.0,
+        791.52001953125,
+        705.0
+      ],
+      "scale": 1.55,
+      "sha256": "31eb1d7de81704cc28ca78c4709f9675f11486c43c6be4d37e165c1b6dc19bcd",
+      "shows": "100:ย17–ย18 ตำแหน่งผลสามรายท้ายและการแปลงร่างม้า",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1297-y21-y22-verse-names-codex.png",
+      "pdf_page": 1297,
+      "clip_pdf_points": [
+        0.0,
+        125.0,
+        791.0399780273438,
+        705.0
+      ],
+      "scale": 1.65,
+      "sha256": "d24b5abcecb50ace878e8f91ab78332d04d43a461dce373b311132f2ffb18cb6",
+      "shows": "100:ย21 คำพรรณนาวรรคคู่ และ ย22 พระนาม 藥師光王佛",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1298-y22-pdf-end-codex.png",
+      "pdf_page": 1298,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        802.5599975585938,
+        717.5999755859375
+      ],
+      "scale": 1.45,
+      "sha256": "ecae1e67f6d9e205d275f9eab6e545d4361239b25f4810c8d6e5d7e28821b9a7",
+      "shows": "100:ย22 หน้าสุดท้ายใน PDF มีบัญชีพระนามและหน้าคู่ว่าง",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
     }
   ]
 }
