@@ -1,0 +1,24 @@
+{
+ "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+ "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+ "transform": "grayscale render only",
+ "review": "Claude source-issue sweep, 2026-11-23",
+ "images": [
+  {
+   "file": "p107-ch8-end-ch9-title.png",
+   "pdf_page": 107,
+   "clip_pdf_points": "full page",
+   "dpi": 150,
+   "sha256": "8cd86ae270863a3b9a430ccbff580c11259aad1793d0cf086be248c0aaff1f89",
+   "shows": "ท้ายบท 8 (「且聽下回分解」) ต่อด้วยหัวบท 「第九回 袁守誠妙笑無私曲 老龍王拙計犯天條」 ทันที ไม่มีตอนเฉินกวงรุ่ย"
+  },
+  {
+   "file": "p108-ch9-opening-fisher-woodcutter.png",
+   "pdf_page": 108,
+   "clip_pdf_points": "full page",
+   "dpi": 150,
+   "sha256": "d25573ef131e988c1c55b8232c7cee1ac80a4babdb654a154636beb07c92866e",
+   "shows": "ต้นบท 9 ของ 世德堂: 太宗登基十三年 และสองผู้รู้ริมแม่น้ำจิง (ในไฟล์ของเราคือต้นบท 010)"
+  }
+ ]
+}
