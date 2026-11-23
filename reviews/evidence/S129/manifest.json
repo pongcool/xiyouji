@@ -1,0 +1,38 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude translation of chapter 094, 2026-11-23",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1222-right.png",
+      "pdf_page": 1222,
+      "clip_pdf_points": [
+        410,
+        90,
+        792,
+        690
+      ],
+      "scale": 1.6,
+      "sha256": "fff8c924ae952c94ff1bad16bf93ac32304b5ee7d39f05bbe530ce6c26af353a",
+      "shows": "094:ย19 《喜詞》 สแกน 「五彩叢中香拂く千金隊裡」 = 香拂拂 (ไฟล์ 香拂佛)",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1217-right.png",
+      "pdf_page": 1217,
+      "clip_pdf_points": [
+        410,
+        90,
+        791,
+        690
+      ],
+      "scale": 1.6,
+      "sha256": "183f2d5a79d941085a7175f33323dab758ce72edf6c337424946f2f596865495",
+      "shows": "094:ย8 สแกน 「你还把熱舌頭鐸我」 ตรงไฟล์ (ตรวจคำ 鐸)",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    }
+  ]
+}
