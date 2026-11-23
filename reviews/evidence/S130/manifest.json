@@ -1,0 +1,83 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude translation of chapter 095, 2026-11-23",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1225-left-y5.png",
+      "pdf_page": 1225,
+      "clip_pdf_points": [
+        20,
+        380,
+        200,
+        690
+      ],
+      "scale": 2.0,
+      "sha256": "1c28b4cd9bd31fa75718ff21654325dc92739aa69ed427b51995e6644f2dc6e0",
+      "shows": "095:ย5 สแกน 「吹折芰荷楟」 ตรงไฟล์",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1227-y7.png",
+      "pdf_page": 1227,
+      "clip_pdf_points": [
+        640,
+        120,
+        705,
+        520
+      ],
+      "scale": 2.5,
+      "sha256": "aeea6313d96bde1640e1578d38a40dfed784661f8cfd587f0695064a927b8dc0",
+      "shows": "095:ย7 สแกน 「解剝了衣裳捽く頭搖落了首飾跑到御花園」 ไม่มี 釵環",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1227-y9.png",
+      "pdf_page": 1227,
+      "clip_pdf_points": [
+        10,
+        400,
+        80,
+        690
+      ],
+      "scale": 3.0,
+      "sha256": "b754418a0cbf738c7aed8a75a365f2ab006ddf8fc0cd3b3e5dbcc3751dba31c4",
+      "shows": "095:ย9 สแกน 「帥領着龐劉苟畢四大天兵各展」 (ไฟล์ 四大元帥)",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1230-y14.png",
+      "pdf_page": 1230,
+      "clip_pdf_points": [
+        560,
+        90,
+        792,
+        400
+      ],
+      "scale": 2.0,
+      "sha256": "2bd0d2404bcfe8b7a4d9412e1a80e5d548fc8e9c56f03a49c4524cc65cef9448",
+      "shows": "095:ย14 สแกน 「乃五環之福地也」 ตรงไฟล์",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1236-right-y26-y28.png",
+      "pdf_page": 1236,
+      "clip_pdf_points": [
+        410,
+        90,
+        800,
+        690
+      ],
+      "scale": 1.6,
+      "sha256": "f4e7a83d1df006fecd282be8038b48ee4911e0ee28af36c03695860b3976700f",
+      "shows": "095:ย26 สแกน 「謝此僧存養公主之恩」「仍着三部辦料重修」 (ไฟล์ 供養, 工部); ย28 「供養在華夷樓上」 ตรงไฟล์",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    }
+  ]
+}
