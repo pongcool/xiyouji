@@ -1,0 +1,53 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude translation of chapter 098, 2026-11-23",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1272-y19-list1.png",
+      "pdf_page": 1272,
+      "clip_pdf_points": [
+        395,
+        140,
+        755,
+        670
+      ],
+      "scale": 1.6,
+      "sha256": "834e3ec30ea65039f394f0546cc1806d84fd5d53bf7749e5085ec94438f05141",
+      "shows": "098:ย19 รายชื่อคัมภีร์ชุดแรกในคลัง: 大光明經 (ไฟล์ 光明經), 王/正法輪經 (ไฟล์ 正法論經), 寶長經 (ไฟล์ 寶常經) จำนวนม้วนตรงไฟล์ทุกรายการ",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1272-y19-list1-left.png",
+      "pdf_page": 1272,
+      "clip_pdf_points": [
+        20,
+        140,
+        390,
+        670
+      ],
+      "scale": 1.6,
+      "sha256": "4786dbed5d2fbb49693f69b9455233069f917688eb33b971ece9e78b4e76aef5",
+      "shows": "098:ย19 รายชื่อชุดแรกต่อ: 不閣經 (ไฟล์ 本閣經), 唯識論經 (ไฟล์ 維識論經)",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1277-y25-list2.png",
+      "pdf_page": 1277,
+      "clip_pdf_points": [
+        395,
+        140,
+        615,
+        600
+      ],
+      "scale": 2.2,
+      "sha256": "a4cc224dd44e82b28af43cf293a9bbd04955098df0b49cb269ce1a3132c63de3",
+      "shows": "098:ย25 รายชื่อชุดที่ส่งมอบ: 金光明品經 五十卷 (ไฟล์ 大光明經), 摩謁經 (ไฟล์ 摩竭經), 寶常經二百七十卷 (ไฟล์ 一百七十卷)",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    }
+  ]
+}
