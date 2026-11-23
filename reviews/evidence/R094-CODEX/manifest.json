@@ -1,0 +1,20 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "transform": "render/crop only",
+  "review": "Independent review by Codex 2026-11-23",
+  "images": [
+    {
+      "file": "p1215-y3-erba-sansan.png",
+      "pdf_page": 1215,
+      "clip_pdf_points": [
+        310,
+        123,
+        379,
+        684
+      ],
+      "scale": 3.4,
+      "sha256": "44c1138079b3b47e6844efe8f2db187d7cc4a30b41ca1e2df465651981bf2195"
+    }
+  ]
+}
