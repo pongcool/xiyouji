@@ -1,0 +1,83 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude translation of chapter 100, 2026-11-23",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1287-y2-podacuren.png",
+      "pdf_page": 1287,
+      "clip_pdf_points": [
+        0,
+        130,
+        400,
+        700
+      ],
+      "scale": 1.6,
+      "sha256": "0916ae80059299fa005f54908be6889f348c214bfc12cfb3f557e71143635b3c",
+      "shows": "100:ย2 「潑大粗人都在此等我」 ตรงไฟล์",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1289-y5-maili.png",
+      "pdf_page": 1289,
+      "clip_pdf_points": [
+        0,
+        130,
+        120,
+        700
+      ],
+      "scale": 2.4,
+      "sha256": "e3998e5cf65b15371029a61c39af783152786dcf5406215c71f79391f5336756",
+      "shows": "100:ย5 「三斗三升麦粒黃金」 (ไฟล์ 米粒) และ 「後代子孫」 (ไฟล์ 後來子孫)",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1292-y10-y11-preface.png",
+      "pdf_page": 1292,
+      "clip_pdf_points": [
+        0,
+        130,
+        787,
+        713
+      ],
+      "scale": 1.4,
+      "sha256": "22ba8fdb20a7237a52b2273948214162ae9613ecb8e6e7b098751d7c4096aeb8",
+      "shows": "100:ย10 「八戒也不讓茶飯」 (ไฟล์ 嚷); ย11 「歷千刼而亘古」 (ไฟล์ 千仞), 「細之則入于毫釐」 (ไฟล์ 攝於), 「卜形卜迹」 และ 「拯禽類」 ตรงไฟล์",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1293-y11-25bu.png",
+      "pdf_page": 1293,
+      "clip_pdf_points": [
+        400,
+        0,
+        787,
+        713
+      ],
+      "scale": 1.6,
+      "sha256": "895f9f572f8f5777a1aab13b6a2ba9ccbbdf9f3098ba5e4bde47d52387abc1d6",
+      "shows": "100:ย11 「總淂大乘要文凡二十五部」 (ไฟล์ 三十五部) และ 「温火宅之乾焰」 ตรงไฟล์",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1294-y14-xingzhe.png",
+      "pdf_page": 1294,
+      "clip_pdf_points": [
+        400,
+        100,
+        787,
+        713
+      ],
+      "scale": 1.6,
+      "sha256": "601844c5d1a6a2f61fe92d9bc8999ba7abc0e1160f30b6e3f49f4e33790cebb8",
+      "shows": "100:ย14 「理行囊行者在吾左右又向太宗道」 ไม่มีเครื่องหมายคำพูด",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    }
+  ]
+}
