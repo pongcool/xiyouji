@@ -1,0 +1,23 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude translation of chapter 097, 2026-11-23",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1257-y14.png",
+      "pdf_page": 1257,
+      "clip_pdf_points": [
+        95,
+        140,
+        190,
+        420
+      ],
+      "scale": 2.2,
+      "sha256": "c900f5036b1ff97381358280b04fbf52abb1fdc6f836b2f90f700ae99797f79b",
+      "shows": "097:ย14 สแกน 「老爹纔子提控送下四个和尚」 (ไฟล์และ wikisource 「才子提審」)",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    }
+  ]
+}
