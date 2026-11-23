@@ -48,6 +48,21 @@
       "shows": "092:ย17–ย18 「老龍王敖順」 และกองทัพน้ำ",
       "reviewer": "Claude",
       "date": "2026-11-23"
+    },
+    {
+      "file": "codex-p1202-y26.png",
+      "pdf_page": 1202,
+      "clip_pdf_points": [
+        690,
+        117,
+        750,
+        470
+      ],
+      "scale": 3,
+      "sha256": "60a5cfa88cc4ced645f4745e1eaa33958f0623ecbfa1fdd61f101044f48f53a5",
+      "shows": "092:ย26 「枉罰無礙錢糧」",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
     }
   ]
 }

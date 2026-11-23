@@ -33,6 +33,21 @@
       "shows": "093:ย16–ย18 สแกน 「知得唐僧今年今月今日今時到此」 มี 到",
       "reviewer": "Claude",
       "date": "2026-11-23"
+    },
+    {
+      "file": "codex-p1208-y11.png",
+      "pdf_page": 1208,
+      "clip_pdf_points": [
+        687,
+        130,
+        755,
+        676
+      ],
+      "scale": 2.5,
+      "sha256": "e31167ddd4def4d60d20909f48a7c13a4870cc3795f0cb629cae0b4823bf28c3",
+      "shows": "093:ย11 「我幾番家進城乞化打探宮主之事」 มี 乞化",
+      "reviewer": "Codex",
+      "date": "2026-11-23"
     }
   ]
 }
