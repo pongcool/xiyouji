@@ -1,0 +1,23 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude translation of chapter 096, 2026-11-23",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1247-y25.png",
+      "pdf_page": 1247,
+      "clip_pdf_points": [
+        300,
+        420,
+        385,
+        690
+      ],
+      "scale": 2.5,
+      "sha256": "26a2f305533237fcbb0b8480721fc878c6d8eb33712195daf74ce92c6b8f7340",
+      "shows": "096:ย25 สแกน 「舉筯念揭齋經」 (ไฟล์ 結齋經, wikisource 謁齋經)",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    }
+  ]
+}
