@@ -1,0 +1,68 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude translation of chapter 099, 2026-11-23",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1278-y1-list-1-3.png",
+      "pdf_page": 1278,
+      "clip_pdf_points": [
+        0,
+        130,
+        380,
+        670
+      ],
+      "scale": 2.0,
+      "sha256": "421635725687853cf3673c83f9ecae83587fc1dadb03385f232459e774cb3737",
+      "shows": "099:ย1 ต้นบท: 聖僧 (ไฟล์ 唐僧), 委的心虔意志, 菩薩從頭看了一遍這正是那 (ไฟล์ 上寫著), ภัยที่ 1–3",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1279-y1-list-4-39.png",
+      "pdf_page": 1279,
+      "clip_pdf_points": [
+        380,
+        40,
+        761,
+        705
+      ],
+      "scale": 1.8,
+      "sha256": "9fb03ee8178a78a75dcf78e018dbdf8c0da1d7fc82163c660708ea6f12030a0f",
+      "shows": "099:ย1 ภัยที่ 4–39 ลำดับต่างจากไฟล์: 18 不識人參, 19 五莊觀中, 21 松林失散, 25 山壓大聖, 27 盜寶更名, 39 魚籃現身",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1279-y1-list-40-75.png",
+      "pdf_page": 1279,
+      "clip_pdf_points": [
+        0,
+        40,
+        380,
+        705
+      ],
+      "scale": 1.8,
+      "sha256": "a6ece54dfab2862e94738f8558ed773d8229d9bcbbf9d6aef1a7502746ed3dce",
+      "shows": "099:ย1 ภัยที่ 40–75: 40 金⿰山兜山逢, 44 女國畱(留), 47 識淂(得)獼猴, 48 火焰山高, 54 大困天神, 66 鳳仙国求雨, 67 救女怪卧僧房, 69 稀柿?穢, 70 花豹迷人, 72 黑河沉沒, 74 元夜觀燈",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1280-y1-list-76-80-y2-y3.png",
+      "pdf_page": 1280,
+      "clip_pdf_points": [
+        380,
+        40,
+        760,
+        705
+      ],
+      "scale": 1.8,
+      "sha256": "ef2e267cf8365f63f462fd078a0103308430fb6d27ae3e44300ee2351fad5113",
+      "shows": "099:ย1 ภัยที่ 76–80 (79 奪帛酧恩, 80 脫胎凌雲) และ 路逢十萬八千里; ย2; ย3 附耳低言道如此如此 ไม่มีจุดละ",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    }
+  ]
+}
