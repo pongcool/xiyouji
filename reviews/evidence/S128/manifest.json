@@ -1,0 +1,38 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "Claude translation of chapter 093, 2026-11-23",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p1204-right.png",
+      "pdf_page": 1204,
+      "clip_pdf_points": [
+        410,
+        90,
+        791,
+        690
+      ],
+      "scale": 1.6,
+      "sha256": "47496e77b474b2e10b52a7530fe895abac196ebc85ebdb2e86919fbcc918ef12",
+      "shows": "093:ย4–ย5 สแกน 「沉思道布金布金這莫不是舍衛國界了麼」 ไม่มีจุดละ",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    },
+    {
+      "file": "p1210-right.png",
+      "pdf_page": 1210,
+      "clip_pdf_points": [
+        410,
+        90,
+        792,
+        690
+      ],
+      "scale": 1.6,
+      "sha256": "689912017d6166e806a60722f1ca210785f2497c0129e7cce5a99dbf8ed15dbf",
+      "shows": "093:ย16–ย18 สแกน 「知得唐僧今年今月今日今時到此」 มี 到",
+      "reviewer": "Claude",
+      "date": "2026-11-23"
+    }
+  ]
+}
