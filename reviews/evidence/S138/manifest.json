@@ -1,0 +1,23 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page",
+  "review": "X054 second Codex targeted review of bed2365, 2026-11-24",
+  "transform": "render and crop only",
+  "images": [
+    {
+      "file": "p121-y19-tianbingjiang.png",
+      "pdf_page": 121,
+      "clip_pdf_points": [
+        550,
+        88,
+        747,
+        678
+      ],
+      "scale": 3,
+      "sha256": "98a9d0c7cca690f0b44df2f82e4d3e08946958c785e13b147c9bb8b5f834716f",
+      "shows": "010:ย19 被天兵將綁縛其中, with a printed circle after 將",
+      "reviewer": "Codex",
+      "date": "2026-11-24"
+    }
+  ]
+}
