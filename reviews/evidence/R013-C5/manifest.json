@@ -1,0 +1,34 @@
+{
+  "pdf": "sources/新刻出像官板大字西游记.二十卷一百回.明.吴承恩撰.明万历二十年金陵世德堂刊本.灰度胶片.pdf",
+  "page_numbering": "1-based PDF page; PyMuPDF index = page - 1",
+  "review": "Codex targeted review of ae82601, 013, 2026-11-24",
+  "transform": "render/crop only; no restoration or enhancement",
+  "images": [
+    {
+      "file": "p157-feng-yang.png",
+      "pdf_page": 157,
+      "clip_pdf_points": [
+        507,
+        273,
+        585,
+        490
+      ],
+      "scale": 2.4,
+      "sha256": "6cc8d0ca9dca04bd52b0619e856c0e6b4609d99a5d1cfefcc7d7cd3b501272ac",
+      "shows": "幾樹楓楊紅葉墜"
+    },
+    {
+      "file": "p166-feng-yang.png",
+      "pdf_page": 166,
+      "clip_pdf_points": [
+        593,
+        93,
+        669,
+        432
+      ],
+      "scale": 2.4,
+      "sha256": "43ac10f8f20e078acdfa1f32083dfd1fea03b83e4c2d67cb7c35ef944fdfe3a1",
+      "shows": "樹樹楓楊掛赤"
+    }
+  ]
+}
