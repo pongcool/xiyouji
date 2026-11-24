@@ -29,12 +29,18 @@ FOOTNOTE_DEF = re.compile(r"^\[\^([^\]]+)\]:", re.M)
 # คำที่บอกว่าเชิงอรรถกำลังเล่าขั้นตอนหรือข้อสงสัยของผู้แปล
 TRANSLATOR_NOTE_PHRASES = ["ฉบับแปล", "คำแปลชั่วคราว", "ผู้แปล", "ยังไม่อาจยืนยัน", "ไม่มีหลักฐาน", "โดยคาดเดา"]
 
-# (คำจีน, รูปไทยที่รองรับ) เป็นเพียงตัวชี้ให้ตรวจสูตรเล่า ไม่ตัดสินความหมาย
+# (คำจีน, รูปไทยที่รองรับเป็น regex) เป็นเพียงตัวชี้ให้ตรวจสูตรเล่า ไม่ตัดสินความหมาย
+# “บทกวีแห่ง…นั้นว่า” รองรับหัวกวีมีคำขยาย เช่น 福詩曰 “บทกวีแห่งบุญนั้นว่า” (008:ย4)
 FORMULAS = [
-    ("詩曰", ("มีบทกวีกล่าวไว้ว่า", "มีบทกวีกล่าวเป็นพยานไว้ว่า", "บทกวีนั้นว่า")),
+    ("詩曰", ("มีบทกวีกล่าวไว้ว่า", "มีบทกวีกล่าวเป็นพยานไว้ว่า", r"บทกวี(?:แห่ง[^\s>“”]{1,20})?นั้นว่า")),
     ("有詩為證", ("มีบทกวีเป็นพยาน", "มีบทกวีกล่าวเป็นพยาน")),
     ("下回分解", ("โปรดติดตามในบทหน้า",)),
 ]
+
+# สูตรที่คำแปลตั้งใจไม่ใช้ตามหลักฐานที่บันทึกแล้ว: (บท, คำจีน) -> (จำนวนที่ยกเว้น, รหัสบันทึก)
+FORMULA_EXCEPTIONS = {
+    (85, "下回分解"): (1, "S120(7), R085-C14: สแกน 世德堂 หน้า PDF 1115–1116 จบบทด้วย 終 คำแปลใช้ “จบบท”"),
+}
 
 
 
@@ -178,11 +184,14 @@ def check(num, forbidden):
     # ต่อบรรทัดพับคำก่อนนับสูตรจีนที่อาจถูกตัดกลางคำ
     source = "".join(line.strip() for p in paras for line in p.splitlines())
     for zh, forms in FORMULAS:
-        translated_count = sum(body.count(form) for form in forms)
-        if source.count(zh) > translated_count:
+        translated_count = sum(len(re.findall(form, body)) for form in forms)
+        expected = source.count(zh)
+        excused, _ = FORMULA_EXCEPTIONS.get((num, zh), (0, ""))
+        if expected - excused > translated_count:
             warnings.append(
-                f"ต้นฉบับมี {zh} {source.count(zh)} ครั้ง แต่คำแปลมีสูตรที่รองรับ "
+                f"ต้นฉบับมี {zh} {expected} ครั้ง แต่คำแปลมีสูตรที่รองรับ "
                 f"{translated_count} ครั้ง ({' / '.join(forms)})"
+                + (f"; ยกเว้น {excused} ครั้งตามบันทึก" if excused else "")
             )
 
     return errors, warnings
