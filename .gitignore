@@ -12,3 +12,6 @@ __pycache__/
 
 # Scanned source PDF exceeds GitHub's regular file size limit (1.64 GB).
 /sources/*.pdf
+
+# Book build output (tools/build_book.py)
+/build/
