@@ -7,7 +7,7 @@
 
 ข้อมูลเข้า
 - translations/th/001.md–100.md  คำแปล
-- book/metadata.json             ชื่อเล่ม ผู้แต่ง ผู้แปล สัญญาอนุญาต แหล่งต้นฉบับ (ไม่มีไฟล์ใช้ค่าเริ่มต้น)
+- book/metadata.json             ชื่อเล่ม เวอร์ชัน ผู้แต่ง ผู้แปล สัญญาอนุญาต แหล่งต้นฉบับ (ไม่มีไฟล์ใช้ค่าเริ่มต้น)
 - book/front/*.md, book/back/*.md  ส่วนหน้า/ส่วนท้าย เรียงตามชื่อไฟล์ (ไม่มีโฟลเดอร์ก็ข้าม)
 
 Markdown ที่รองรับ (เท่าที่คำแปลใช้)
@@ -44,6 +44,7 @@ CHAPTER_COUNT = 100
 DEFAULT_METADATA = {
     "title": "ซีโหยวจี้",
     "original_title": "西遊記",
+    "version": None,
     "language": "th",
     "creators": [],
     "contributors": [],
@@ -333,6 +334,8 @@ def title_page_html(meta, date):
         lines.append("<p>ต้นฉบับที่ใช้</p><ul>")
         lines.extend(f"<li>{esc(s)}</li>" for s in meta["sources"])
         lines.append("</ul>")
+    if meta.get("version"):
+        lines.append(f"<p>เวอร์ชัน {esc(meta['version'])}</p>")
     lines.append(f"<p>สร้างเมื่อ {date.date().isoformat()}</p>")
     lines.append("</section>")
     return "\n".join(lines)
@@ -414,6 +417,8 @@ def build_epub(meta, docs, date, errors):
           f"<dc:title>{esc(meta['title'])}</dc:title>",
           f"<dc:language>{lang}</dc:language>",
           f'<meta property="dcterms:modified">{modified}</meta>']
+    if meta.get("version"):
+        dc.append(f'<meta property="schema:version">{esc(meta["version"])}</meta>')
     for i, c in enumerate(meta.get("creators", []), 1):
         dc.append(f'<dc:creator id="cre{i}">{esc(c["name"])}</dc:creator>')
         if c.get("role"):
