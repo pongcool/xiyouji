@@ -11,6 +11,11 @@
   ],
   "contributors": [
     {
+      "name": "Pong Cool",
+      "role": "pdr",
+      "label": "ผู้ดูแลโครงการ Pong Cool"
+    },
+    {
       "name": "Claude (Anthropic)",
       "role": "trl",
       "label": "แปลโดย Claude ปัญญาประดิษฐ์ของ Anthropic"
