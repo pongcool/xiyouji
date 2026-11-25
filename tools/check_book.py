@@ -251,25 +251,40 @@ def pinyin_fits(text, thai):
     return True
 
 
+def head_pinyin_fits(note, head_zh, head_th):
+    """พินอินในหมายเหตุเป็นของคำหัวแถว เมื่อพินอินกำกับเสียงอยู่ในตำแหน่งที่ชี้คำหัวแถว และ pinyin_fits ผ่าน
+    (1) หมายเหตุขึ้นต้นด้วยพินอิน เช่น “Zhū Bājiè; …”
+    (2) จีนที่เป็นคำหัวแถวหรือส่วนของคำหัวแถว (≥2 อักษร) ตามด้วยพินอิน เช่น 獅駝嶺 “獅駝 Shītuó …”,
+        比丘國 “比丘國 Bǐqiū …” (RBOOKCHECK-C2 รอบสาม)"""
+    candidates = []
+    first = re.match(r"[^\s;,，、(（]+", note)
+    if first and PINYIN.search(first.group(0)):
+        candidates.append(note)
+    for m in re.finditer("(" + CJK + r"+)\s+(?=\S)", note):
+        zh = m.group(1)
+        rest = note[m.end():]
+        word = re.match(r"[^\s;,，、(（]+", rest)
+        if (zh == head_zh or (len(zh) >= 2 and zh in head_zh)) and word and PINYIN.search(word.group(0)):
+            candidates.append(rest)
+    return any(pinyin_fits(c, head_th) for c in candidates)
+
+
 def name_terms():
     """ชื่อเฉพาะรายคำ คืน (ชุดจีน, ชุดไทย) (RBOOKCHECK-C2)
-    - ศัพท์กลาง: รับเฉพาะแถวที่ช่องพินอินขึ้นต้นด้วยพินอินกำกับเสียง และพยัญชนะต้นของพินอินนั้น
-      ปรากฏในรูปไทยหัวแถวตามลำดับ (pinyin_fits) จึงถือว่าพินอินเป็นของคำหัวแถว
+    - ศัพท์กลาง: รับเฉพาะแถวที่หมายเหตุมีพินอินของคำหัวแถว (head_pinyin_fits: ขึ้นต้นด้วยพินอิน
+      หรือจีนของคำหัวแถวตามด้วยพินอิน) และพยัญชนะต้นของพินอินนั้นปรากฏในรูปไทยหัวแถวตามลำดับ
       แล้วรับคำหัวแถวและรูปย่อที่อยู่ในคำหัวแถว เช่น 豬八戒 / 八戒 “Zhū Bājiè; …”
       ไม่รับเมื่อพินอินเป็นของคำอื่นในแถว เช่น 曼荊 “คนทีสอ” (พินอินกลางหมายเหตุ Hǎidōngqīng ของ 海東青)
       และ 衝天冠 “มงกุฎชี้ฟ้า” (Lántián ของ 藍田 ไม่มี ล ในรูปไทยหัวแถว) (RBOOKCHECK-C2 รอบสอง)
     - ทะเบียนตัวละคร: ทุกชื่อในช่องจีน/ไทยที่ใช้"""
     zh, th = set(), set()
     for cells in glossary_rows():
-        first = re.match(r"[^\s;,，、(（]+", cells[3])
-        if not first or not PINYIN.search(first.group(0)):
-            continue
         zhs = split_cell(cells[0], r"\s*/\s*")
         ths = split_cell(cells[1], r"\s*/\s*")
         if not zhs or not ths:
             continue
         head_zh, head_th = zhs[0], ths[0]
-        if not pinyin_fits(cells[3], head_th):
+        if not head_pinyin_fits(cells[3], head_zh, head_th):
             continue
         pairs = [(head_zh, head_th)]
         if len(zhs) == len(ths):
