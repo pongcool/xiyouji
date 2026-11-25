@@ -57,8 +57,11 @@ FOOTNOTE_REF = re.compile(r"\[\^([^\]\s]+)\]")
 CHAPTER_HEAD = re.compile(r"^# บทที่ (\d+) (.+)$")
 # เครื่องหมายที่ไม่ควรเหลือหลังแปลง (ตรวจในข้อความดิบหลังตัดเชิงอรรถ)
 LEFTOVER = re.compile(
-    r"<!--|-->|\*|__|`|\]\(|\]\[|^#{1,6} |^\||^\d+[.)] |^(?:-{3,}|_{3,})\s*$"
+    r"<!--|-->|\*|__|`|\]\(|\]\[|^#{1,6}(?:[ \t]|$)|^\||^\d{1,9}[.)](?:[ \t]|$)"
+    r"|^[-+](?:[ \t]|$)|^(?:-[ \t]*){3,}$|^(?:_[ \t]*){3,}$"
     r"|^\[[^\]^][^\]]*\]:", re.M)
+# เส้นคั่นแบบมีช่องว่าง เช่น `- - -` ต้องตรวจที่บรรทัดดิบก่อนจัดเป็นรายการ
+THEMATIC_BREAK = re.compile(r"^ {0,3}(?:(?:-[ \t]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})$")
 
 CSS = """\
 @charset "utf-8";
@@ -218,7 +221,9 @@ def convert(path, kind, key, errors):
     for block in blocks:
         first_no, first = block[0]
         kinds = set()
-        for _, line in block:
+        for lineno, line in block:
+            if THEMATIC_BREAK.match(line):
+                err(lineno, f"ไม่รองรับเส้นคั่น: {line[:40]}")
             if line.startswith(">"):
                 kinds.add("quote")
             elif line.startswith("- "):
