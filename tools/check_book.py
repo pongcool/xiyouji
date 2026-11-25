@@ -25,6 +25,7 @@
 import argparse
 import collections
 import re
+import unicodedata
 
 from term_stats import ROOT
 from prepare_xiyouji import source_units
@@ -73,7 +74,7 @@ FORMULAS = [
     # ฝั่งไทยจับเฉพาะวลีเกริ่น ไม่จับคำว่า “บทเพลง” ในเนื้อความ (RBOOKCHECK-C4)
     # 《ชื่อทำนอง》為證／可證 (010:ย1) ไทยใช้ “มี(บทเพลง)ทำนอง…เป็นพยาน”
     ("詞/《曲》為證", r"》詞?[為可][證証](?:。?詞曰)?|詞為[證証](?:。?詞曰)?|詞曰",
-     r"มี(?:บทเพลง)?ทำนอง\S+?เป็นพยาน(?:\s*บทเพลงนั้นว่า)?|มีบทเพลง(?:เป็นพยาน|ว่า)|บทเพลงนั้นว่า"),
+     r"มี(?:บทเพลง(?:ทำนอง\S+?)?|ทำนอง\S+?)เป็นพยาน(?:\s*บทเพลงนั้นว่า)?|มีบทเพลงว่า|บทเพลงนั้นว่า"),
     ("賦曰/賦為證", r"賦為[證証](?:。?賦曰)?|賦曰",
      r"มีบทร้อยกรองเป็นพยาน(?:\s*ร้อยกรองนั้นว่า)?|ร้อยกรองนั้นว่า"),
     ("下回分解", r"下回分解", r"โปรดติดตามในบทหน้า"),
@@ -206,21 +207,70 @@ def glossary_rows():
                 yield cells
 
 
+# พยัญชนะต้นพินอิน → พยัญชนะไทย ตาราง docs/TRANSLITERATION.md (รวมอักษรสูงคู่ และ อ สำหรับ y/w/ไม่มีพยัญชนะต้น)
+INITIAL_TH = {
+    "b": "ป", "p": "พผ", "m": "ม", "f": "ฟฝ", "d": "ต", "t": "ทถ", "n": "น", "l": "ล",
+    "g": "ก", "k": "คข", "h": "ฮห", "j": "จ", "q": "ชฉ", "x": "ซส", "zh": "จ", "ch": "ชฉ",
+    "sh": "ซส", "r": "ร", "z": "จ", "c": "ชฉ", "s": "ซส", "y": "ยอ", "w": "วอ", "": "อ",
+}
+SYLLABLE = re.compile(r"(zh|ch|sh|[bpmfdtnlgkhjqxrzcsyw])?([aeiouv]+)(ng(?![aeiouv])|n(?![aeiouv])|r(?![aeiouv]))?")
+
+
+def pinyin_initials(text):
+    """แยกพยัญชนะต้นจากคำแรกของพินอินรายการแรกในช่องหมายเหตุ
+    รายการหลังเครื่องหมาย / , ; เป็นของคำอื่นในแถว ส่วนคำถัดไปในรายการเดียวกันอาจเป็นส่วนที่แปลความหมาย
+    เช่น “Jīngjí lǐng” ของ 荊棘嶺 “สันเขาจิงจี๋” จึงใช้เฉพาะคำแรก"""
+    lead = re.match(r"[^;,/，、฀-๿㐀-鿿]*", text).group(0).split()
+    lead = lead[0] if lead else ""
+    plain = "".join(c for c in unicodedata.normalize("NFD", lead.lower())
+                    if not unicodedata.combining(c)).replace("ü", "v")
+    initials = []
+    for word in re.findall(r"[a-z]+", plain):
+        pos = 0
+        while pos < len(word):
+            m = SYLLABLE.match(word, pos)
+            if not m or m.end() == pos:
+                return []          # ไม่ใช่พินอิน เช่น ชื่อไฟล์หรือคำอังกฤษ
+            initials.append(m.group(1) or "")
+            pos = m.end()
+    return initials
+
+
+def pinyin_fits(text, thai):
+    """พินอินเป็นของรูปไทยนี้เมื่อพยัญชนะต้นทุกพยางค์ปรากฏในรูปไทยตามลำดับ"""
+    initials = pinyin_initials(text)
+    if not initials:
+        return False
+    pos = 0
+    for ini in initials:
+        hits = [thai.find(ch, pos) for ch in INITIAL_TH[ini]]
+        hits = [h for h in hits if h >= 0]
+        if not hits:
+            return False
+        pos = min(hits) + 1
+    return True
+
+
 def name_terms():
     """ชื่อเฉพาะรายคำ คืน (ชุดจีน, ชุดไทย) (RBOOKCHECK-C2)
-    - ศัพท์กลาง: แถวที่ช่องพินอินมีพินอินกำกับเสียง รับเฉพาะคำหัวแถว (พินอินเขียนให้คำแรก)
-      และรูปย่อที่อยู่ในคำหัวแถว เช่น 豬八戒 / 八戒 ส่วนแถวดัชนีที่รวมหลายประเภท
-      เช่น แถวที่มี 翠雲山 กับ 點心 รับเพียงคำหัวแถว
+    - ศัพท์กลาง: รับเฉพาะแถวที่ช่องพินอินขึ้นต้นด้วยพินอินกำกับเสียง และพยัญชนะต้นของพินอินนั้น
+      ปรากฏในรูปไทยหัวแถวตามลำดับ (pinyin_fits) จึงถือว่าพินอินเป็นของคำหัวแถว
+      แล้วรับคำหัวแถวและรูปย่อที่อยู่ในคำหัวแถว เช่น 豬八戒 / 八戒 “Zhū Bājiè; …”
+      ไม่รับเมื่อพินอินเป็นของคำอื่นในแถว เช่น 曼荊 “คนทีสอ” (พินอินกลางหมายเหตุ Hǎidōngqīng ของ 海東青)
+      และ 衝天冠 “มงกุฎชี้ฟ้า” (Lántián ของ 藍田 ไม่มี ล ในรูปไทยหัวแถว) (RBOOKCHECK-C2 รอบสอง)
     - ทะเบียนตัวละคร: ทุกชื่อในช่องจีน/ไทยที่ใช้"""
     zh, th = set(), set()
     for cells in glossary_rows():
-        if not PINYIN.search(cells[3]):
+        first = re.match(r"[^\s;,，、(（]+", cells[3])
+        if not first or not PINYIN.search(first.group(0)):
             continue
         zhs = split_cell(cells[0], r"\s*/\s*")
         ths = split_cell(cells[1], r"\s*/\s*")
         if not zhs or not ths:
             continue
         head_zh, head_th = zhs[0], ths[0]
+        if not pinyin_fits(cells[3], head_th):
+            continue
         pairs = [(head_zh, head_th)]
         if len(zhs) == len(ths):
             pairs += [(z, t) for z, t in zip(zhs[1:], ths[1:]) if z in head_zh]
