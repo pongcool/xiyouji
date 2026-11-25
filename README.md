@@ -5,6 +5,8 @@
 ## เริ่มงาน
 ขั้นงาน ไฟล์ที่ต้องอ่าน และการส่งต่อดู [AGENTS.md](AGENTS.md) หลักภาษาดู [TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md) สถานะรายบทดู [PROGRESS.md](PROGRESS.md)
 
+สแกน 世德堂 PDF (1.64 GB) ไม่อยู่ใน Git หลัง clone ให้รัน `python -X utf8 tools/fetch_sources.py` เพื่อดาวน์โหลดจาก GitHub Release `sources-scan-1592` มาไว้ใน `sources/` และตรวจ SHA-256 (ต้องติดตั้ง GitHub CLI และ `gh auth login` ด้วยบัญชีที่เข้า repo ได้) ตรวจไฟล์ที่มีอยู่แล้วด้วย `--check`
+
 ## ต้นฉบับและหน่วยเทียบ
 ไฟล์ต้นทางระบุ Project Gutenberg eBook 23962, Title: 西遊記, Author: Cheng'en Wu, Release date: December 22, 2007 ข้อมูลนี้อ้างจาก metadata ภายในไฟล์ ไม่ได้ตรวจเทียบฉบับพิมพ์หรือเว็บทั้งเรื่อง
 
