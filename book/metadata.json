@@ -1,0 +1,18 @@
+{
+  "title": "ซีโหยวจี้",
+  "original_title": "西遊記",
+  "language": "th",
+  "creators": [
+    {"name": "อู๋เฉิงเอิน", "role": "aut", "label": "อู๋เฉิงเอิน (ผู้แต่งตามที่ถือกันโดยทั่วไป)"}
+  ],
+  "contributors": [
+    {"name": "Claude (Anthropic)", "role": "trl", "label": "แปลโดย Claude ปัญญาประดิษฐ์ของ Anthropic"},
+    {"name": "Codex (OpenAI)", "role": "rev", "label": "ตรวจอิสระโดย Codex ปัญญาประดิษฐ์ของ OpenAI"}
+  ],
+  "license": null,
+  "sources": [
+    "新刻出像官板大字西遊記 ฉบับพิมพ์ซื่อเต๋อถัง นครจินหลิง ค.ศ. 1592 (ฉบับสแกน) หลักของความหมายในจุดที่เปิดเทียบ",
+    "Project Gutenberg eBook #23962 西遊記 (เผยแพร่ 22 ธันวาคม 2007) ไฟล์ทำงานที่แบ่งเป็นหนึ่งร้อยบท",
+    "維基文庫 (zh.wikisource.org) 西遊記 รายบท แหล่งช่วยอ่าน"
+  ]
+}

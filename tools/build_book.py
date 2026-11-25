@@ -118,7 +118,7 @@ class Doc:
     def content_html(self, epub):
         parts = [self.heading_html(), *self.body]
         if self.notes:
-            sect = ' epub:type="footnotes"' if epub else ""
+            sect = ' epub:type="endnotes"' if epub else ""
             parts.append(f'<section class="notes"{sect} role="doc-endnotes">')
             for num, nid, text, refs in self.notes:
                 back = "".join(
